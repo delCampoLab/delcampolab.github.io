@@ -76,7 +76,7 @@ email: ''
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Laboratory Technicians
+  - Technicians
 ---
 
 I am a Master student in Marine Sciences at the University of Milano Bicocca, where I am actively engaged in student life as a student representative and tutor. I completed my undergraduate degree in Biological Sciences at the same university. Throughout my academic journey, I have taken part in several field activities, primarily focused on corals. I have been involved in coral reef ecological assessments in the Maldives and a coral restoration project in Bali. These experiences have shaped my interest in coral communities and physiology. In examining tropical reefs dynamics, I discovered the significance of microbial influence on host features. This newfound interest prompted me to secure a grant to attend the SCELSE Summer Course in Singapore, which was both illuminating and informative, broadening my understanding of microbial communities. I am privileged to be given the opportunity to work on my Master's thesis project in the del Campo lab. I will investigate the microbial diversity and transcriptomic features of Mediterranean soft corals to identify ideal zones for restoration projects.	Overall, my interest is to enhance our comprehension of the intricate corals-microbes interaction and its ramifications on coral resilience in the face of ongoing environmental change. I am excited to be part of the del Campo Lab and to contribute to the field of marine science through my research.
