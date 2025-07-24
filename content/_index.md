@@ -8,14 +8,13 @@ sections:
   - block: hero
     content:
       title: |
-        Wowchemy
-        Research Group
+        del Campo Lab
       image:
         filename: welcome.jpg
       text: |
         <br>
         
-        The **Wowchemy Research Group** has been a center of excellence for Artificial Intelligence research, teaching, and practice since its founding in 2016.
+        The **del Campo Lab** is part of the Institute of Evolutionary Biology (CSIC - Universitat Pompeu Fabra) and investigates how corals and their symbiotic microbial partners respond to heat stress under the current climate crisis.
   
   - block: collection
     content:
