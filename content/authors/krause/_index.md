@@ -76,7 +76,7 @@ email: ''
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Graduate Students
+  - Grad Students
 ---
 
 I completed my BS in Biochemistry at Pace University (NY), where I was a division II NCAA student-athlete. My undergraduate thesis focused on understanding the cellular and molecular processes that enable hair cell regeneration in zebrafish, with the purpose of potentially developing new treatments for hearing loss in humans. After graduating, I worked as a Research Associate at the Center for Disease Neurogenomics in the Icahn School of Medicine at Mount Sinai, where we used single-cell omics to study neurodegenerative diseases. My interest in marine science and environmental issues led me to slightly change career paths and I  completed an M.S. in Oceanography and Marine Environmental Management at the University of Barcelona. I am now joining the del Campo lab at the Institute for Evolutionary Biology as a PhD student. My research will consist of using genetic and molecular biology tools to study the protist symbionts of Mediterranean corals.
