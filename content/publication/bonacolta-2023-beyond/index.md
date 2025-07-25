@@ -1,12 +1,15 @@
 ---
-title: "An example journal article"
+title: 'Beyond the Symbiodiniaceae: diversity and role of microeukaryotic coral symbionts'
+subtitle: ''
+summary: ''
 authors:
+- Anthony M Bonacolta
+- Bradley A Weiler
+- Teresa Porta-Fitó
+- Michael Sweet
+- Patrick Keeling
 - admin
-- Robert Ford
-author_notes:
-- "Equal contribution"
-- "Equal contribution"
-date: "2015-09-01T00:00:00Z"
+date: "2023-01-01T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
@@ -18,10 +21,10 @@ publishDate: "2017-01-01T00:00:00Z"
 publication_types: ["article-journal"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*Journal of Source Themes, 1*(1)"
+publication: "*Coral Reefs*(1)"
 publication_short: ""
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: Many corals form intimate symbioses with photosynthetic dinoflagellates in the family Symbiodiniaceae. These symbioses have been deeply studied, particularly in reef-forming corals. The complex microbial community that is associated with corals contains other members that have also been well characterized such as bacteria. However, our understanding of the coral holobiont and subsequently coral reef ecosystems is not complete if we do not take into consideration the microeukaryotes like protists and fungi. Microeukaryotes are currently the greatest enigma within the coral microbiome. Only a handful of them have been characterized, very few have been cultured and even less have genomes available. This is a reflection of a smaller community of scientists working on this particular group of organisms when compared with bacteria or Symbiodiniaceae, but also of the many technical challenges that we face when trying to study microeukaryotes. Recent advances in the use of metabarcoding are revealing the importance of microeukaryotes in corals in terms of abundance and presence, with notable examples being the green algae Ostreobium and the apicomplexans Corallicolidae. We believe that it is timely and necessary to present what we know so far about coral microeukaryotes before the expected flow of high-throughput metabarcoding studies exploring the microeukaryotic fraction of the coral microbiome.
 
 # Summary. An optional shortened abstract.
 summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
