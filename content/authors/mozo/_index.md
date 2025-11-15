@@ -14,7 +14,7 @@ authors:
 superuser: false
 
 # Role/position
-role: MSc Student
+role: PhD Student
 
 # Organizations/Affiliations
 organizations:
@@ -36,6 +36,9 @@ education:
     - course: BSc in Biology
       institution: Universidad Autónoma de Madrid
       year: 2024
+    - course: MSc in Biodiversity
+      institution: Universitat de Barcelona
+      year: 2025
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -52,12 +55,12 @@ social:
   - icon: instagram
     icon_pack: fab
     link: https://www.instagram.com/roociiomm/
-#  - icon: google-scholar
-#    icon_pack: ai
-#    link: https://scholar.google.com/citations?user=Mty5iQYAAAAJ&hl=en
-#  - icon: orcid
-#    icon_pack: ai
-#    link: https://orcid.org/0000-0002-5292-1421
+  - icon: google-scholar
+    icon_pack: ai
+    link: https://scholar.google.com/citations?hl=en&user=IvShgakAAAAJ
+  - icon: orcid
+    icon_pack: ai
+    link: https://orcid.org/0009-0004-6230-3995
   - icon: github
     icon_pack: fab
     link: https://github.com/rociomozo

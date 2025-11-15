@@ -22,9 +22,9 @@ main:
   - name: Resources
     identifier: resources
     weight: 60   
-  - name: Academic
+  - name: Fellowships
     parent: resources
-    url: resources/fellowships/
+    url: resources/fellowships
     weight: 10
   - name: Contact
     url: contact
