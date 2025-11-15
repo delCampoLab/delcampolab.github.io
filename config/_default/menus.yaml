@@ -19,6 +19,13 @@ main:
   - name: Publications
     url: publication
     weight: 50
+  - name: Resources
+    identifier: resources
+    weight: 60   
+  - name: Academic
+    parent: resources
+    url: resources/fellowships/
+    weight: 10
   - name: Contact
     url: contact
-    weight: 60
+    weight: 70
