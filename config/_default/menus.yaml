@@ -26,6 +26,10 @@ main:
     parent: resources
     url: resources/fellowships
     weight: 10
+  - name: Friends
+    parent: resources
+    url: resources/friends
+    weight: 20
   - name: Contact
     url: contact
     weight: 70

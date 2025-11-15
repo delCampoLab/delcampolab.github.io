@@ -55,12 +55,12 @@ social:
 #  - icon: instagram
 #    icon_pack: fab
 #    link: https://www.instagram.com/fonamental/
-#  - icon: google-scholar
-#    icon_pack: ai
-#    link: https://scholar.google.com/citations?user=Mty5iQYAAAAJ&hl=en
-#  - icon: orcid
-#    icon_pack: ai
-#    link: https://orcid.org/0000-0002-5292-1421
+  - icon: google-scholar
+    icon_pack: ai
+    link: https://scholar.google.com/citations?hl=en&user=uGMFNxcAAAAJ
+  - icon: orcid
+    icon_pack: ai
+    link: https://orcid.org/0009-0005-6151-9898
   - icon: github
     icon_pack: fab
     link: https://github.com/jnonellr
