@@ -1,11 +1,11 @@
 ---
-title: The lab site is under maintenance
-date: 2025-08-12
+title: II CBP 2025
+date: 2025-11-15
 image:
   focal_point: 'top'
 ---
 
-The lab site is under maintenance.
+The lab participates in the II Meeting of the Catalan Initiative for the Earth Biogenome Project.
 
 <!--more-->
 
