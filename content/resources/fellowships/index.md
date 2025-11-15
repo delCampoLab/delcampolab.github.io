@@ -1,7 +1,7 @@
 ---
 title: Fellowships
 # summary: ""
-# date: "last_updated"
+ date: 2025-11-15
 
 # reading_time: false  # Show estimated reading time?
 # share: false  # Show social sharing links?
@@ -125,5 +125,3 @@ title: Fellowships
   * _Duration_: 18 months to three years.
   * _Eligibility_: Individual researcher who completed a doctoral degree no more than 2 years ago, or who will have completed a doctoral degree before the start of the grant period.
   * _Deadline_: February (spring call) or September (fall call).
-  
-  ---
