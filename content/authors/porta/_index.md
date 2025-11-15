@@ -10,7 +10,7 @@ authors:
 superuser: false
 
 # Role/position
-role: Lab Manager
+role: Lab Manager - Currently a PhD at Institut de Ciències del Mar - CSIC
 
 # Organizations/Affiliations
 organizations:
@@ -18,12 +18,12 @@ organizations:
   url: "https://www.ibe.upf-csic.es/home"
 
 # Short bio (displayed in user profile at end of posts)
-bio: My current research focuses on  studying the microbial ecology of the coral holobiont under heat stress using single-cell transcriptomics.
+bio: My current research focuses on studying the microbial ecology of the coral holobiont under heat stress using single-cell transcriptomics.
 
 interests:
 - Genetics
 - Climate Change
-- Marine Biologyons
+- Marine Biology
 - Conservation Biology
 - Ethology & Adaptation
 
