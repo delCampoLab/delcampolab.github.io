@@ -113,5 +113,4 @@ date: 2025-11-15
   * _Description_: The purpose of the grant is to give newly qualified researchers with a doctoral degree from a Swedish university the opportunity to expand their networks and their competences by working abroad under secure employment conditions. The grant is also intended to promote the quality and renewal of Swedish research.
   * _Duration_: 18 months to three years.
   * _Eligibility_: Individual researcher who completed a doctoral degree no more than 2 years ago, or who will have completed a doctoral degree before the start of the grant period.
-  * _Deadline_: February (spring call) or September (fall call).  
----
+  * _Deadline_: February (spring call) or September (fall call).
