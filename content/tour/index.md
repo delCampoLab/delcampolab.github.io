@@ -18,16 +18,21 @@ sections:
               brightness: 0.7
           position: right
           color: '#666'
-      - title: Lab meetings and journal clubs ☕️
-        content: 'Share your knowledge with the group and explore exciting new topics together!'
-        align: left
-        background:
-          image:
-            filename: contact.jpg
-            filters:
-              brightness: 0.7
-          position: center
-          color: '#555'
+        link:
+          icon: book
+          icon_pack: fas
+          text: Join Us
+          url: ../publication/
+     # - title: Lab meetings and journal clubs ☕️
+     #   content: 'Share your knowledge with the group and explore exciting new topics together!'
+     #   align: left
+     #   background:
+     #     image:
+     #       filename: contact.jpg
+     #       filters:
+     #        brightness: 0.7
+     #   position: center
+     #   color: '#555'
       - title: Microbial Ecology and Evolution Lab
         content: 'Protists, corals, symbiosis and more!'
         align: right
