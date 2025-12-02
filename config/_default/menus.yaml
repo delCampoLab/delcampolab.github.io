@@ -30,6 +30,26 @@ main:
     parent: resources
     url: resources/friends
     weight: 20
+- name: Internships
+    parent: resources
+    url: resources/internships
+    weight: 30
+- name: Journals
+    parent: resources
+    url: resources/journals
+    weight: 40
+- name: Meetings
+    parent: resources
+    url: resources/meetings
+    weight: 50
+- name: Societies
+    parent: resources
+    url: resources/societies
+    weight: 60
+- name: Tools
+    parent: resources
+    url: resources/tools
+    weight: 70
   - name: Contact
     url: contact
     weight: 70
