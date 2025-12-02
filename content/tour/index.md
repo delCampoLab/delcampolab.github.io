@@ -21,7 +21,7 @@ sections:
         link:
           icon: book
           icon_pack: fas
-          text: Join Us
+          text: Check our papers!
           url: ../publication/
      # - title: Lab meetings and journal clubs ☕️
      #   content: 'Share your knowledge with the group and explore exciting new topics together!'
