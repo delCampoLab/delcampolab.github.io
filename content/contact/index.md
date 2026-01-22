@@ -11,7 +11,7 @@ sections:
       text: |-
         For general inquiries, collaborations, or student opportunities, feel free to get in touch with us. We’re always open to connecting with researchers, students, and institutions interested in coral symbiosis, microbial ecology, and evolutionary biology.
       email: jdelcampo@ibe.upf-csic.es
-      phone: 888 888 88 88
+      phone: +34 93 2309500
       address:
         street: Passeig Marítim de la Barceloneta 37 - 49
         city: Barcelona
