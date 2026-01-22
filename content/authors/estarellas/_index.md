@@ -10,7 +10,7 @@ authors:
 superuser: false
 
 # Role/position
-role: MSc Student
+role: MSc Student - Currently a PhD Student at Institut de Biologia Evolutiva (CSIC - UPF)
 
 # Organizations/Affiliations
 organizations:
