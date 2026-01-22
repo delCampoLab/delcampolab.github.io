@@ -77,7 +77,7 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Researchers
+  - Administrator
 ---
 
 I am a microbial ecologist and Group Leader at the Institute of Evolutionary Biology (CSIC–Universitat Pompeu Fabra) in Barcelona, and an Adjunct Professor at the Rosenstiel School of Marine and Atmospheric Science at the University of Miami. I earned my Ph.D. in Environmental Microbiology and Biotechnology from the Institute of Marine Sciences (CSIC) in Barcelona, and went on to conduct postdoctoral research at the University of Barcelona, the University of British Columbia in Vancouver, and later returned to the Institute of Marine Sciences. In 2019, I joined the University of Miami as an Assistant Professor, and in 2021, I became a Group Leader in Barcelona, where I now lead a research group exploring the intersection of marine biology, microbiology, and global change.
