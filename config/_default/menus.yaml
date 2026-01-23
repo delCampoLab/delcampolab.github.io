@@ -16,9 +16,7 @@ main:
   - name: Events
     url: event
     weight: 40
-  - name: Publications
-    url: https://scholar.google.com/citations?user=Mty5iQYAAAAJ&hl=en
-    weight: 50
+  
   - name: Resources
     identifier: resources
     weight: 60   
