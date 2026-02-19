@@ -58,9 +58,9 @@ social:
   - icon: google-scholar
     icon_pack: ai
     link: https://scholar.google.es/citations?user=8ByfW0cAAAAJ&hl=en
-#  - icon: orcid
-#    icon_pack: ai
-#    link: https://orcid.org/0000-0002-5292-1421
+  - icon: orcid
+    icon_pack: ai
+    link: https://orcid.org/0009-0002-0841-1122
   - icon: github
     icon_pack: fab
     link: https://github.com/joanakrause
