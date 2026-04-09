@@ -16,6 +16,18 @@ sections:
         
         The **del Campo Lab** is part of the Institute of Evolutionary Biology (CSIC - Universitat Pompeu Fabra) and investigates how corals and their symbiotic microbial partners respond to heat stress under the current climate crisis.
   
+  - block: markdown
+    content:
+      title:
+      subtitle:
+      text: |
+        <div style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; margin-top: 8px;">
+          <a href="https://delcampolab.com/people/" class="btn btn-primary btn-lg" style="min-width: 180px;">Meet the team</a>
+          <a href="https://delcampolab.com/contact/" class="btn btn-primary btn-lg" style="min-width: 180px;">Join the lab</a>
+        </div>
+    design:
+      columns: '1'
+
   - block: collection
     content:
       title: Latest News
@@ -33,7 +45,7 @@ sections:
       page_type: post
     design:
       view: card
-      columns: '1'
+      columns: '2'
   
   - block: markdown
     content:
@@ -67,12 +79,4 @@ sections:
       view: citation
       columns: '1'
 
-  - block: markdown
-    content:
-      title:
-      subtitle:
-      text: |
-        {{% cta cta_link="./people/" cta_text="Meet the team →" %}}
-    design:
-      columns: '1'
 ---
