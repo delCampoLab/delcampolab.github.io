@@ -10,7 +10,7 @@ authors:
   - "Anthony J Bellantuono"
   - "Marilyn E Brandt"
   - "Abigail S Clark"
-  - "Javier Del Campo"
+  - "Javier del Campo"
   - "et al."
 date: "2023-01-01"
 doi: ""

@@ -4,7 +4,7 @@ authors:
   - "Anthony M Bonacolta"
   - "Joana Krause-Massaguer"
   - "Tatsuya Unuma"
-  - "Javier Del Campo"
+  - "Javier del Campo"
 date: "2025-01-01"
 doi: ""
 publication_types:

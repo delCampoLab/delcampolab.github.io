@@ -8,7 +8,7 @@ authors:
   - "Martin Kolisko"
   - "Gregory S Gavelis"
   - "Noriko Okamoto"
-  - "Javier Del Campo"
+  - "Javier del Campo"
   - "Rebecca Fiorito"
   - "Elisabeth Hehenberger"
   - "et al."
