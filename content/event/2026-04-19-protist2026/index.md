@@ -11,11 +11,6 @@ address:
 
 summary: Four members of the del Campo Lab present their research at Protistology Open 2026. Javier del Campo delivers the 2025 Hutner Award winner talk.
 
-abstract: |
-  Four members of the del Campo Lab present their work at Protistology Open 2026, the joint meeting of the International Society of Protistologists (ISOP) and four European protistological societies, held April 19–23 in Prague, Czech Republic.
-
-  Javier del Campo delivers the 2025 Hutner Award winner talk: "Unveiling Marine Protist Diversity: From the Open Ocean to the Coral Reef". Rocío Mozo, Joana Krause-Massaguer, and Jordi Nonell also present their PhD research on coral-associated protists and single-cell genomics.
-
 date: '2026-04-19T09:00:00Z'
 date_end: '2026-04-23T18:00:00Z'
 all_day: true
@@ -37,6 +32,7 @@ tags:
 featured: true
 
 image:
+  filename: featured.png
   focal_point: Smart
 
 links:
