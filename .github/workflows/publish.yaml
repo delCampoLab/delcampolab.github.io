@@ -31,11 +31,12 @@ jobs:
         with:
           # Fetch history for Hugo's .GitInfo and .Lastmod
           fetch-depth: 0
-      - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v3
-        with:
-          hugo-version: ${{ env.WC_HUGO_VERSION }}
-          extended: true
+      - name: Install Hugo CLI
+        run: |
+          wget -O ${{ runner.temp }}/hugo.tar.gz \
+            https://github.com/gohugoio/hugo/releases/download/v${{ env.WC_HUGO_VERSION }}/hugo_extended_${{ env.WC_HUGO_VERSION }}_linux-amd64.tar.gz
+          tar -xzf ${{ runner.temp }}/hugo.tar.gz -C ${{ runner.temp }}
+          sudo mv ${{ runner.temp }}/hugo /usr/local/bin/hugo
       - uses: actions/cache@v4
         with:
           path: /tmp/hugo_cache_runner/

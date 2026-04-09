@@ -1,5 +1,5 @@
 ---
-title: "EukRef--Ciliophora: A manually curated, phylogeny-based database of small subunit rRNA gene sequences of ciliates"
+title: "EukRef–Ciliophora: A manually curated, phylogeny-based database of small subunit rRNA gene sequences of ciliates"
 authors:
   - "Vittorio Boscaro"
   - "Luciana F. Santoferrara"

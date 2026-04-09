@@ -16,7 +16,7 @@ date: "2020-01-01"
 doi: ""
 publication_types:
   - "article-journal"
-publication: "Aquatic Ecosystem Health \& Management"
+publication: "Aquatic Ecosystem Health & Management"
 publication_short: ''
 abstract: ""
 tags: []

@@ -1,5 +1,5 @@
 ---
-title: "A Revised Taxonomy of Diplonemids Including the Eupelagonemidae n. fam. and a Type Species, Eupelagonema oceanica n. gen. \& sp."
+title: "A Revised Taxonomy of Diplonemids Including the Eupelagonemidae n. fam. and a Type Species, Eupelagonema oceanica n. gen. & sp."
 authors:
   - "Unknown Author"
 date: "2019-01-01"
