@@ -47,6 +47,9 @@ Preprint: [Symbiotic bacteria support calcium carbonate precipitation in the Gul
 
 ### The microbiome of the California sea hare
 
-{{< figure src="aplysia.png" caption="Photo by Elizabeth Whitson" >}}
+<div style="position: relative; display: inline-block; width: 100%;">
+  <img src="aplysia.png" style="width: 100%; display: block;">
+  <span style="position: absolute; bottom: 0; right: 0; background: rgba(0,0,0,0.5); color: #fff; padding: 3px 8px; font-size: 0.78em; line-height: 1.6;">Photo by Elizabeth Whitson</span>
+</div>
 
 The California sea hare, *Aplysia californica*, is a well-studied model organism in neurobiology and neuroscience. Despite deep knowledge of its physiology, anatomy, and ethology, little is known about its microbiome. In collaboration with the National Resource for *Aplysia* at the Rosenstiel School of Marine and Atmospheric Science, we are exploring for the first time the prokaryotic and microeukaryotic communities associated with this organism using a genomic, metabarcoding approach. These data will allow us to investigate how the microbiome influences behaviour, ageing, and other characteristics of this important model animal.
