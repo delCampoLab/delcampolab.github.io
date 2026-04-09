@@ -25,13 +25,13 @@ sections:
             <div style="font-size: 2rem; margin-bottom: 10px;">🔬</div>
             <h4 style="margin: 0 0 8px; font-size: 1rem;">PhD Students</h4>
             <p style="margin: 0 0 14px; font-size: 0.85rem; opacity: 0.75; line-height: 1.5;">If you are interested in pursuing a doctorate with us, get in touch. We can help you identify fellowship opportunities that match your profile and background.</p>
-            <a href="https://delcampolab.com/resources/fellowships/" class="btn btn-sm btn-outline-primary">Fellowship opportunities →</a>
+            <a href="https://delcampolab.com/resources/phd-fellowships/" class="btn btn-sm btn-outline-primary">PhD fellowship opportunities →</a>
           </div>
           <div style="border-radius: 12px; padding: 24px 20px; box-shadow: 0 2px 12px rgba(0,0,0,0.07); background: var(--card-bg, #fff);">
             <div style="font-size: 2rem; margin-bottom: 10px;">🌍</div>
             <h4 style="margin: 0 0 8px; font-size: 1rem;">Postdoctoral Researchers</h4>
             <p style="margin: 0 0 14px; font-size: 0.85rem; opacity: 0.75; line-height: 1.5;">We welcome postdocs interested in applying for competitive fellowships. Several European and international schemes are compatible with joining our group.</p>
-            <a href="https://delcampolab.com/resources/fellowships/" class="btn btn-sm btn-outline-primary">Fellowship opportunities →</a>
+            <a href="https://delcampolab.com/resources/postdoc-fellowships/" class="btn btn-sm btn-outline-primary">Postdoc fellowship opportunities →</a>
           </div>
           <div style="border-radius: 12px; padding: 24px 20px; box-shadow: 0 2px 12px rgba(0,0,0,0.07); background: var(--card-bg, #fff);">
             <div style="font-size: 2rem; margin-bottom: 10px;">🤝</div>
