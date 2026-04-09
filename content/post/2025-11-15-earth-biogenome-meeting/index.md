@@ -1,6 +1,8 @@
 ---
 title: The lab participates in the II Meeting of the Catalan Initiative for the Earth Biogenome Project.
 date: 2025-11-15
+authors:
+  - admin
 image:
   focal_point: 'top'
 ---

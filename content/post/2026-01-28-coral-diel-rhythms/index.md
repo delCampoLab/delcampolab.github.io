@@ -1,6 +1,8 @@
 ---
 title: "New paper in Cell Host & Microbe: Temporal rhythms govern coral holobiont function"
 date: 2026-01-28
+authors:
+  - admin
 image:
   focal_point: 'top'
 ---

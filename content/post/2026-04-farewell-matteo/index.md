@@ -1,6 +1,8 @@
 ---
 title: Farewell Matteo — Best of Luck on Your New Adventure!
 date: 2026-04-09
+authors:
+  - admin
 image:
   focal_point: 'top'
 ---
