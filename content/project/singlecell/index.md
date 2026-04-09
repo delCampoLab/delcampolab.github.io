@@ -12,6 +12,12 @@ image:
   caption: Photo by Anthony Bonacolta
   focal_point: Smart
 
+links:
+  - icon: file-alt
+    icon_pack: fas
+    name: "Preprint: A Single-Cell Atlas of Coral Bleaching"
+    url: https://www.researchsquare.com/article/rs-5397639/v1
+
 url_code: ""
 url_pdf: ""
 url_slides: ""
@@ -23,3 +29,7 @@ Coral reefs support hyperdiverse ecosystems and build natural offshore structure
 After decades of research on bleaching, our understanding of the genomic basis for bleaching — for corals, their algal symbionts, and other partners (i.e., the coral holobiont) — remains very limited. What is missing is a granular understanding of the genomics of bleaching linked to the functional changes that occur during the process. To fill this knowledge gap, we need to comprehensively characterise the transcriptomic response of the coral holobiont at the single-cell level in order to capture the functional genomic response of the different members of the coral holobiont during bleaching events.
 
 Our goal is to develop an approach that can be used to scrutinise the transcriptomic response of the coral holobiont at the single-cell level. Our central hypothesis is that not all coral and symbiont cell types have the same transcriptomic profile, and therefore they will not have the same response to bleaching. Having an integrated, granular understanding of the coral holobiont's transcriptomic response across coral cell types and symbionts during a bleaching event will transform our understanding of coral bleaching and potentially help us identify better strategies for intervention.
+
+**Preprint**
+
+Bonacolta AM, et al., including **Javier del Campo** (2024). [A Single-Cell Atlas of Coral Bleaching](https://www.researchsquare.com/article/rs-5397639/v1). *Research Square*.

@@ -14,14 +14,22 @@ image:
   focal_point: Smart
 
 links:
-  - icon: github
-    icon_pack: fab
-    name: GitHub
-    url: https://github.com/vaulot/pr2_database
   - icon: globe
     icon_pack: fas
     name: PR2 website
     url: https://pr2-database.org/
+  - icon: github
+    icon_pack: fab
+    name: GitHub
+    url: https://github.com/vaulot/pr2_database
+  - icon: newspaper
+    icon_pack: fas
+    name: "Paper: PR2 database"
+    url: https://academic.oup.com/nar/article/41/D1/D597/1070586
+  - icon: newspaper
+    icon_pack: fas
+    name: "Paper: EukRef"
+    url: https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.2004473
 
 url_code: ""
 url_pdf: ""
