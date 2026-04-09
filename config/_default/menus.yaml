@@ -17,8 +17,17 @@ main:
     url: event
     weight: 40
   - name: Publications
-    url: https://scholar.google.com/citations?user=Mty5iQYAAAAJ&hl=en
+    identifier: publications
+    url: publication
     weight: 50
+  - name: All publications
+    parent: publications
+    url: publication
+    weight: 10
+  - name: Google Scholar
+    parent: publications
+    url: https://scholar.google.com/citations?user=Mty5iQYAAAAJ&hl=en
+    weight: 20
   - name: Resources
     identifier: resources
     weight: 60   
