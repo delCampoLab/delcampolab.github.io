@@ -35,7 +35,7 @@ date: 2025-11-15
 #### [FPU](https://www.universidades.gob.es/informacion-comun-fpu/)
 * _Description_: Granting of Aid for predoctoral contracts for the completion of doctoral theses, in Spanish Universities.
 * _Duration_: 4 Years.
-* _Eligibility_: [Joan Oró Grant Eligibility](Explanatory videos about FPU aid and the requirements to request it).
+* _Eligibility_: [Explanatory videos about FPU aid and the requirements to request it](Explanatory videos about FPU aid and the requirements to request it).
 * _Deadline_: Spring.
 
 #### [Ramon Areces Grant](https://www.fundacionareces.es/fundacionareces/es/becas-y-ayudas/convocatorias/ayudas-fundacion-ramon-areces-para-la-realizacion-de-tesis-doctorales-en-ciencias-de-la-vida-y-de-la-materia.html?tipo=2&idAmbito=1)
