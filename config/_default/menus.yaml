@@ -30,10 +30,6 @@ main:
     parent: resources
     url: resources/journals
     weight: 20
-  - name: Meetings
-    parent: resources
-    url: resources/meetings
-    weight: 30
   - name: Societies
     parent: resources
     url: resources/societies
