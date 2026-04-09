@@ -1,0 +1,17 @@
+---
+title: "Protists, la principal font de diversitat genòmica en eucariotes"
+authors:
+  - "Ramon Massana"
+  - "Ramiro Logares"
+  - "David López-Escardó"
+  - "Javier del Campo"
+date: "2022-01-01"
+doi: ""
+publication_types:
+  - "article-journal"
+publication: "Treballs de la Societat Catalana de Biologia"
+publication_short: ''
+abstract: ""
+tags: []
+featured: false
+---

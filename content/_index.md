@@ -55,15 +55,16 @@ sections:
         padding: ['20px', '0', '20px', '0']
       css_class: fullscreen
 
-  - block: markdown
+  - block: collection
     content:
-      title: Publications
-      subtitle:
-      text: |
-        Browse our full list of publications and preprints on Google Scholar.
-
-        {{% cta cta_link="https://scholar.google.com/citations?user=Mty5iQYAAAAJ&hl=en" cta_text="View publications →" %}}
+      title: Recent Publications
+      text: ""
+      count: 5
+      filters:
+        folders:
+          - publication
     design:
+      view: citation
       columns: '1'
 
   - block: markdown
