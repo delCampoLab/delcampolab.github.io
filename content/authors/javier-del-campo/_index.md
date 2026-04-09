@@ -8,10 +8,10 @@ last_name: del Campo
 
 # Username (this should match the folder name)
 authors:
-  - admin
+  - javier-del-campo
 
 # Is this the primary user of the site?
-superuser: true
+superuser: false
 
 # Role/position
 role: Group Leader
@@ -36,7 +36,7 @@ education:
     - course: PhD in Environmental Microbiology and Biotechnology
       institution: Universitat de Barcelona and Institut de Ciències del Mar (CSIC)
       year: 2011
-    - course: DEA in Environmental Micorbiology and Biotechnology
+    - course: DEA in Environmental Microbiology and Biotechnology
       institution: Universitat de Barcelona
       year: 2005
     - course: BSc in Biology
@@ -44,9 +44,6 @@ education:
       year: 2003
 
 # Social/Academic Networking
-# For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
-#   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
-#   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
   - icon: envelope
     icon_pack: fas
@@ -66,11 +63,6 @@ social:
   - icon: github
     icon_pack: fab
     link: https://github.com/fonamental
-# Link to a PDF of your resume/CV from the About widget.
-# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-# - icon: cv
-#   icon_pack: ai
-#   link: files/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ''
@@ -79,8 +71,8 @@ email: ''
 highlight_name: false
 
 # Organizational groups that you belong to (for People widget)
-#   Set this to `[]` or comment out if you are not using People widget.
-user_groups: []
+user_groups:
+  - Principal Investigators
 ---
 
 I am a microbial ecologist and Group Leader at the Institute of Evolutionary Biology (CSIC–Universitat Pompeu Fabra) in Barcelona, and an Adjunct Professor at the Rosenstiel School of Marine and Atmospheric Science at the University of Miami. I earned my Ph.D. in Environmental Microbiology and Biotechnology from the Institute of Marine Sciences (CSIC) in Barcelona, and went on to conduct postdoctoral research at the University of Barcelona, the University of British Columbia in Vancouver, and later returned to the Institute of Marine Sciences. In 2019, I joined the University of Miami as an Assistant Professor, and in 2021, I became a Group Leader in Barcelona, where I now lead a research group exploring the intersection of marine biology, microbiology, and global change.
