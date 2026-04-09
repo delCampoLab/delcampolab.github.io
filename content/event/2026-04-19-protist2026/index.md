@@ -9,17 +9,12 @@ address:
   city: Prague
   country: Czech Republic
 
-summary: Four members of the del Campo Lab present their research at Protistology Open 2026, the joint meeting of the International Society of Protistologists (ISOP) and European protistological societies.
+summary: Four members of the del Campo Lab present their research at Protistology Open 2026. Javier del Campo delivers the 2025 Hutner Award winner talk.
 
 abstract: |
-  Four members of the del Campo Lab will present their work at Protistology Open 2026, held April 19–23 in Prague, Czech Republic. The meeting brings together the International Society of Protistologists (ISOP) and four European protistological societies at the historic Grand Hotel International — the same venue that hosted the world's first gathering of protistologists in 1961.
+  Four members of the del Campo Lab present their work at Protistology Open 2026, the joint meeting of the International Society of Protistologists (ISOP) and four European protistological societies, held April 19–23 in Prague, Czech Republic.
 
-  The lab will be represented by:
-
-  - **Javier del Campo** (talk) — *[talk title]*
-  - **Joana Krause-Massaguer** (talk) — *[talk title]* — studying protist symbionts of Mediterranean corals using genetic and molecular biology tools
-  - **Jordi Nonell** (talk) — *[talk title]* — investigating the dark proteome and microbiome of Mediterranean corals from a single-cell perspective
-  - **Rocío Mozo** (talk) — *[talk title]* — characterising the microbiome of the Mediterranean coral *Eunicella singularis*
+  Javier del Campo delivers the 2025 Hutner Award winner talk: "Unveiling Marine Protist Diversity: From the Open Ocean to the Coral Reef". Rocío Mozo, Joana Krause-Massaguer, and Jordi Nonell also present their PhD research on coral-associated protists and single-cell genomics.
 
 date: '2026-04-19T09:00:00Z'
 date_end: '2026-04-23T18:00:00Z'
@@ -51,16 +46,28 @@ links:
     icon: globe
 ---
 
-The del Campo Lab heads to Prague this week for [Protistology Open 2026](https://registration.cas.cz/PROTIST2026/), the joint meeting of the International Society of Protistologists (ISOP) and four European protistological societies. The conference takes place April 19–23 at the Grand Hotel International — the same venue that hosted the very first gathering of protistologists back in 1961, making this edition a meeting of generations that celebrates the history and future of protistological research.
+The del Campo Lab heads to Prague this week for [Protistology Open 2026](https://registration.cas.cz/PROTIST2026/), the joint meeting of the International Society of Protistologists (ISOP) and four European protistological societies. The conference takes place April 19–23 at the Grand Hotel International — the same venue that hosted the very first gathering of protistologists back in 1961.
 
 Four lab members are presenting their work:
 
-[Javier del Campo](/author/javier-del-campo/) will give a talk on *[talk title — please fill in]*.
+**[Javier del Campo](/author/javier-del-campo/) — 2025 Hutner Award Winner Talk**
+*Unveiling Marine Protist Diversity: From the Open Ocean to the Coral Reef*
 
-[Joana Krause-Massaguer](/author/krause/) will present her PhD research on the protist symbionts of Mediterranean corals, using genetic and molecular biology tools coupled with imaging to characterise these poorly understood partnerships.
+Javier has been selected as the recipient of the 2025 [Hutner Award](https://protistologists.org/hutner-award/), one of the most prestigious distinctions in protistology, awarded by the International Society of Protistologists to recognise outstanding contributions to the field. His talk will take audiences on a journey through the diversity and ecological roles of marine protists, from open ocean surveys to coral reef holobionts.
 
-[Jordi Nonell](/author/nonell/) will talk about his work on the dark proteome and microbiome of Mediterranean corals, approached from a single-cell genomics perspective.
+**[Rocío Mozo](/author/mozo/)**
+*Phylogenomics of coral photosymbionts and their free-living relatives*
 
-[Rocío Mozo](/author/mozo/) will present her research on the microbiome of the Mediterranean soft coral *Eunicella singularis*.
+Rocío will present her phylogenomic work placing the photosymbiotic protists associated with corals in the broader context of their free-living relatives, shedding light on the evolutionary transitions to symbiosis.
+
+**[Joana Krause-Massaguer](/author/krause/)**
+*Isolation, Culturing and Characterisation of Protist Symbionts from Mediterranean Corals*
+
+Joana will present her efforts to bring coral protist symbionts into culture, a critical step towards understanding their biology and their role in the coral holobiont.
+
+**[Jordi Nonell](/author/nonell/)**
+*Using Single-Cell Genomics to Generate High-Quality Genomes of Uncultured Protists*
+
+Jordi will showcase how single-cell genomic approaches can be used to recover high-quality genomes from protists that cannot be grown in the lab, opening new windows into the biology of these poorly characterised organisms.
 
 It is a great opportunity to connect with the international protistology community and share the lab's contributions to understanding coral-associated protists and marine microbial diversity. If you are attending PROTIST2026 and would like to meet, feel free to [get in touch](https://delcampolab.com/contact/)!
