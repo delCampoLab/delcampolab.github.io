@@ -90,12 +90,22 @@ sections:
       spacing:
         padding: ['10px', '0', '20px', '0']
 
-  - block: collection
+  - block: markdown
     content:
       title: Latest News
       subtitle:
       text:
-      count: 6
+    design:
+      columns: '1'
+      spacing:
+        padding: ['30px', '0', '0', '0']
+
+  - block: collection
+    content:
+      title:
+      subtitle:
+      text:
+      count: 4
       filters:
         author: ''
         category: ''
@@ -107,9 +117,9 @@ sections:
       page_type: post
     design:
       view: card
-      columns: '2'
+      columns: '1'
       spacing:
-        padding: ['30px', '0', '30px', '0']
+        padding: ['10px', '0', '30px', '0']
 
   - block: markdown
     content:
