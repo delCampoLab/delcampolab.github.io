@@ -4,7 +4,7 @@ authors:
   - "Aurélie Chambouvet"
   - "Adam Monier"
   - "Finlay Maguire"
-  - "Sarah Ito\\"\iz"
+  - "Sarah Itoïz"
   - "Javier del Campo"
   - "Philippe Elies"
   - "Bente Edvardsen"
