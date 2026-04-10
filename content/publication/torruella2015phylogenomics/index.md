@@ -11,14 +11,20 @@ authors:
   - "Gregorio Pérez-Cordón"
   - "Christopher M. Whipps"
   - "Krista M. Nichols"
-  - "et al."
+  - "others"
 date: "2015-01-01"
-doi: ""
+doi: "10.1016/j.cub.2015.07.057"
 publication_types:
   - "article-journal"
-publication: "Current Biology"
-publication_short: ''
-abstract: ""
+publication: "*Current Biology*"
+publication_short: ""
+volume: "25"
+issue: "18"
+pages: "2404-2410"
+abstract: "The Opisthokonta are a eukaryotic supergroup divided in two main lineages: animals and related protists (Holozoa) and fungi and related protists (Holomycota). The deep phylogeny of Opisthokonta has so far been studied using small number of markers. We performed phylogenomic analyses including diverse opisthokont lineages and recovered a robust phylogeny of the group."
+links:
+  - name: "View"
+    url: "https://doi.org/10.1016/j.cub.2015.07.057"
 tags: []
 featured: false
 ---

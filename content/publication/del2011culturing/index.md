@@ -7,7 +7,7 @@ doi: ""
 publication_types:
   - "thesis"
 publication: ""
-publication_short: ''
+publication_short: ""
 abstract: ""
 tags: []
 featured: false

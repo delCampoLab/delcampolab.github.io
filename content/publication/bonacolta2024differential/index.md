@@ -10,12 +10,17 @@ authors:
   - "Ramon Massana"
   - "Javier del Campo"
 date: "2024-01-01"
-doi: ""
+doi: "10.1111/1462-2920.16548"
 publication_types:
   - "article-journal"
-publication: "Environmental Microbiology"
-publication_short: ''
-abstract: ""
+publication: "*Environmental Microbiology*"
+publication_short: ""
+volume: "26"
+pages: "e16548"
+abstract: "Paramuricea clavata is an ecosystem architect of the Mediterranean temperate reefs that is currently declining due to climate change-induced mortality. Here we characterize the microbiome of P. clavata using metabarcoding, with a particular focus on microeukaryotes. We identify differential microbiome compositions between healthy and diseased colonies, and report new potential pathogens among the microeukaryotic fraction of the coral microbiome."
+links:
+  - name: "View"
+    url: "https://doi.org/10.1111/1462-2920.16548"
 tags: []
 featured: false
 ---

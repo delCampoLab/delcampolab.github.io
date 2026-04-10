@@ -11,14 +11,19 @@ authors:
   - "Dhanasekaran Shanmugam"
   - "Annageldi Tayyrov"
   - "Alaguraj Veluchamy"
-  - "et al."
+  - "others"
 date: "2015-01-01"
-doi: ""
+doi: "10.7554/eLife.06974"
 publication_types:
   - "article-journal"
-publication: "eLife"
-publication_short: ''
-abstract: ""
+publication: "*eLife*"
+publication_short: ""
+volume: "4"
+issue: "e06974"
+abstract: "The eukaryotic phylum Apicomplexa encompasses thousands of obligate intracellular parasites of human and animal relevance including Plasmodium and Toxoplasma. Thought to have evolved from free-living phototrophic ancestors, the closest known relatives of apicomplexans are the chromerids Chromera velia and Vitrella brassicaformis, photosynthetic algae recently isolated from corals. We sequenced the genomes of both chromerids and analyzed them as part of a broad ciliate-apicomplexan-dinoflagellate (CAD) comparison."
+links:
+  - name: "View"
+    url: "https://doi.org/10.7554/eLife.06974"
 tags: []
 featured: false
 ---

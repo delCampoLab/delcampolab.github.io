@@ -4,14 +4,20 @@ authors:
   - "Anthony M Bonacolta"
   - "Joana Krause-Massaguer"
   - "Tatsuya Unuma"
-  - "Javier del Campo"
+  - "Javier Del Campo"
 date: "2025-01-01"
-doi: ""
+doi: "10.1111/jeu.70008"
 publication_types:
   - "article-journal"
-publication: "Journal of Eukaryotic Microbiology"
-publication_short: ''
-abstract: ""
+publication: "*Journal of Eukaryotic Microbiology*"
+publication_short: ""
+volume: "72"
+issue: "3"
+pages: "e70013"
+abstract: "Unknown ellipsoid bodies, later classified as apicomplexan cysts, are prevalent in the ovaries of Japanese pearl oysters (Pinctada fucata). Here we characterize these apicomplexan cysts using electron microscopy, 18S rRNA gene sequencing, and phylogenetic analysis. Our results reveal a novel apicomplexan lineage associated with bivalve reproductive tissues, expanding our knowledge of apicomplexan diversity in marine invertebrates."
+links:
+  - name: "View"
+    url: "https://doi.org/10.1111/jeu.70008"
 tags: []
 featured: false
 ---

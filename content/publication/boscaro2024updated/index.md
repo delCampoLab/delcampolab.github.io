@@ -8,12 +8,16 @@ authors:
   - "Rudolf H Scheffrahn"
   - "Patrick J Keeling"
 date: "2024-01-01"
-doi: ""
+doi: "10.1111/jeu.13006"
 publication_types:
   - "article-journal"
-publication: "The Journal of Eukaryotic Microbiology"
-publication_short: ''
-abstract: ""
+publication: "*The Journal of Eukaryotic Microbiology*"
+publication_short: ""
+pages: "e13035"
+abstract: "The phylum Parabasalia includes very diverse single-cell organisms that nevertheless share a distinctive flagellar apparatus and lack mitochondria with cristae. Recent molecular and ultrastructural studies have significantly revised the classification of Parabasalia. Here we present an updated classification of the phylum that incorporates recent phylogenetic, ultrastructural, and genomic findings."
+links:
+  - name: "View"
+    url: "https://doi.org/10.1111/jeu.13006"
 tags: []
 featured: false
 ---
