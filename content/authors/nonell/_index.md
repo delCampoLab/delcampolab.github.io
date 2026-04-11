@@ -1,4 +1,5 @@
 ---
+weight: 12
 # Display name
 title: Jordi Nonell
 
