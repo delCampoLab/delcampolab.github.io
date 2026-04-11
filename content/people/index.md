@@ -17,7 +17,7 @@ sections:
           - Technicians
           - Visitors
           - Alumni
-      sort_by: Params.last_name
+      sort_by: Weight
       sort_ascending: true
     design:
       show_interests: false
