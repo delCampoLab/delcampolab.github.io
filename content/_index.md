@@ -107,7 +107,7 @@ sections:
       title: News & Events
       subtitle:
       text:
-      count: 4
+      count: 2
       filters:
         folders:
           - post
@@ -116,7 +116,7 @@ sections:
       order: desc
     design:
       view: card
-      columns: '2'
+      columns: '1'
       spacing:
         padding: ['30px', '0', '30px', '0']
 
@@ -137,8 +137,8 @@ sections:
           size: cover
           text_color_light: true
       spacing:
-        padding: ['60px', '0', '60px', '0']
-      css_class: fullscreen
+        padding: ['0', '0', '0', '0']
+      css_style: "min-height: 50vh;"
 
   - block: collection
     content:
