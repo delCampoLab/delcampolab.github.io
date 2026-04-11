@@ -2,6 +2,7 @@
 title: The Montseny Brook Newt microbiome
 summary: Identifying and isolating probiotic bacteria to protect the critically endangered Montseny Brook Newt against chytridiomycosis.
 tags:
+  - Microbial Diversity
   - microbiome
   - amphibians
   - probiotics

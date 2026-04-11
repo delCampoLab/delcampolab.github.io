@@ -2,6 +2,8 @@
 title: The rhythm of the reef — Diel cycles of the coral holobiont
 summary: A systems biology approach to studying the diel transcriptional and microbial rhythms of reef coral holobionts.
 tags:
+  - Coral Holobiont
+  - Climate & Heat Stress
   - coral
   - holobiont
   - transcriptomics

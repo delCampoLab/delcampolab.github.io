@@ -2,6 +2,8 @@
 title: PR2 — A reference 18S rRNA sequence database
 summary: A curated reference database of 18S rRNA sequences for metabarcoding and phylogenetics of microeukaryotes.
 tags:
+  - Microbial Diversity
+  - Genomics & Bioinformatics
   - microbiome
   - metabarcoding
   - phylogenetics

@@ -2,6 +2,7 @@
 title: The genome of *Mediocremonas mediterraneus*
 summary: Generating the reference genome of Mediocremonas mediterraneus as part of the Catalan Initiative for the Earth Biogenome Project.
 tags:
+  - Genomics & Bioinformatics
   - earth biogenome
   - protists
   - genomics

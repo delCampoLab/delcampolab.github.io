@@ -24,6 +24,17 @@ sections:
       filters:
         folders:
           - project
+      filter_button:
+        - name: All
+          tag: '*'
+        - name: Coral Holobiont
+          tag: Coral Holobiont
+        - name: Microbial Diversity
+          tag: Microbial Diversity
+        - name: Climate & Heat Stress
+          tag: Climate & Heat Stress
+        - name: Genomics & Bioinformatics
+          tag: Genomics & Bioinformatics
     design:
       columns: '2'
       spacing:

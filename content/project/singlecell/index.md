@@ -2,6 +2,8 @@
 title: A transcriptomic cell-atlas of reef coral bleaching
 summary: Using single-cell transcriptomics to understand the heat stress response of reef coral holobionts.
 tags:
+  - Climate & Heat Stress
+  - Genomics & Bioinformatics
   - coral
   - holobiont
   - single-cell

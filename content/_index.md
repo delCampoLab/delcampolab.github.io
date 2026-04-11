@@ -25,7 +25,7 @@ sections:
           <a href="https://delcampolab.com/people/" class="btn btn-primary btn-lg" style="min-width: 180px;">Meet the team</a>
           <a href="https://delcampolab.com/contact/" class="btn btn-primary btn-lg" style="min-width: 180px;">Join the lab</a>
           <span style="display:inline-flex;align-items:center;gap:10px;">
-            <span style="font-size:0.9rem;font-weight:500;opacity:0.8;">Follow us:</span>
+            <span class="btn btn-outline-primary btn-lg" style="pointer-events:none;">Follow us:</span>
             <a href="https://x.com/delCampoLab" target="_blank" rel="noopener" aria-label="Twitter" class="btn btn-primary btn-lg" style="padding-left:0.75rem;padding-right:0.75rem;">
               <i class="fab fa-twitter"></i>
             </a>
@@ -48,26 +48,30 @@ sections:
       subtitle:
       text: |
         <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; margin-top: 12px;">
-          <div style="border-radius: 12px; padding: 22px 18px; text-align: center; box-shadow: 0 2px 12px rgba(0,0,0,0.07); background: var(--card-bg, #fff);">
+          <a href="/research/" style="border-radius: 12px; padding: 22px 18px; text-align: center; box-shadow: 0 2px 12px rgba(0,0,0,0.07); background: var(--card-bg, #fff); text-decoration: none; color: inherit; display: flex; flex-direction: column; transition: box-shadow 0.2s;" onmouseover="this.style.boxShadow='0 4px 20px rgba(0,0,0,0.15)'" onmouseout="this.style.boxShadow='0 2px 12px rgba(0,0,0,0.07)'">
             <div style="font-size: 2.4rem; margin-bottom: 10px;">🪸</div>
             <h4 style="margin: 0 0 6px; font-size: 1rem;">Coral Holobiont</h4>
-            <p style="margin: 0; font-size: 0.85rem; opacity: 0.72; line-height: 1.5;">How corals and their symbiotic microbes function as an integrated biological system.</p>
-          </div>
-          <div style="border-radius: 12px; padding: 22px 18px; text-align: center; box-shadow: 0 2px 12px rgba(0,0,0,0.07); background: var(--card-bg, #fff);">
+            <p style="margin: 0 0 12px; font-size: 0.85rem; opacity: 0.72; line-height: 1.5; flex-grow: 1;">How corals and their symbiotic microbes function as an integrated biological system.</p>
+            <span style="font-size: 0.78rem; font-weight: 600; opacity: 0.5;">See projects →</span>
+          </a>
+          <a href="/research/" style="border-radius: 12px; padding: 22px 18px; text-align: center; box-shadow: 0 2px 12px rgba(0,0,0,0.07); background: var(--card-bg, #fff); text-decoration: none; color: inherit; display: flex; flex-direction: column; transition: box-shadow 0.2s;" onmouseover="this.style.boxShadow='0 4px 20px rgba(0,0,0,0.15)'" onmouseout="this.style.boxShadow='0 2px 12px rgba(0,0,0,0.07)'">
             <div style="font-size: 2.4rem; margin-bottom: 10px;">🌊</div>
             <h4 style="margin: 0 0 6px; font-size: 1rem;">Microbial Diversity</h4>
-            <p style="margin: 0; font-size: 0.85rem; opacity: 0.72; line-height: 1.5;">Global patterns in the distribution of marine eukaryotic and prokaryotic microbes.</p>
-          </div>
-          <div style="border-radius: 12px; padding: 22px 18px; text-align: center; box-shadow: 0 2px 12px rgba(0,0,0,0.07); background: var(--card-bg, #fff);">
+            <p style="margin: 0 0 12px; font-size: 0.85rem; opacity: 0.72; line-height: 1.5; flex-grow: 1;">Global patterns in the distribution of marine eukaryotic and prokaryotic microbes.</p>
+            <span style="font-size: 0.78rem; font-weight: 600; opacity: 0.5;">See projects →</span>
+          </a>
+          <a href="/research/" style="border-radius: 12px; padding: 22px 18px; text-align: center; box-shadow: 0 2px 12px rgba(0,0,0,0.07); background: var(--card-bg, #fff); text-decoration: none; color: inherit; display: flex; flex-direction: column; transition: box-shadow 0.2s;" onmouseover="this.style.boxShadow='0 4px 20px rgba(0,0,0,0.15)'" onmouseout="this.style.boxShadow='0 2px 12px rgba(0,0,0,0.07)'">
             <div style="font-size: 2.4rem; margin-bottom: 10px;">🌡️</div>
             <h4 style="margin: 0 0 6px; font-size: 1rem;">Climate & Heat Stress</h4>
-            <p style="margin: 0; font-size: 0.85rem; opacity: 0.72; line-height: 1.5;">Molecular and ecological responses of coral holobionts to rising ocean temperatures.</p>
-          </div>
-          <div style="border-radius: 12px; padding: 22px 18px; text-align: center; box-shadow: 0 2px 12px rgba(0,0,0,0.07); background: var(--card-bg, #fff);">
+            <p style="margin: 0 0 12px; font-size: 0.85rem; opacity: 0.72; line-height: 1.5; flex-grow: 1;">Molecular and ecological responses of coral holobionts to rising ocean temperatures.</p>
+            <span style="font-size: 0.78rem; font-weight: 600; opacity: 0.5;">See projects →</span>
+          </a>
+          <a href="/research/" style="border-radius: 12px; padding: 22px 18px; text-align: center; box-shadow: 0 2px 12px rgba(0,0,0,0.07); background: var(--card-bg, #fff); text-decoration: none; color: inherit; display: flex; flex-direction: column; transition: box-shadow 0.2s;" onmouseover="this.style.boxShadow='0 4px 20px rgba(0,0,0,0.15)'" onmouseout="this.style.boxShadow='0 2px 12px rgba(0,0,0,0.07)'">
             <div style="font-size: 2.4rem; margin-bottom: 10px;">🧬</div>
             <h4 style="margin: 0 0 6px; font-size: 1rem;">Genomics & Bioinformatics</h4>
-            <p style="margin: 0; font-size: 0.85rem; opacity: 0.72; line-height: 1.5;">High-throughput sequencing and computational tools to decode microbial symbiosis.</p>
-          </div>
+            <p style="margin: 0 0 12px; font-size: 0.85rem; opacity: 0.72; line-height: 1.5; flex-grow: 1;">High-throughput sequencing and computational tools to decode microbial symbiosis.</p>
+            <span style="font-size: 0.78rem; font-weight: 600; opacity: 0.5;">See projects →</span>
+          </a>
         </div>
     design:
       columns: '1'
