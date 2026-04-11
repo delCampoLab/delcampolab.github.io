@@ -11,7 +11,7 @@ sections:
       image:
         filename: welcome.jpg
       text: |
-        We investigate how **corals and their microbial symbionts** establish and maintain symbiosis — and how those partnerships break down under heat stress in a changing ocean. Combining genomics, single-cell transcriptomics, and global fieldwork, we work to understand and protect marine ecosystems.
+        We investigate how **coral holobionts**—the integrated assemblages of corals and their associated **microbiomes**, including diverse **protist symbionts**—establish, function, and break down under **heat stress** in a rapidly changing ocean. Our work focuses on the role of **symbiosis** in shaping coral performance under stress, with particular emphasis on the diversity and function of **microbial eukaryotes** within these complex systems. To tackle these questions, we use a **systems biology approach** that integrates **molecular biology** (e.g., **metabarcoding**, **single-cell genomics**, and **transcriptomics**), **high-resolution imaging**, **ecophysiology**, and **advanced computational biology**, including **AI and machine learning** tools. By linking **symbiont diversity** to **function**, we aim to uncover mechanisms that determine coral health and persistence under climate stress.
 
   - block: markdown
     content:
