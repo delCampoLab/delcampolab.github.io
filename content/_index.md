@@ -90,36 +90,23 @@ sections:
       spacing:
         padding: ['10px', '0', '20px', '0']
 
-  - block: markdown
-    content:
-      title: Latest News
-      subtitle:
-      text:
-    design:
-      columns: '1'
-      spacing:
-        padding: ['30px', '0', '0', '0']
-
   - block: collection
     content:
-      title:
+      title: News & Events
       subtitle:
       text:
-      count: 4
+      count: 5
       filters:
-        author: ''
-        category: ''
-        exclude_featured: false
-        publication_type: ''
-        tag: ''
+        folders:
+          - post
+          - event
       offset: 0
       order: desc
-      page_type: post
     design:
       view: card
       columns: '1'
       spacing:
-        padding: ['10px', '0', '30px', '0']
+        padding: ['30px', '0', '30px', '0']
 
   - block: markdown
     content:
