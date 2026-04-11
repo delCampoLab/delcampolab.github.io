@@ -1,4 +1,5 @@
 ---
+weight: 35
 # Display name
 title: Tyler Lopez
 

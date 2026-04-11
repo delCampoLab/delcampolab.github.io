@@ -1,4 +1,5 @@
 ---
+weight: 41
 # Display name
 title: Sean Lowry
 

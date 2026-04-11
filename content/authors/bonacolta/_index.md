@@ -1,4 +1,5 @@
 ---
+weight: 10
 # Display name
 title: Anthony Bonacolta
 

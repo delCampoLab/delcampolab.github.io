@@ -1,4 +1,5 @@
 ---
+weight: 54
 # Display name
 title: Shea Halpenny
 
