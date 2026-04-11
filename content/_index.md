@@ -155,16 +155,4 @@ sections:
       spacing:
         padding: ['30px', '0', '10px', '0']
 
-  - block: markdown
-    content:
-      title:
-      subtitle:
-      text: |
-        <div style="text-align: center; padding: 4px 0 8px;">
-          <a href="/publication/" class="btn btn-outline-primary">View all publications →</a>
-        </div>
-    design:
-      columns: '1'
-      spacing:
-        padding: ['10px', '0', '30px', '0']
 ---
