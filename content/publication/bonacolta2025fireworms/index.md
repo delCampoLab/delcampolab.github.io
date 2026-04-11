@@ -16,9 +16,6 @@ publication: "*The ISME Journal*"
 publication_short: ""
 pages: "wraf078"
 abstract: "Corals (Cnidaria; Anthozoa) play critical roles as habitat-forming species with a wide range, from warm tropical to cold deep-sea environments. Here, we characterize the eukaryome of fireworms (Hermodice carunculata), a coral predator, and explore potential transmission routes of microeukaryotes between predator and coral prey. Our results reveal a diverse microeukaryotic community associated with fireworms, including several taxa also found in corals, suggesting potential bidirectional transmission of microeukaryotes between these organisms."
-links:
-  - name: "View"
-    url: "https://doi.org/10.1093/ismejo/wraf080"
 tags: []
 featured: false
 ---

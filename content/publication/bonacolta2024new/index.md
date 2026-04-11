@@ -16,9 +16,6 @@ volume: "34"
 issue: "12"
 pages: "2748-2755"
 abstract: "Apicomplexans are obligate intracellular parasites that have evolved from a free-living, phototrophic ancestor. The discovery of corallicolids, a clade of coral-infecting apicomplexans that retain chlorophyll biosynthesis genes, provided a unique window into this evolutionary transition. Here we describe new corallicolid diversity from a global survey of coral-associated eukaryotes, expanding our understanding of this important group and its evolutionary relationship to other apicomplexans."
-links:
-  - name: "View"
-    url: "https://doi.org/10.1016/j.cub.2024.04.065"
 tags: []
 featured: false
 ---

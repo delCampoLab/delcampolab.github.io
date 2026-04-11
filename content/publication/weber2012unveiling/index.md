@@ -16,9 +16,6 @@ volume: "7"
 issue: "7"
 pages: "e41970"
 abstract: "Our knowledge of the phylogeny and diversity of aquatic protists is rapidly increasing due to molecular environmental surveys, but these surveys mostly target only single gene markers, typically the 18S rRNA gene. Here we use a large-scale metatranscriptomic approach to characterize eukaryotic diversity in marine plankton samples from three oceanic sites."
-links:
-  - name: "View"
-    url: "https://doi.org/10.1371/journal.pone.0041970"
 tags: []
 featured: false
 ---

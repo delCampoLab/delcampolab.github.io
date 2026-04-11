@@ -21,9 +21,6 @@ publication_short: ""
 volume: "67"
 pages: "3570-3575"
 abstract: "In vertebrates, there are four major genes in the RH (Rhesus) gene family, RH, RHAG, RHBG, and RHCG. RH was originally described in humans as the gene responsible for the RhD blood group. The RH gene family is also present in unicellular organisms such as bacteria, green algae, and ciliates. Here, we characterize the complement of RH-related genes in the ciliate Euplotes octocarinatus and perform a comprehensive phylogenetic analysis of the RH gene family."
-links:
-  - name: "View"
-    url: "https://doi.org/10.1099/ijsem.0.002009"
 tags: []
 featured: false
 ---

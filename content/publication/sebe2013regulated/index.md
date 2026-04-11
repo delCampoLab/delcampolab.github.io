@@ -18,9 +18,6 @@ publication_short: ""
 volume: "2"
 pages: "e01287"
 abstract: "The evolution of metazoans from their unicellular ancestors was one of the most important evolutionary transitions. While previous work has established that many cell-type-specific gene families evolved before the origin of metazoans, the regulatory mechanisms that pattern tissue-specific expression remain largely unknown. Here we examine the unicellular holozoan Capsaspora owczarzaki and show that it has a life cycle with three distinct cell types."
-links:
-  - name: "View"
-    url: "https://doi.org/10.7554/eLife.01287"
 tags: []
 featured: false
 ---

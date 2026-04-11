@@ -3,3 +3,8 @@
 .article-metadata .middot-divider:first-of-type {
   display: none;
 }
+
+/* Add space between Google Scholar link and publication filters on the Publications page */
+.pub-list-head {
+  margin-top: 2rem;
+}

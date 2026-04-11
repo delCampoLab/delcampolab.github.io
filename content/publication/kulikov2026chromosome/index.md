@@ -16,9 +16,6 @@ volume: "18"
 issue: "1"
 pages: "evaf242"
 abstract: "We present a high-quality, chromosome-scale genome assembly for the redlip blenny Ophioblennius macclurei, a reef-associated fish species with a restricted range in the Caribbean. The genome assembly will serve as a reference for population genomic studies of this species and provide a resource for comparative genomic analyses of blennioid fishes."
-links:
-  - name: "View"
-    url: "https://doi.org/10.1093/gbe/evaf089"
 tags: []
 featured: false
 ---

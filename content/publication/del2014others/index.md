@@ -17,9 +17,6 @@ volume: "29"
 issue: "5"
 pages: "252-259"
 abstract: "Understanding the origin and evolution of the eukaryotic cell and the full diversity of eukaryotes is one of the major challenges in biology. Culture-independent molecular surveys have revealed large amounts of uncharacterized eukaryotic diversity - the so-called 'dark matter' of eukaryotic life. We argue that a thorough investigation of the genomic and cellular biology of these organisms is crucial for understanding eukaryotic evolution."
-links:
-  - name: "View"
-    url: "https://doi.org/10.1016/j.tree.2014.03.006"
 tags: []
 featured: false
 ---

@@ -22,9 +22,6 @@ volume: "35"
 issue: "5"
 pages: "1156-1163"
 abstract: "The transition from free-living to parasitic lifestyles induces major shifts in evolution, and nowhere is this more acute than in apicomplexans - obligate intracellular parasites of animals that evolved from photosynthetic algae. In other cases where photosynthesis has been lost, including most apicomplexans, chlorophyll is also absent, but in coral-infecting apicomplexans (corallicolids), chlorophyll biosynthesis genes are retained in the plastid genome despite their lack of photosystems. This suggests that the loss of photosynthesis and chlorophyll were decoupled in this lineage. To address open questions, we have sequenced transcriptomes from two corallicolids. Phylogenomic data strongly support a late-branching relationship closer with coccidians, specifically with the protococcidians and the newly discovered ichthyocolids. We also find evidence for the expression of nucleus-encoded enzymes involved in chlorophyll biosynthesis in corallicolids and protococcidians. Overall, we conclude that chlorophyll synthesis was likely retained through the early evolution of the group and then lost approximately 10 times independently, emphasizing the impact of parallel evolutionary changes in parasitic transitions."
-links:
-  - name: "View"
-    url: "https://doi.org/10.1016/j.cub.2025.01.028"
 tags: []
 featured: false
 ---

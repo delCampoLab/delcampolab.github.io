@@ -20,9 +20,6 @@ volume: "20"
 issue: "3"
 pages: "1185-1203"
 abstract: "Frequent blooms of phytoplankton occur in coastal upwelling zones creating hotspots of biological productivity. These blooms are often dominated by diatoms, which when they sink to the seafloor form diatomaceous deposits. The biological turnover of sinking diatom aggregates is not well understood. Here we analyze the microbial communities associated with sinking diatom aggregates using metatranscriptomics."
-links:
-  - name: "View"
-    url: "https://doi.org/10.1111/1462-2920.14245"
 tags: []
 featured: false
 ---

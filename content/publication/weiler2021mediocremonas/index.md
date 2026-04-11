@@ -16,9 +16,6 @@ volume: "68"
 issue: "1"
 pages: "e12825"
 abstract: "The stramenopiles are a large and diverse group of eukaryotes that possess various lifestyles requiring adaptation to highly different niches. Among the stramenopiles, the MAST (MArine STramenopiles) clades are a diverse, polyphyletic assemblage of heterotrophic flagellates that are exclusively known from environmental sequences. Here we present the first cultivated representatives of MAST-3, which we name Mediocremonas mediterraneus gen. et sp. nov."
-links:
-  - name: "View"
-    url: "https://doi.org/10.1111/jeu.12826"
 tags: []
 featured: false
 ---
