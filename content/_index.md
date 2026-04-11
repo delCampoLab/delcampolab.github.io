@@ -11,7 +11,7 @@ sections:
       image:
         filename: welcome.jpg
       text: |
-        We investigate how **coral holobionts**—corals and their associated **microbiomes**, including **protist symbionts**—function and break down under **heat stress**. Focusing on **symbiosis** and **microbial eukaryotes**, we use a **systems biology approach** integrating **metabarcoding**, **single-cell genomics**, **transcriptomics**, **imaging**, **ecophysiology**, and **AI-driven computational biology**. Our goal is to link **symbiont diversity** to **function** and understand coral responses to climate change.
+        We investigate how **coral holobionts**—corals and their associated **microbes**—function and break down under **heat stress**. Focusing on **symbiosis** and **protist**, we use a **systems biology approach** integrating **metabarcoding**, **single-cell and bulk omics**, **imaging**, and **AI-driven computational biology**. Our goal is to link **symbiont diversity** to **function** and understand coral responses to the climate crisis.
 
   - block: markdown
     content:
