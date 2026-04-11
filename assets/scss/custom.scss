@@ -8,3 +8,34 @@
 .pub-list-head {
   margin-top: 2rem;
 }
+
+/* News & Events: compact square cards in a 2-column grid */
+.home-section .card-simple {
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+}
+
+.home-section .card-simple .card-image img {
+  height: 120px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.home-section .card-simple .card-text {
+  padding: 0.75rem 1rem;
+}
+
+.home-section .card-simple .card-text h3 {
+  font-size: 0.9rem;
+  line-height: 1.35;
+  margin-bottom: 0.25rem;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.home-section .card-simple .card-text p,
+.home-section .card-simple .card-text .article-metadata {
+  font-size: 0.78rem;
+}

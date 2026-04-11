@@ -95,7 +95,7 @@ sections:
       title: News & Events
       subtitle:
       text:
-      count: 5
+      count: 4
       filters:
         folders:
           - post
@@ -104,7 +104,7 @@ sections:
       order: desc
     design:
       view: card
-      columns: '1'
+      columns: '2'
       spacing:
         padding: ['30px', '0', '30px', '0']
 
