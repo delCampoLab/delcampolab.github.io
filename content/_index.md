@@ -7,14 +7,17 @@ type: landing
 sections:
   - block: hero
     content:
-      title: |
-        del Campo Lab
+      title:
       image:
         filename: welcome.jpg
       text: |
-        <br>
+        We are a marine microbial ecology lab at the [Institut de Biologia Evolutiva (CSIC–UPF)](https://www.ibe.upf-csic.es/home) in Barcelona, working at the intersection of **symbiosis**, **microbiomes**, and **global change**.
 
-        We investigate how **corals and their microbial partners** respond to heat stress in a changing ocean — combining genomics, bioinformatics, and global fieldwork to understand and protect marine ecosystems.
+        At the heart of our research is the **coral holobiont** — the coral animal together with its diverse community of symbionts: photosynthetic algae, bacteria, archaea, and microbial eukaryotes. These partnerships are not incidental; they are essential. We investigate how symbioses are established, maintained, and disrupted — and what happens to coral resilience when they break down under rising ocean temperatures.
+
+        Beyond corals, we explore the diversity and ecology of microeukaryotes across marine environments, and develop computational tools and reference databases that help the broader community characterise microbial life in the ocean.
+
+        Our work combines high-throughput sequencing, single-cell transcriptomics, and bioinformatics with global fieldwork — from Caribbean and Pacific reefs to the Mediterranean — all in service of understanding, and helping protect, the marine ecosystems most threatened by climate change.
 
   - block: markdown
     content:
