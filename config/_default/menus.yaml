@@ -19,25 +19,6 @@ main:
   - name: Publications
     url: publication
     weight: 50
-  - name: Resources
-    identifier: resources
-    weight: 60
-  - name: Friends
-    parent: resources
-    url: resources/friends
-    weight: 10
-  - name: Journals
-    parent: resources
-    url: resources/journals
-    weight: 20
-  - name: Societies
-    parent: resources
-    url: resources/societies
-    weight: 40
-  - name: Tools
-    parent: resources
-    url: resources/tools
-    weight: 50
   - name: Contact
     url: contact
     weight: 70
