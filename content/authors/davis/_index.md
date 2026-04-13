@@ -2,6 +2,7 @@
 weight: 53
 # Display name
 title: Adrianna Davis
+slug: adrianna-davis
 
 # Username (this should match the folder name)
 authors:

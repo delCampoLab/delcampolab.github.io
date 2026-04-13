@@ -2,6 +2,7 @@
 weight: 56
 # Display name
 title: Danielle Tenberg
+slug: danielle-tenberg
 
 # Username (this should match the folder name)
 authors:

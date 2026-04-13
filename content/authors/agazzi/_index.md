@@ -2,6 +2,7 @@
 weight: 21
 # Display name
 title: Matteo Agazzi
+slug: matteo-agazzi
 
 # Full name (for SEO)
 first_name: Matteo

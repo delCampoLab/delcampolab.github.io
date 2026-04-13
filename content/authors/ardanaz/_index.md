@@ -2,6 +2,7 @@
 weight: 20
 # Display name
 title: Aimar Ardanaz
+slug: aimar-ardanaz
 
 # Full name (for SEO)
 first_name: Aimar

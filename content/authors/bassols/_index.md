@@ -2,6 +2,7 @@
 weight: 51
 # Display name
 title: Pol Bassols
+slug: pol-bassols
 
 # Username (this should match the folder name)
 authors:

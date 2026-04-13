@@ -2,6 +2,7 @@
 weight: 50
 # Display name
 title: Louise Aubert
+slug: louise-aubert
 
 # Username (this should match the folder name)
 authors:

@@ -2,6 +2,7 @@
 weight: 32
 # Display name
 title: Maria Estarellas
+slug: maria-estarellas
 
 # Username (this should match the folder name)
 authors:

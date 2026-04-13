@@ -2,6 +2,7 @@
 weight: 10
 # Display name
 title: Anthony Bonacolta
+slug: anthony-bonacolta
 
 # Username (this should match the folder name)
 authors:

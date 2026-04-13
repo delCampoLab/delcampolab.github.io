@@ -2,6 +2,7 @@
 weight: 52
 # Display name
 title: Maria Christou
+slug: maria-christou
 
 # Username (this should match the folder name)
 authors:

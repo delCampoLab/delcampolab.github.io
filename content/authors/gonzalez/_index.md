@@ -2,6 +2,7 @@
 weight: 34
 # Display name
 title: Alba Mei González
+slug: alba-mei-gonzalez
 
 # Username (this should match the folder name)
 authors:

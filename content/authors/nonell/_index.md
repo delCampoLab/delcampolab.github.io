@@ -2,6 +2,7 @@
 weight: 12
 # Display name
 title: Jordi Nonell
+slug: jordi-nonell
 
 # Full name (for SEO)
 first_name: Jordi

@@ -2,6 +2,7 @@
 weight: 20
 # Display name
 title: Teresa Porta
+slug: teresa-porta
 
 # Username (this should match the folder name)
 authors:

@@ -2,6 +2,7 @@
 weight: 39
 # Display name
 title: Elizabeth Whitson
+slug: elizabeth-whitson
 
 # Username (this should match the folder name)
 authors:

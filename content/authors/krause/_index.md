@@ -2,6 +2,7 @@
 weight: 10
 # Display name
 title: Joana Krause-Massaguer
+slug: joana-krause-massaguer
 
 # Full name (for SEO)
 first_name: Joana

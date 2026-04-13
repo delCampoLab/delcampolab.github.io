@@ -2,6 +2,7 @@
 weight: 35
 # Display name
 title: Tyler Lopez
+slug: tyler-lopez
 
 # Username (this should match the folder name)
 authors:

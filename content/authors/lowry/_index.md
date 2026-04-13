@@ -2,6 +2,7 @@
 weight: 41
 # Display name
 title: Sean Lowry
+slug: sean-lowry
 
 # Username (this should match the folder name)
 authors:

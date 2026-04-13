@@ -2,6 +2,7 @@
 weight: 54
 # Display name
 title: Shea Halpenny
+slug: shea-halpenny
 
 # Username (this should match the folder name)
 authors:

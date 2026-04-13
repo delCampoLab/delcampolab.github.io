@@ -2,6 +2,7 @@
 weight: 11
 # Display name
 title: Bradley Weiler
+slug: bradley-weiler
 
 # Username (this should match the folder name)
 authors:

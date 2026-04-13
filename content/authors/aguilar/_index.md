@@ -2,6 +2,7 @@
 weight: 31
 # Display name
 title: Alejandra Aguilar
+slug: alejandra-aguilar
 
 # Username (this should match the folder name)
 authors:

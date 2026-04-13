@@ -2,6 +2,7 @@
 weight: 55
 # Display name
 title: Andrea Illa
+slug: andrea-illa
 
 # Username (this should match the folder name)
 authors:

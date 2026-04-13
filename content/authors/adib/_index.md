@@ -2,6 +2,7 @@
 weight: 30
 # Display name
 title: Ayoub Adib
+slug: ayoub-adib
 
 # Full name (for SEO)
 first_name: Ayoub

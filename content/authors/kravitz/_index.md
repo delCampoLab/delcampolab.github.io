@@ -2,6 +2,7 @@
 weight: 40
 # Display name
 title: Tristan Kravitz
+slug: tristan-kravitz
 
 # Username (this should match the folder name)
 authors:

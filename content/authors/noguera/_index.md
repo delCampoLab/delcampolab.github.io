@@ -2,6 +2,7 @@
 weight: 36
 # Display name
 title: Marta Noguera
+slug: marta-noguera
 
 # Username (this should match the folder name)
 authors:

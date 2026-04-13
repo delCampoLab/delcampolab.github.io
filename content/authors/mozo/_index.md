@@ -2,6 +2,7 @@
 weight: 11
 # Display name
 title: Rocío Mozo
+slug: rocio-mozo
 
 # Full name (for SEO)
 first_name: Rocío

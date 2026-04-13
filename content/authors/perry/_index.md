@@ -2,6 +2,7 @@
 weight: 38
 # Display name
 title: Elliot Perry
+slug: elliot-perry
 
 # Username (this should match the folder name)
 authors:

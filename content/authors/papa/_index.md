@@ -2,6 +2,7 @@
 weight: 37
 # Display name
 title: Amelia Papa
+slug: amelia-papa
 
 # Username (this should match the folder name)
 authors:

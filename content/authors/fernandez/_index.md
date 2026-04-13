@@ -2,6 +2,7 @@
 weight: 33
 # Display name
 title: Nuria Fernandez
+slug: nuria-fernandez
 
 # Username (this should match the folder name)
 authors:
