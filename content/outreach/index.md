@@ -26,12 +26,12 @@ sections:
             <span style="font-size: 0.78rem; font-weight: 600; opacity: 0.45; margin-top: auto;">Listen on SoundCloud →</span>
           </a>
 
-          <a href="https://www.youtube.com/watch?v=PiU-gPosLBw" target="_blank" rel="noopener" style="border-radius: 12px; padding: 22px 20px; box-shadow: 0 2px 12px rgba(0,0,0,0.08); background: var(--card-bg, #fff); text-decoration: none; color: inherit; display: flex; flex-direction: column; gap: 10px; transition: box-shadow 0.2s;" onmouseover="this.style.boxShadow='0 4px 20px rgba(0,0,0,0.15)'" onmouseout="this.style.boxShadow='0 2px 12px rgba(0,0,0,0.08)'">
-            <div style="font-size: 2rem;">🎬</div>
-            <div style="font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; opacity: 0.5;">Video Interview · IBE: CSIC-UPF</div>
-            <div style="font-size: 0.95rem; font-weight: 600; line-height: 1.4;">El robot de Platón entrevista a Javier del Campo</div>
-            <div style="font-size: 0.82rem; opacity: 0.65; line-height: 1.5;">An AI-hosted interview with Javier del Campo about the lab's research on marine microbial diversity and coral symbiosis. <em>(Spanish)</em></div>
-            <span style="font-size: 0.78rem; font-weight: 600; opacity: 0.45; margin-top: auto;">Watch on YouTube →</span>
+          <a href="https://open.spotify.com/episode/4793HCOs6ozkKry9rJuCLu" target="_blank" rel="noopener" style="border-radius: 12px; padding: 22px 20px; box-shadow: 0 2px 12px rgba(0,0,0,0.08); background: var(--card-bg, #fff); text-decoration: none; color: inherit; display: flex; flex-direction: column; gap: 10px; transition: box-shadow 0.2s;" onmouseover="this.style.boxShadow='0 4px 20px rgba(0,0,0,0.15)'" onmouseout="this.style.boxShadow='0 2px 12px rgba(0,0,0,0.08)'">
+            <div style="font-size: 2rem;">🎧</div>
+            <div style="font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; opacity: 0.5;">Podcast · Spotify</div>
+            <div style="font-size: 0.95rem; font-weight: 600; line-height: 1.4;">Podcast episode featuring Javier del Campo</div>
+            <div style="font-size: 0.82rem; opacity: 0.65; line-height: 1.5;">Listen to Javier del Campo discuss the lab's research on Spotify.</div>
+            <span style="font-size: 0.78rem; font-weight: 600; opacity: 0.45; margin-top: auto;">Listen on Spotify →</span>
           </a>
 
           <a href="https://www.youtube.com/watch?v=RBC6PSF6K9I" target="_blank" rel="noopener" style="border-radius: 12px; padding: 22px 20px; box-shadow: 0 2px 12px rgba(0,0,0,0.08); background: var(--card-bg, #fff); text-decoration: none; color: inherit; display: flex; flex-direction: column; gap: 10px; transition: box-shadow 0.2s;" onmouseover="this.style.boxShadow='0 4px 20px rgba(0,0,0,0.15)'" onmouseout="this.style.boxShadow='0 2px 12px rgba(0,0,0,0.08)'">
@@ -42,13 +42,6 @@ sections:
             <span style="font-size: 0.78rem; font-weight: 600; opacity: 0.45; margin-top: auto;">Watch on YouTube →</span>
           </a>
 
-          <a href="https://www.recercaenaccio.cat/ra-aventures-cientifiques/aventures-cientifiques/sota-la-pell-de-locea/" target="_blank" rel="noopener" style="border-radius: 12px; padding: 22px 20px; box-shadow: 0 2px 12px rgba(0,0,0,0.08); background: var(--card-bg, #fff); text-decoration: none; color: inherit; display: flex; flex-direction: column; gap: 10px; transition: box-shadow 0.2s;" onmouseover="this.style.boxShadow='0 4px 20px rgba(0,0,0,0.15)'" onmouseout="this.style.boxShadow='0 2px 12px rgba(0,0,0,0.08)'">
-            <div style="font-size: 2rem;">🌊</div>
-            <div style="font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; opacity: 0.5;">Documentary · Recerca en Acció</div>
-            <div style="font-size: 0.95rem; font-weight: 600; line-height: 1.4;">Sota la pell de l'Oceà</div>
-            <div style="font-size: 0.82rem; opacity: 0.65; line-height: 1.5;">Beneath the ocean's skin — a science communication feature exploring the hidden microbial life of the sea. <em>(Catalan)</em></div>
-            <span style="font-size: 0.78rem; font-weight: 600; opacity: 0.45; margin-top: auto;">Watch →</span>
-          </a>
 
         </div>
     design:
@@ -126,6 +119,44 @@ sections:
               <div>
                 <div style="font-size: 0.93rem; font-weight: 600; line-height: 1.4;">Un microbio unicelular ayuda a los corales a sobrevivir al cambio climático</div>
                 <div style="font-size: 0.78rem; opacity: 0.55; margin-top: 2px;">Quo / El Diario · Spanish</div>
+              </div>
+            </a>
+            <a href="https://www.eitb.eus/es/radio/radio-euskadi/programas/la-mecanica-del-caracol/detalle/9397100/parasitos-historias-de-coevolucion-de-organismos-asombrosos-corales-vulnerables-a-olas-de-calor/" target="_blank" rel="noopener" style="display: flex; align-items: flex-start; gap: 14px; padding: 12px 14px; border-radius: 8px; text-decoration: none; color: inherit; background: rgba(0,0,0,0.02); transition: background 0.15s;" onmouseover="this.style.background='rgba(0,0,0,0.05)'" onmouseout="this.style.background='rgba(0,0,0,0.02)'">
+              <span style="font-size: 1.1rem; margin-top: 1px;">🎙️</span>
+              <div>
+                <div style="font-size: 0.93rem; font-weight: 600; line-height: 1.4;">Parásitos: historias de coevolución — corales vulnerables a olas de calor</div>
+                <div style="font-size: 0.78rem; opacity: 0.55; margin-top: 2px;">EITB · La mecánica del caracol · Radio Euskadi · Spanish</div>
+              </div>
+            </a>
+          </div>
+        </details>
+
+        <details open style="margin-bottom: 24px;">
+          <summary style="cursor: pointer; font-size: 1.05rem; font-weight: 700; padding: 14px 0; list-style: none; display: flex; align-items: center; gap: 10px; border-bottom: 2px solid rgba(0,0,0,0.08);">
+            <span style="font-size: 1.4rem;">⛵</span>
+            <span>Tara Expeditions</span>
+            <span style="margin-left: auto; font-size: 0.75rem; font-weight: 400; opacity: 0.5;">Ocean microbiome fieldwork</span>
+          </summary>
+          <div style="display: flex; flex-direction: column; gap: 8px; padding: 16px 0;">
+            <a href="https://www.recercaenaccio.cat/ra-aventures-cientifiques/aventures-cientifiques/sota-la-pell-de-locea/" target="_blank" rel="noopener" style="display: flex; align-items: flex-start; gap: 14px; padding: 12px 14px; border-radius: 8px; text-decoration: none; color: inherit; background: rgba(0,0,0,0.02); transition: background 0.15s;" onmouseover="this.style.background='rgba(0,0,0,0.05)'" onmouseout="this.style.background='rgba(0,0,0,0.02)'">
+              <span style="font-size: 1.1rem; margin-top: 1px;">📰</span>
+              <div>
+                <div style="font-size: 0.93rem; font-weight: 600; line-height: 1.4;">Sota la pell de l'Oceà</div>
+                <div style="font-size: 0.78rem; opacity: 0.55; margin-top: 2px;">Recerca en Acció · Catalan</div>
+              </div>
+            </a>
+            <a href="https://www.cartv.es/aragonradio/podcast/emision/agora-11-03-2026" target="_blank" rel="noopener" style="display: flex; align-items: flex-start; gap: 14px; padding: 12px 14px; border-radius: 8px; text-decoration: none; color: inherit; background: rgba(0,0,0,0.02); transition: background 0.15s;" onmouseover="this.style.background='rgba(0,0,0,0.05)'" onmouseout="this.style.background='rgba(0,0,0,0.02)'">
+              <span style="font-size: 1.1rem; margin-top: 1px;">🎙️</span>
+              <div>
+                <div style="font-size: 0.93rem; font-weight: 600; line-height: 1.4;">Àgora — 11 March 2026</div>
+                <div style="font-size: 0.78rem; opacity: 0.55; margin-top: 2px;">Aragón Radio · CARTV · Spanish</div>
+              </div>
+            </a>
+            <a href="https://www.rtve.es/play/audios/espanoles-en-la-mar/pesca-recreativa-registrar-capturas-pescarec/16995365/" target="_blank" rel="noopener" style="display: flex; align-items: flex-start; gap: 14px; padding: 12px 14px; border-radius: 8px; text-decoration: none; color: inherit; background: rgba(0,0,0,0.02); transition: background 0.15s;" onmouseover="this.style.background='rgba(0,0,0,0.05)'" onmouseout="this.style.background='rgba(0,0,0,0.02)'">
+              <span style="font-size: 1.1rem; margin-top: 1px;">🎙️</span>
+              <div>
+                <div style="font-size: 0.93rem; font-weight: 600; line-height: 1.4;">Pesca recreativa: registrar capturas con PescaRec</div>
+                <div style="font-size: 0.78rem; opacity: 0.55; margin-top: 2px;">RTVE · Españoles en la mar · Spanish</div>
               </div>
             </a>
           </div>
