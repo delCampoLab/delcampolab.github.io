@@ -22,6 +22,9 @@ main:
   - name: Outreach
     url: outreach
     weight: 60
+  - name: Art & Science
+    url: art-science
+    weight: 65
   - name: Contact
     url: contact
     weight: 70
