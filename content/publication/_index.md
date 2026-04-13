@@ -1,5 +1,6 @@
 ---
 title: Publications
+description: "Full list of peer-reviewed publications by the del Campo Lab (2007–present), covering coral holobionts, marine protist diversity, eukaryotic microbiomes, and microbial symbiosis."
 cms_exclude: true
 # View.
 view: citation

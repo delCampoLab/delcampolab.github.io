@@ -3,8 +3,8 @@ title: "Temporal transcriptional rhythms govern coral-symbiont function and micr
 authors:
   - "Bradley Allen Weiler"
   - "Nicholas Kron"
-  - "Anthony Mario Bonacolta"
-  - "Mark JA Vermeij"
+  - "Anthony M. Bonacolta"
+  - "Mark J.A. Vermeij"
   - "Andrew Charles Baker"
   - "Javier del Campo"
 date: "2026-01-01"

@@ -6,7 +6,7 @@ authors:
   - "Maria Herranz"
   - "Kevin C Wakeman"
   - "Juana del Valle"
-  - "Mark JA Vermeij"
+  - "Mark J.A. Vermeij"
   - "Patrick J Keeling"
 date: "2019-01-01"
 doi: "10.1111/1462-2920.14733"

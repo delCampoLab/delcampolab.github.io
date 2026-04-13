@@ -1,8 +1,8 @@
 ---
 title: "Beyond the Symbiodiniaceae: diversity and role of microeukaryotic coral symbionts"
 authors:
-  - "Anthony M Bonacolta"
-  - "Bradley A Weiler"
+  - "Anthony M. Bonacolta"
+  - "Bradley A. Weiler"
   - "Teresa Porta-Fitó"
   - "Michael Sweet"
   - "Patrick Keeling"

@@ -4,7 +4,7 @@ authors:
   - "Waldan K Kwong"
   - "Javier del Campo"
   - "Varsha Mathur"
-  - "Mark JA Vermeij"
+  - "Mark J.A. Vermeij"
   - "Patrick J Keeling"
 date: "2019-01-01"
 doi: "10.1038/s41586-019-1072-z"

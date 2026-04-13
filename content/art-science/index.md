@@ -1,6 +1,7 @@
 ---
 title: Art & Science
 date: 2024-01-01
+description: "Collaborative projects where science and art meet: the LIPSea-M expanded film initiative documenting coral fieldwork, and the Foc Creuat exhibition (2011) — exploring marine life through image, installation, and experience."
 type: landing
 
 sections:

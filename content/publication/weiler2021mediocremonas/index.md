@@ -1,7 +1,7 @@
 ---
 title: "Mediocremonas mediterraneus, a New Member within the Developea"
 authors:
-  - "Bradley A Weiler"
+  - "Bradley A. Weiler"
   - "Elisabet L Sà"
   - "Michael E Sieracki"
   - "Ramon Massana"

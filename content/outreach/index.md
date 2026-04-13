@@ -1,6 +1,7 @@
 ---
 title: Outreach & Media
 date: 2024-01-01
+description: "Science communication by the del Campo Lab: podcasts, press coverage, and public talks on coral holobionts, marine protists, and microbial ecology — from Billboard and Scientific American to Radio Euskadi."
 type: landing
 
 sections:
@@ -28,9 +29,9 @@ sections:
 
           <a href="https://open.spotify.com/episode/4793HCOs6ozkKry9rJuCLu" target="_blank" rel="noopener" style="border-radius: 12px; padding: 22px 20px; box-shadow: 0 2px 12px rgba(0,0,0,0.08); background: var(--card-bg, #fff); text-decoration: none; color: inherit; display: flex; flex-direction: column; gap: 10px; transition: box-shadow 0.2s;" onmouseover="this.style.boxShadow='0 4px 20px rgba(0,0,0,0.15)'" onmouseout="this.style.boxShadow='0 2px 12px rgba(0,0,0,0.08)'">
             <div style="font-size: 2rem;">🎧</div>
-            <div style="font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; opacity: 0.5;">Podcast · Spotify</div>
-            <div style="font-size: 0.95rem; font-weight: 600; line-height: 1.4;">Podcast episode featuring Javier del Campo</div>
-            <div style="font-size: 0.82rem; opacity: 0.65; line-height: 1.5;">Listen to Javier del Campo discuss the lab's research on Spotify.</div>
+            <div style="font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; opacity: 0.5;">Podcast · Ágora · CARTV / Aragón Radio</div>
+            <div style="font-size: 0.95rem; font-weight: 600; line-height: 1.4;">Expedición 'Tara Coral' para la conservación de los arrecifes de coral en el Pacífico</div>
+            <div style="font-size: 0.82rem; opacity: 0.65; line-height: 1.5;">Javier del Campo discusses the Tara Coral expedition and the study of coral reef microbiomes in the Pacific Ocean. <em>(Spanish)</em></div>
             <span style="font-size: 0.78rem; font-weight: 600; opacity: 0.45; margin-top: auto;">Listen on Spotify →</span>
           </a>
 
@@ -148,15 +149,8 @@ sections:
             <a href="https://www.cartv.es/aragonradio/podcast/emision/agora-11-03-2026" target="_blank" rel="noopener" style="display: flex; align-items: flex-start; gap: 14px; padding: 12px 14px; border-radius: 8px; text-decoration: none; color: inherit; background: rgba(0,0,0,0.02); transition: background 0.15s;" onmouseover="this.style.background='rgba(0,0,0,0.05)'" onmouseout="this.style.background='rgba(0,0,0,0.02)'">
               <span style="font-size: 1.1rem; margin-top: 1px;">🎙️</span>
               <div>
-                <div style="font-size: 0.93rem; font-weight: 600; line-height: 1.4;">Àgora — 11 March 2026</div>
-                <div style="font-size: 0.78rem; opacity: 0.55; margin-top: 2px;">Aragón Radio · CARTV · Spanish</div>
-              </div>
-            </a>
-            <a href="https://www.rtve.es/play/audios/espanoles-en-la-mar/pesca-recreativa-registrar-capturas-pescarec/16995365/" target="_blank" rel="noopener" style="display: flex; align-items: flex-start; gap: 14px; padding: 12px 14px; border-radius: 8px; text-decoration: none; color: inherit; background: rgba(0,0,0,0.02); transition: background 0.15s;" onmouseover="this.style.background='rgba(0,0,0,0.05)'" onmouseout="this.style.background='rgba(0,0,0,0.02)'">
-              <span style="font-size: 1.1rem; margin-top: 1px;">🎙️</span>
-              <div>
-                <div style="font-size: 0.93rem; font-weight: 600; line-height: 1.4;">Pesca recreativa: registrar capturas con PescaRec</div>
-                <div style="font-size: 0.78rem; opacity: 0.55; margin-top: 2px;">RTVE · Españoles en la mar · Spanish</div>
+                <div style="font-size: 0.93rem; font-weight: 600; line-height: 1.4;">Expedición 'Tara Coral' para la conservación de los arrecifes de coral en el Pacífico</div>
+                <div style="font-size: 0.78rem; opacity: 0.55; margin-top: 2px;">Ágora · Aragón Radio · CARTV · Spanish</div>
               </div>
             </a>
           </div>
@@ -311,6 +305,14 @@ sections:
       subtitle: ''
       text: |
         <div style="display: flex; flex-direction: column; gap: 8px; margin-top: 8px;">
+
+          <a href="https://www.rtve.es/play/audios/espanoles-en-la-mar/pesca-recreativa-registrar-capturas-pescarec/16995365/" target="_blank" rel="noopener" style="display: flex; align-items: flex-start; gap: 14px; padding: 14px 16px; border-radius: 8px; text-decoration: none; color: inherit; background: rgba(0,0,0,0.02); transition: background 0.15s;" onmouseover="this.style.background='rgba(0,0,0,0.05)'" onmouseout="this.style.background='rgba(0,0,0,0.02)'">
+            <span style="font-size: 1.2rem; margin-top: 1px;">🎙️</span>
+            <div>
+              <div style="font-size: 0.93rem; font-weight: 600; line-height: 1.4;">Pesca recreativa: registrar capturas con PescaRec</div>
+              <div style="font-size: 0.78rem; opacity: 0.55; margin-top: 2px;">RTVE · Españoles en la mar · Spanish</div>
+            </div>
+          </a>
 
           <a href="https://ellipse.prbb.org/prbb-researchers-will-sequence-the-genomes-of-four-endemic-species-for-the-earth-biogenome-project/" target="_blank" rel="noopener" style="display: flex; align-items: flex-start; gap: 14px; padding: 14px 16px; border-radius: 8px; text-decoration: none; color: inherit; background: rgba(0,0,0,0.02); transition: background 0.15s;" onmouseover="this.style.background='rgba(0,0,0,0.05)'" onmouseout="this.style.background='rgba(0,0,0,0.02)'">
             <span style="font-size: 1.2rem; margin-top: 1px;">📰</span>

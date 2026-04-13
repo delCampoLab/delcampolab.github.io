@@ -8,7 +8,7 @@ authors:
   - "Anna Karnkowska"
   - "Javier del Campo"
   - "Martin Kolisko"
-  - "Nicholas AT Irwin"
+  - "Nicholas A.T. Irwin"
   - "Varsha Mathur"
   - "Rudolf H Scheffrahn"
   - "others"

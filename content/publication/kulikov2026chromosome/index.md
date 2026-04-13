@@ -3,7 +3,7 @@ title: "The chromosome-scale genome assembly of the redlip blenny, Ophioblennius
 authors:
   - "Nikita Kulikov"
   - "Kim Joffroy"
-  - "Anthony M Bonacolta"
+  - "Anthony M. Bonacolta"
   - "Javier del Campo"
   - "Iker Irisarri"
 date: "2026-01-01"

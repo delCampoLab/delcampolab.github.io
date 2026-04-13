@@ -3,7 +3,7 @@ title: "What Can Environmental Sequences Tell Us About the Distribution of Low-R
 authors:
   - "Vittorio Boscaro"
   - "Mitchell J Syberg-Olsen"
-  - "Nicholas A T Irwin"
+  - "Nicholas A.T. Irwin"
   - "Javier del Campo"
   - "Patrick J Keeling"
 date: "2019-01-01"

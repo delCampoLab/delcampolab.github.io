@@ -1,5 +1,6 @@
 ---
 title: Research
+description: "The del Campo Lab investigates coral holobionts, marine microbial diversity, and the effects of ocean warming on host-associated microbiomes — combining metabarcoding, single-cell omics, imaging, and AI-driven bioinformatics at IBE (CSIC-UPF)."
 type: landing
 
 sections:

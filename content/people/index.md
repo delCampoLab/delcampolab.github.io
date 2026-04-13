@@ -1,7 +1,7 @@
 ---
 title: People
 date: 2022-10-24
-
+description: "Meet the del Campo Lab team at IBE (CSIC-UPF) in Barcelona — microbial ecologists and researchers studying coral symbiosis, protist diversity, and marine microbiomes."
 type: landing
 
 sections:

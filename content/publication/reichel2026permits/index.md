@@ -6,7 +6,7 @@ authors:
   - "Jonas J. Astrin"
   - "Astrid Böhne"
   - "Chiara Bortoluzzi"
-  - "Elena Bu\vzan"
+  - "Elena Bužan"
   - "Javier del Campo"
   - "Claudio Ciofi"
   - "Camilla B. Di-Nizo"

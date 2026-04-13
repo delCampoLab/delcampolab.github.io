@@ -1,7 +1,7 @@
 ---
 title: Contact
 date: 2022-10-24
-
+description: "Interested in joining the del Campo Lab? Find information on open positions, Master's and PhD opportunities, postdoctoral fellowships, and how to get in touch with our team at IBE (CSIC-UPF) in Barcelona."
 type: landing
 
 sections:
