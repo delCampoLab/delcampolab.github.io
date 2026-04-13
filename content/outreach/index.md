@@ -66,7 +66,7 @@ sections:
           <summary style="cursor: pointer; font-size: 1.05rem; font-weight: 700; padding: 14px 0; list-style: none; display: flex; align-items: center; gap: 10px; border-bottom: 2px solid rgba(0,0,0,0.08);">
             <span style="font-size: 1.4rem;">🪸</span>
             <span>Corals sleep like us, but their symbiosis never rests</span>
-            <span style="margin-left: auto; font-size: 0.75rem; font-weight: 400; opacity: 0.5;">Cell Host & Microbe · 2026</span>
+            <a href="https://doi.org/10.1016/j.chom.2025.10.010" target="_blank" rel="noopener" style="margin-left: auto; font-size: 0.75rem; font-weight: 400; opacity: 0.5; text-decoration: none; color: inherit; white-space: nowrap; flex-shrink: 0;">Weiler, Kron, Bonacolta et al. · <em>Cell Host & Microbe</em> · 2026</a>
           </summary>
           <div style="display: flex; flex-direction: column; gap: 8px; padding: 16px 0;">
             <a href="https://phys.org/news/2026-01-corals-symbionts-rest.html" target="_blank" rel="noopener" style="display: flex; align-items: flex-start; gap: 14px; padding: 12px 14px; border-radius: 8px; text-decoration: none; color: inherit; background: rgba(0,0,0,0.02); transition: background 0.15s;" onmouseover="this.style.background='rgba(0,0,0,0.05)'" onmouseout="this.style.background='rgba(0,0,0,0.02)'">
@@ -76,11 +76,11 @@ sections:
                 <div style="font-size: 0.78rem; opacity: 0.55; margin-top: 2px;">Phys.org · English</div>
               </div>
             </a>
-            <a href="https://www.eurasiareview.com/29012026-corals-sleep-like-us-but-their-symbiosis-does-not-rest/" target="_blank" rel="noopener" style="display: flex; align-items: flex-start; gap: 14px; padding: 12px 14px; border-radius: 8px; text-decoration: none; color: inherit; background: rgba(0,0,0,0.02); transition: background 0.15s;" onmouseover="this.style.background='rgba(0,0,0,0.05)'" onmouseout="this.style.background='rgba(0,0,0,0.02)'">
-              <span style="font-size: 1.1rem; margin-top: 1px;">📰</span>
+            <a href="https://www.rtve.es/play/audios/espanoles-en-la-mar/corales-duermen-noche/16945634/" target="_blank" rel="noopener" style="display: flex; align-items: flex-start; gap: 14px; padding: 12px 14px; border-radius: 8px; text-decoration: none; color: inherit; background: rgba(0,0,0,0.02); transition: background 0.15s;" onmouseover="this.style.background='rgba(0,0,0,0.05)'" onmouseout="this.style.background='rgba(0,0,0,0.02)'">
+              <span style="font-size: 1.1rem; margin-top: 1px;">🎙️</span>
               <div>
-                <div style="font-size: 0.93rem; font-weight: 600; line-height: 1.4;">Corals Sleep Like Us, But Their Symbiosis Does Not Rest</div>
-                <div style="font-size: 0.78rem; opacity: 0.55; margin-top: 2px;">Eurasia Review · English</div>
+                <div style="font-size: 0.93rem; font-weight: 600; line-height: 1.4;">Los corales también duermen por la noche</div>
+                <div style="font-size: 0.78rem; opacity: 0.55; margin-top: 2px;">RTVE · Españoles en la mar · Spanish</div>
               </div>
             </a>
             <a href="https://www.agenciasinc.es/Noticias/Los-corales-duermen-como-nosotros-pero-su-simbiosis-no-descansa" target="_blank" rel="noopener" style="display: flex; align-items: flex-start; gap: 14px; padding: 12px 14px; border-radius: 8px; text-decoration: none; color: inherit; background: rgba(0,0,0,0.02); transition: background 0.15s;" onmouseover="this.style.background='rgba(0,0,0,0.05)'" onmouseout="this.style.background='rgba(0,0,0,0.02)'">
