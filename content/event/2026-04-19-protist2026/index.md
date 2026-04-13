@@ -21,7 +21,7 @@ authors:
   - admin
   - krause
   - nonell
-  - mozo
+  - rocio-mozo
 
 tags:
   - protists
@@ -51,7 +51,7 @@ Four lab members are presenting their work:
 
 Javier has been selected as the recipient of the 2025 [Hutner Award](https://protistologists.org/hutner-award/), one of the most prestigious distinctions in protistology, awarded by the International Society of Protistologists to recognise outstanding contributions to the field. His talk will take audiences on a journey through the diversity and ecological roles of marine protists, from open ocean surveys to coral reef holobionts.
 
-**[Rocío Mozo](/author/mozo/)**
+**[Rocío Mozo](/author/rocio-mozo/)**
 *Phylogenomics of coral photosymbionts and their free-living relatives*
 
 Rocío will present her phylogenomic work placing the photosymbiotic protists associated with corals in the broader context of their free-living relatives, shedding light on the evolutionary transitions to symbiosis.

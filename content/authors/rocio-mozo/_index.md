@@ -2,7 +2,6 @@
 weight: 11
 # Display name
 title: Rocío Mozo
-slug: rocio-mozo
 
 # Full name (for SEO)
 first_name: Rocío
@@ -10,7 +9,7 @@ last_name: Mozo
 
 # Username (this should match the folder name)
 authors:
-  - mozo
+  - rocio-mozo
 
 # Is this the primary user of the site?
 superuser: false
