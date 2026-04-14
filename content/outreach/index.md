@@ -153,6 +153,13 @@ sections:
                 <div style="font-size: 0.78rem; opacity: 0.55; margin-top: 2px;">Ágora · Aragón Radio · CARTV · Spanish</div>
               </div>
             </a>
+            <a href="https://www.rtve.es/play/audios/espanoles-en-la-mar/pesca-recreativa-registrar-capturas-pescarec/16995365/" target="_blank" rel="noopener" style="display: flex; align-items: flex-start; gap: 14px; padding: 12px 14px; border-radius: 8px; text-decoration: none; color: inherit; background: rgba(0,0,0,0.02); transition: background 0.15s;" onmouseover="this.style.background='rgba(0,0,0,0.05)'" onmouseout="this.style.background='rgba(0,0,0,0.02)'">
+              <span style="font-size: 1.1rem; margin-top: 1px;">🎙️</span>
+              <div>
+                <div style="font-size: 0.93rem; font-weight: 600; line-height: 1.4;">La expedición Tara Coral: explorando el Triángulo de Coral, la Amazonia del océano</div>
+                <div style="font-size: 0.78rem; opacity: 0.55; margin-top: 2px;">RTVE · Españoles en la mar · Spanish</div>
+              </div>
+            </a>
           </div>
         </details>
 
@@ -305,14 +312,6 @@ sections:
       subtitle: ''
       text: |
         <div style="display: flex; flex-direction: column; gap: 8px; margin-top: 8px;">
-
-          <a href="https://www.rtve.es/play/audios/espanoles-en-la-mar/pesca-recreativa-registrar-capturas-pescarec/16995365/" target="_blank" rel="noopener" style="display: flex; align-items: flex-start; gap: 14px; padding: 14px 16px; border-radius: 8px; text-decoration: none; color: inherit; background: rgba(0,0,0,0.02); transition: background 0.15s;" onmouseover="this.style.background='rgba(0,0,0,0.05)'" onmouseout="this.style.background='rgba(0,0,0,0.02)'">
-            <span style="font-size: 1.2rem; margin-top: 1px;">🎙️</span>
-            <div>
-              <div style="font-size: 0.93rem; font-weight: 600; line-height: 1.4;">Pesca recreativa: registrar capturas con PescaRec</div>
-              <div style="font-size: 0.78rem; opacity: 0.55; margin-top: 2px;">RTVE · Españoles en la mar · Spanish</div>
-            </div>
-          </a>
 
           <a href="https://ellipse.prbb.org/prbb-researchers-will-sequence-the-genomes-of-four-endemic-species-for-the-earth-biogenome-project/" target="_blank" rel="noopener" style="display: flex; align-items: flex-start; gap: 14px; padding: 14px 16px; border-radius: 8px; text-decoration: none; color: inherit; background: rgba(0,0,0,0.02); transition: background 0.15s;" onmouseover="this.style.background='rgba(0,0,0,0.05)'" onmouseout="this.style.background='rgba(0,0,0,0.02)'">
             <span style="font-size: 1.2rem; margin-top: 1px;">📰</span>
