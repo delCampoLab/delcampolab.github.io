@@ -15,6 +15,12 @@ image:
   caption: Photo by Bradley Weiler
   focal_point: Smart
 
+links:
+  - icon: newspaper
+    icon_pack: fas
+    name: "Publication: Cell Host & Microbe (2026)"
+    url: https://doi.org/10.1016/j.chom.2026.01.004
+
 url_code: ""
 url_pdf: ""
 url_slides: ""
@@ -25,4 +31,8 @@ Coral physiology is intimately dependent on diel cycles, as fluctuations in ligh
 
 This project explored three scleractinian corals — _Pseudodiploria strigosa_, _Orbicella faveolata_, and _Diploria labyrinthiformis_ — through three diel cycles to characterise their microbial associates (including surrounding seawater) and the host transcriptional response. Coral samples were collected in triplicate and 1L reference seawater samples were acquired off the leeward side of Curaçao at 6-hour intervals over three days, resulting in a total of 3 replicated diel cycles. DNA was isolated, amplified using the V4 region of the 16S and 18S rRNA genes, and sequenced using Illumina MiSeq 2×250bp; RNA was sequenced using poly-A selection/enrichment.
 
-We hypothesise that microbial taxa follow trends in abundance with respect to anoxic and hyperoxic conditions, and that circadian genes such as *cry1*, *cry2*, *clock*, and *cycle* show diel oscillations in expression. This work was published in [*Cell Host & Microbe* (Weiler et al. 2026)](https://doi.org/10.1016/j.chom.2026.01.004).
+We hypothesised that microbial taxa follow trends in abundance with respect to anoxic and hyperoxic conditions, and that circadian genes such as *cry1*, *cry2*, *clock*, and *cycle* show diel oscillations in expression.
+
+**Publication**
+
+Weiler BA, Kron N, Bonacolta AM, Vermeij MJA, Baker AC, **del Campo J** (2026). [Temporal transcriptional rhythms govern coral-symbiont function and microbiome dynamics](https://doi.org/10.1016/j.chom.2026.01.004). *Cell Host & Microbe* 34, 304–323.

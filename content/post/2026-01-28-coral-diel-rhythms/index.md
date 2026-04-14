@@ -14,7 +14,7 @@ Our lab's latest paper, led by [Brad Weiler](/author/bradley-weiler/) and publis
 We are thrilled to share our latest publication in [*Cell Host & Microbe*](https://www.cell.com/cell-host-microbe/fulltext/S1931-3128(26)00024-7)!
 
 **Temporal transcriptional rhythms govern coral-symbiont function and microbiome dynamics**  
-Weiler BA, …, del Campo J. *Cell Host & Microbe* 34, 304–323 (2026). DOI: [10.1016/j.chom.2026.01.004](https://doi.org/10.1016/j.chom.2026.01.004)
+Weiler BA, Kron N, Bonacolta AM, Vermeij MJA, Baker AC, **del Campo J** (2026). [Temporal transcriptional rhythms govern coral-symbiont function and microbiome dynamics](https://doi.org/10.1016/j.chom.2026.01.004). *Cell Host & Microbe* 34, 304–323.
 
 ---
 
