@@ -18,10 +18,24 @@ sections:
       subtitle: ''
       text: |
 
+<style>
+:root {
+  --lab-card-bg: #f5f6f8;
+  --lab-item-bg: rgba(0,0,0,0.02);
+  --lab-item-hover: rgba(0,0,0,0.05);
+}
+body.dark {
+  --lab-card-bg: rgba(255,255,255,0.07);
+  --lab-item-bg: rgba(255,255,255,0.04);
+  --lab-item-hover: rgba(255,255,255,0.10);
+}
+.lab-item { background: var(--lab-item-bg) !important; transition: background 0.15s; }
+.lab-item:hover { background: var(--lab-item-hover) !important; }
+</style>
         <div style="margin-bottom: 48px;">
 
           <!-- LIPSEA-M -->
-          <div style="border-radius: 16px; overflow: hidden; box-shadow: 0 2px 16px rgba(0,0,0,0.08); background: var(--card-bg, #fff); margin-bottom: 40px;">
+          <div style="border-radius: 16px; overflow: hidden; box-shadow: 0 2px 16px rgba(0,0,0,0.08); background: var(--lab-card-bg); margin-bottom: 40px;">
             <div style="padding: 32px 32px 8px;">
               <div style="display: flex; align-items: baseline; gap: 14px; flex-wrap: wrap; margin-bottom: 6px;">
                 <h2 style="margin: 0; font-size: 1.5rem; font-weight: 800; letter-spacing: -0.01em;">LIPSea-M</h2>
@@ -40,21 +54,21 @@ sections:
             </div>
             <div style="display: flex; flex-direction: column; gap: 8px; padding: 0 32px 28px;">
               <div style="font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; opacity: 0.4; margin-bottom: 4px;">Coverage &amp; press</div>
-              <a href="https://www.upf.edu/web/arsenal/laboratori-d-imatges-potencials/-/asset_publisher/8irGdzRFZvzb/content/lip-m/maximized" target="_blank" rel="noopener" style="display: flex; align-items: flex-start; gap: 14px; padding: 12px 14px; border-radius: 8px; text-decoration: none; color: inherit; background: rgba(0,0,0,0.02); transition: background 0.15s;" onmouseover="this.style.background='rgba(0,0,0,0.05)'" onmouseout="this.style.background='rgba(0,0,0,0.02)'">
+              <a href="https://www.upf.edu/web/arsenal/laboratori-d-imatges-potencials/-/asset_publisher/8irGdzRFZvzb/content/lip-m/maximized" target="_blank" rel="noopener" style="display: flex; align-items: flex-start; gap: 14px; padding: 12px 14px; border-radius: 8px; text-decoration: none; color: inherit; background: var(--lab-item-bg);" class="lab-item">
                 <span style="font-size: 1.1rem; margin-top: 1px;">🎬</span>
                 <div>
                   <div style="font-size: 0.93rem; font-weight: 600; line-height: 1.4;">LIPSea-M project page</div>
                   <div style="font-size: 0.78rem; opacity: 0.55; margin-top: 2px;">ARSENAL · Laboratori d'Imatges Potencials · UPF · Catalan</div>
                 </div>
               </a>
-              <a href="https://www.ibe.upf-csic.es/home/-/asset_publisher/T2caeLMECPvW/content/lipsea-m-is-born-an-art-science-initiative-to-create-an-expanded-film-about-the-climate-crisis/maximized" target="_blank" rel="noopener" style="display: flex; align-items: flex-start; gap: 14px; padding: 12px 14px; border-radius: 8px; text-decoration: none; color: inherit; background: rgba(0,0,0,0.02); transition: background 0.15s;" onmouseover="this.style.background='rgba(0,0,0,0.05)'" onmouseout="this.style.background='rgba(0,0,0,0.02)'">
+              <a href="https://www.ibe.upf-csic.es/home/-/asset_publisher/T2caeLMECPvW/content/lipsea-m-is-born-an-art-science-initiative-to-create-an-expanded-film-about-the-climate-crisis/maximized" target="_blank" rel="noopener" style="display: flex; align-items: flex-start; gap: 14px; padding: 12px 14px; border-radius: 8px; text-decoration: none; color: inherit; background: var(--lab-item-bg);" class="lab-item">
                 <span style="font-size: 1.1rem; margin-top: 1px;">📰</span>
                 <div>
                   <div style="font-size: 0.93rem; font-weight: 600; line-height: 1.4;">LIPSea-M is born: an art-science initiative to create an expanded film about the climate crisis</div>
                   <div style="font-size: 0.78rem; opacity: 0.55; margin-top: 2px;">IBE (CSIC-UPF) · English</div>
                 </div>
               </a>
-              <a href="https://www.ibe.upf-csic.es/news/-/asset_publisher/PXTgqZXxlocA/content/shared-dialogues-and-cinema-science-knowledge-transfer-during-the-lipsea-m-expedition-to-cura%C3%A7ao/maximized" target="_blank" rel="noopener" style="display: flex; align-items: flex-start; gap: 14px; padding: 12px 14px; border-radius: 8px; text-decoration: none; color: inherit; background: rgba(0,0,0,0.02); transition: background 0.15s;" onmouseover="this.style.background='rgba(0,0,0,0.05)'" onmouseout="this.style.background='rgba(0,0,0,0.02)'">
+              <a href="https://www.ibe.upf-csic.es/news/-/asset_publisher/PXTgqZXxlocA/content/shared-dialogues-and-cinema-science-knowledge-transfer-during-the-lipsea-m-expedition-to-cura%C3%A7ao/maximized" target="_blank" rel="noopener" style="display: flex; align-items: flex-start; gap: 14px; padding: 12px 14px; border-radius: 8px; text-decoration: none; color: inherit; background: var(--lab-item-bg);" class="lab-item">
                 <span style="font-size: 1.1rem; margin-top: 1px;">📰</span>
                 <div>
                   <div style="font-size: 0.93rem; font-weight: 600; line-height: 1.4;">Shared dialogues and cinema-science knowledge transfer during the LIPSea-M expedition to Curaçao</div>
@@ -65,7 +79,7 @@ sections:
           </div>
 
           <!-- FOC CREUAT -->
-          <div style="border-radius: 16px; overflow: hidden; box-shadow: 0 2px 16px rgba(0,0,0,0.08); background: var(--card-bg, #fff);">
+          <div style="border-radius: 16px; overflow: hidden; box-shadow: 0 2px 16px rgba(0,0,0,0.08); background: var(--lab-card-bg);">
             <div style="padding: 32px 32px 8px;">
               <div style="display: flex; align-items: baseline; gap: 14px; flex-wrap: wrap; margin-bottom: 6px;">
                 <h2 style="margin: 0; font-size: 1.5rem; font-weight: 800; letter-spacing: -0.01em;">Foc Creuat</h2>
@@ -84,14 +98,14 @@ sections:
             </div>
             <div style="display: flex; flex-direction: column; gap: 8px; padding: 0 32px 28px;">
               <div style="font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; opacity: 0.4; margin-bottom: 4px;">Coverage &amp; press</div>
-              <a href="https://www.publico.es/actualidad/combats-art-i-ciencia.html" target="_blank" rel="noopener" style="display: flex; align-items: flex-start; gap: 14px; padding: 12px 14px; border-radius: 8px; text-decoration: none; color: inherit; background: rgba(0,0,0,0.02); transition: background 0.15s;" onmouseover="this.style.background='rgba(0,0,0,0.05)'" onmouseout="this.style.background='rgba(0,0,0,0.02)'">
+              <a href="https://www.publico.es/actualidad/combats-art-i-ciencia.html" target="_blank" rel="noopener" style="display: flex; align-items: flex-start; gap: 14px; padding: 12px 14px; border-radius: 8px; text-decoration: none; color: inherit; background: var(--lab-item-bg);" class="lab-item">
                 <span style="font-size: 1.1rem; margin-top: 1px;">📰</span>
                 <div>
                   <div style="font-size: 0.93rem; font-weight: 600; line-height: 1.4;">Combats entre art i ciència</div>
                   <div style="font-size: 0.78rem; opacity: 0.55; margin-top: 2px;">Público · February 2011 · Catalan</div>
                 </div>
               </a>
-              <a href="https://www.ub.edu/portal/web/bellesarts/detall/-/detall/pensar-art-actuar-ciencia-al-centre-d-art-santa-monica" target="_blank" rel="noopener" style="display: flex; align-items: flex-start; gap: 14px; padding: 12px 14px; border-radius: 8px; text-decoration: none; color: inherit; background: rgba(0,0,0,0.02); transition: background 0.15s;" onmouseover="this.style.background='rgba(0,0,0,0.05)'" onmouseout="this.style.background='rgba(0,0,0,0.02)'">
+              <a href="https://www.ub.edu/portal/web/bellesarts/detall/-/detall/pensar-art-actuar-ciencia-al-centre-d-art-santa-monica" target="_blank" rel="noopener" style="display: flex; align-items: flex-start; gap: 14px; padding: 12px 14px; border-radius: 8px; text-decoration: none; color: inherit; background: var(--lab-item-bg);" class="lab-item">
                 <span style="font-size: 1.1rem; margin-top: 1px;">📰</span>
                 <div>
                   <div style="font-size: 0.93rem; font-weight: 600; line-height: 1.4;">Noves propostes d'art i ciència — Pensar Art Actuar Ciència al Centre d'Art Santa Mònica</div>
