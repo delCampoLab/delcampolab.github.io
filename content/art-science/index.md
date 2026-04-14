@@ -18,20 +18,6 @@ sections:
       subtitle: ''
       text: |
 
-<style>
-:root {
-  --lab-card-bg: #f5f6f8;
-  --lab-item-bg: rgba(0,0,0,0.02);
-  --lab-item-hover: rgba(0,0,0,0.05);
-}
-body.dark {
-  --lab-card-bg: rgba(255,255,255,0.07);
-  --lab-item-bg: rgba(255,255,255,0.04);
-  --lab-item-hover: rgba(255,255,255,0.10);
-}
-.lab-item { background: var(--lab-item-bg) !important; transition: background 0.15s; }
-.lab-item:hover { background: var(--lab-item-hover) !important; }
-</style>
         <div style="margin-bottom: 48px;">
 
           <!-- LIPSEA-M -->

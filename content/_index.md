@@ -44,20 +44,6 @@ sections:
       title: Research Themes
       subtitle:
       text: |
-<style>
-:root {
-  --lab-card-bg: #f5f6f8;
-  --lab-item-bg: rgba(0,0,0,0.02);
-  --lab-item-hover: rgba(0,0,0,0.05);
-}
-body.dark {
-  --lab-card-bg: rgba(255,255,255,0.07);
-  --lab-item-bg: rgba(255,255,255,0.04);
-  --lab-item-hover: rgba(255,255,255,0.10);
-}
-.lab-item { background: var(--lab-item-bg) !important; transition: background 0.15s; }
-.lab-item:hover { background: var(--lab-item-hover) !important; }
-</style>
         <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; margin-top: 12px;">
           <a href="/research/" style="border-radius: 12px; padding: 22px 18px; text-align: center; box-shadow: 0 2px 12px rgba(0,0,0,0.10); background: var(--lab-card-bg); text-decoration: none; color: inherit; display: flex; flex-direction: column; transition: box-shadow 0.2s;" onmouseover="this.style.boxShadow='0 4px 20px rgba(0,0,0,0.18)'" onmouseout="this.style.boxShadow='0 2px 12px rgba(0,0,0,0.10)'">
             <div style="font-size: 2.4rem; margin-bottom: 10px;">🪸</div>

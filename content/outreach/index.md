@@ -17,20 +17,6 @@ sections:
       title: Podcasts & Videos
       subtitle: ''
       text: |
-<style>
-:root {
-  --lab-card-bg: #f5f6f8;
-  --lab-item-bg: rgba(0,0,0,0.02);
-  --lab-item-hover: rgba(0,0,0,0.05);
-}
-body.dark {
-  --lab-card-bg: rgba(255,255,255,0.07);
-  --lab-item-bg: rgba(255,255,255,0.04);
-  --lab-item-hover: rgba(255,255,255,0.10);
-}
-.lab-item { background: var(--lab-item-bg) !important; transition: background 0.15s; }
-.lab-item:hover { background: var(--lab-item-hover) !important; }
-</style>
         <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; margin-top: 16px;">
 
           <a href="https://soundcloud.com/miltenyibiotec/javier-del-campo" target="_blank" rel="noopener" style="border-radius: 12px; padding: 22px 20px; box-shadow: 0 2px 12px rgba(0,0,0,0.08); background: var(--lab-card-bg); text-decoration: none; color: inherit; display: flex; flex-direction: column; gap: 10px; transition: box-shadow 0.2s;" onmouseover="this.style.boxShadow='0 4px 20px rgba(0,0,0,0.15)'" onmouseout="this.style.boxShadow='0 2px 12px rgba(0,0,0,0.08)'">
