@@ -1,5 +1,22 @@
+# Pantone Living Coral (#FF6F61) override for the strawberry theme.
+# All colour slots are filled to avoid <no value> in the HugoBlox SCSS template.
+
 [light]
-  primary = "#FF6F61"
+  primary          = "#FF6F61"
+  menu_primary     = "#FF6F61"
+  menu_text        = "#fff"
+  menu_text_active = "#fff"
+  link             = "#FF6F61"
+  link_hover       = "#e05045"
+  header           = "#FF6F61"
+  active           = "#FF6F61"
 
 [dark]
-  primary = "#FF6F61"
+  primary          = "#FF6F61"
+  menu_primary     = "#FF6F61"
+  menu_text        = "#fff"
+  menu_text_active = "#fff"
+  link             = "#FF6F61"
+  link_hover       = "#e05045"
+  header           = "#FF6F61"
+  active           = "#FF6F61"
