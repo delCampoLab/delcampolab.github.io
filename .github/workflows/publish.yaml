@@ -51,6 +51,11 @@ jobs:
           HUGO_ENVIRONMENT: production
         run: |
           echo "Hugo Cache Dir: $(hugo config | grep cachedir)"
+          hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}/" || true
+          echo ""
+          echo "=== HugoBlox theme variable names in main.scss ==="
+          find /tmp/hugo_cache_runner -name "main.scss" -path "*/blox-bootstrap/*" 2>/dev/null | head -1 | xargs grep -n '\$sta-' 2>/dev/null || echo "(file not found in cache)"
+          echo ""
           hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
