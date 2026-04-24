@@ -1,14 +1,13 @@
 /* ── Primary colour override: Pantone Living Coral ────────────────────────
-   The TOML theme file (data/themes/strawberry.toml) sets the SCSS compile-
-   time variable $sta-primary = #FF6F61.  These CSS variable overrides cover
-   any runtime uses of Bootstrap 5 custom properties.
+   data/themes/strawberry.toml sets primary = #FF6F61 at SCSS compile time.
+   These CSS custom property overrides cover any runtime Bootstrap 5 vars.
    ──────────────────────────────────────────────────────────────────────── */
 :root {
-  --primary: #FF6F61 !important;
-  --bs-primary: #FF6F61 !important;
-  --bs-primary-rgb: 255, 111, 97 !important;
-  --bs-link-color: #FF6F61 !important;
-  --bs-link-color-rgb: 255, 111, 97 !important;
+  --primary: #FF6F61;
+  --bs-primary: #FF6F61;
+  --bs-primary-rgb: 255, 111, 97;
+  --bs-link-color: #FF6F61;
+  --bs-link-color-rgb: 255, 111, 97;
 }
 
 /* Hide author byline on news posts */

@@ -1,16 +1,5 @@
-# Theme metadata
-name = "strawberry"
-
-# Is theme light or dark?
-light = true
-
-# Choose a light or dark text color (true = dark, false = light)
-dark_text = true
-
 [light]
-  # Primary — Pantone Living Coral (#FF6F61)
   primary = "#FF6F61"
 
 [dark]
-  # Primary — Pantone Living Coral (#FF6F61)
   primary = "#FF6F61"
