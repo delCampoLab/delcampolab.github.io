@@ -12,7 +12,7 @@ authors:
 superuser: false
 
 # Role/position
-role: PhD Student - Currently a Postdoctoral Fellow at NOAA
+role: PhD Student · Now Postdoctoral Fellow at NOAA
 
 # Organizations/Affiliations
 organizations:

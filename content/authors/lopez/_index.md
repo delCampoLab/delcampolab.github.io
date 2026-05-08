@@ -12,7 +12,7 @@ authors:
 superuser: false
 
 # Role/position
-role: MSc Student
+role: MSc Student · Now Project Biologist at The Chappell Group
 
 # Organizations/Affiliations
 organizations:

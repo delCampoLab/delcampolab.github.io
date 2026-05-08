@@ -12,7 +12,7 @@ authors:
 superuser: false
 
 # Role/position
-role: PhD Student - Currently a Postdoctoral Fellow at The University of British Columbia
+role: PhD Student · Now Postdoctoral Fellow at The University of British Columbia
 
 # Organizations/Affiliations
 organizations:
