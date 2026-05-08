@@ -12,7 +12,7 @@ authors:
 superuser: false
 
 # Role/position
-role: MSc Student
+role: MSc Student · Now Data Analyst at Instituto de Investigación Biomédica de Salamanca
 
 # Organizations/Affiliations
 organizations:

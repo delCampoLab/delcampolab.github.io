@@ -16,7 +16,7 @@ authors:
 superuser: false
 
 # Role/position
-role: Coral Genomics Technician
+role: Lab Manager · Now PhD Student at HIFMB, University of Oldenburg
 
 # Organizations/Affiliations
 organizations:
@@ -46,7 +46,6 @@ education:
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
-social:
 social:
   - icon: envelope
     icon_pack: fas

@@ -12,7 +12,7 @@ authors:
 superuser: false
 
 # Role/position
-role: MSc Student
+role: MSc Student · Now PhD Student at the University of Puerto Rico-Mayagüez
 
 # Organizations/Affiliations
 organizations:
