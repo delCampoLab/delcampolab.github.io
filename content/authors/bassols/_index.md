@@ -12,7 +12,7 @@ authors:
 superuser: false
 
 # Role/position
-role: Undergraduate Student
+role: Undergraduate Student · Now MEng Student at the Technical University of Denmark
 
 # Organizations/Affiliations
 organizations:

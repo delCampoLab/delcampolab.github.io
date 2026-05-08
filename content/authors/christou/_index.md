@@ -12,7 +12,7 @@ authors:
 superuser: false
 
 # Role/position
-role: Undergraduate Student
+role: Undergraduate Student · Now MSc at the Aristotle University of Thessaloniki
 
 # Organizations/Affiliations
 organizations:

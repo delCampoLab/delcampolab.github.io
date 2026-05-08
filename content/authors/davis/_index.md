@@ -12,7 +12,7 @@ authors:
 superuser: false
 
 # Role/position
-role: Undergraduate Student
+role: Undergraduate Student · Now PhD Student at Colorado State UNiversity
 
 # Organizations/Affiliations
 organizations:

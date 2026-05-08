@@ -12,7 +12,7 @@ authors:
 superuser: false
 
 # Role/position
-role: MSc Student
+role: MSc Student · Now Data Scientist at KH Lloreda
 
 # Organizations/Affiliations
 organizations:

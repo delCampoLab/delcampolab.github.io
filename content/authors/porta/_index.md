@@ -12,7 +12,7 @@ authors:
 superuser: false
 
 # Role/position
-role: Lab Manager · Now PhD at Institut de Ciències del Mar - CSIC
+role: Lab Manager · Now PhD Student at Institut de Ciències del Mar - CSIC
 
 # Organizations/Affiliations
 organizations:

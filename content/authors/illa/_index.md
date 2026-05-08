@@ -12,7 +12,7 @@ authors:
 superuser: false
 
 # Role/position
-role: Undergraduate Student
+role: Undergraduate Student · Now Laboratory Technician at Institut de Ciències del Marc (CSIC)
 
 # Organizations/Affiliations
 organizations:

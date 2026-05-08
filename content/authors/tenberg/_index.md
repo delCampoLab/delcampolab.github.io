@@ -12,7 +12,7 @@ authors:
 superuser: false
 
 # Role/position
-role: Undergraduate Student · Laboratory Technician at Beta Analytic
+role: Undergraduate Student · Now Laboratory Technician at Beta Analytic
 
 # Organizations/Affiliations
 organizations:

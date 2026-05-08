@@ -12,7 +12,7 @@ authors:
 superuser: false
 
 # Role/position
-role: MSc Student
+role: MSc Student · Now Document Analyst at Eurofins
 
 # Organizations/Affiliations
 organizations:
@@ -67,7 +67,7 @@ social:
 #  link: https://www.instagram.com/bbbunia/
 - icon: linkedin
   icon_pack: fab
-  link: www.linkedin.com/in/elliot-perry-1481aa1b3
+  link: https://www.linkedin.com/in/elliot-perry-1481aa1b3/
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv

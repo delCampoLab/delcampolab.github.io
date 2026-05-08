@@ -12,7 +12,7 @@ authors:
 superuser: false
 
 # Role/position
-role: MPS Student
+role: MPS Student · Now Biology Teacher Thrive Charter School Society
 
 # Organizations/Affiliations
 organizations:
