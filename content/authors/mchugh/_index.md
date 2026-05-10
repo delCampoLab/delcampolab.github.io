@@ -41,7 +41,7 @@ email: ""
 
 # Organizational groups that you belong to (for People widget)
 user_groups:
-- Grad Students
+- Undergraduate Students
 ---
 
 I joined the del Campo Lab as an undergraduate intern during the summer of 2025, where I worked on the comparative transcriptomics of Mediterranean and Caribbean coral holobionts. During my time in the lab, I received training in both wet lab and dry lab methodologies, developing skills in molecular biology, genomics, and bioinformatics. I am particularly interested in how symbiotic interactions shape the response of coral holobionts to environmental stress, and how comparative approaches across biogeographic regions can shed light on these dynamics.

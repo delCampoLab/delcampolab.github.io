@@ -82,7 +82,7 @@ sections:
       text: |
         <div style="display: flex; justify-content: space-around; flex-wrap: wrap; gap: 16px; padding: 16px 0; text-align: center;">
           <div>
-            <div style="font-size: 2.2rem; font-weight: 700; line-height: 1;">5</div>
+            <div style="font-size: 2.2rem; font-weight: 700; line-height: 1;">8</div>
             <div style="font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.08em; opacity: 0.6; margin-top: 4px;">Team Members</div>
           </div>
           <div>
