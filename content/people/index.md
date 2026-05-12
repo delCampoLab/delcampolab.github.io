@@ -14,7 +14,7 @@ sections:
           - Principal Investigators
           - Researchers
           - Grad Students
-          - Undergraduate Students
+          - Undergrad Students
           - Technicians
           - Visitors
           - Alumni
