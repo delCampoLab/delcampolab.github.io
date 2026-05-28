@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 42" width="120" height="42" role="img" aria-label="Creative Commons BY-NC-ND 4.0 licence">
+  <defs>
+    <style>
+      .cc-bg   { fill: #fff; stroke: #aaa; stroke-width: 0.5; }
+      .cc-icon { fill: #fff; }
+      .cc-lbl  { font-family: Arial, Helvetica, sans-serif; font-size: 7px; fill: #333; }
+      .cc-ver  { font-family: Arial, Helvetica, sans-serif; font-size: 6px; fill: #555; }
+    </style>
+  </defs>
+
+  <!-- Card outline -->
+  <rect x="0.25" y="0.25" width="119.5" height="41.5" rx="3" class="cc-bg"/>
+
+  <!-- ── CC circle ── -->
+  <circle cx="14" cy="21" r="11" fill="#edac1a"/>
+  <text x="14" y="25.5" text-anchor="middle" font-family="Arial Black,Arial,sans-serif" font-weight="900" font-size="13" fill="#fff">cc</text>
+
+  <!-- ── BY circle ── -->
+  <circle cx="38" cy="21" r="9" fill="#4c80b4"/>
+  <!-- person icon -->
+  <circle cx="38" cy="16.5" r="2.5" fill="#fff"/>
+  <path d="M32.5 27 Q38 22 43.5 27" fill="#fff" stroke="none"/>
+
+  <!-- ── NC circle ── -->
+  <circle cx="60" cy="21" r="9" fill="#4c80b4"/>
+  <!-- dollar with strike -->
+  <text x="60" y="25" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="700" fill="#fff">$</text>
+  <line x1="54" y1="15" x2="66" y2="27" stroke="#fff" stroke-width="1.8" stroke-linecap="round"/>
+
+  <!-- ── ND circle ── -->
+  <circle cx="82" cy="21" r="9" fill="#4c80b4"/>
+  <!-- = (equals) icon for No Derivatives -->
+  <rect x="75.5" y="18.5" width="13" height="2.5" rx="1" fill="#fff"/>
+  <rect x="75.5" y="23"   width="13" height="2.5" rx="1" fill="#fff"/>
+
+  <!-- Labels -->
+  <text x="60" y="37" text-anchor="middle" class="cc-lbl">BY&nbsp;&nbsp;NC&nbsp;&nbsp;ND</text>
+  <text x="107" y="15" text-anchor="middle" class="cc-ver" font-size="8">4.0</text>
+
+  <!-- "CC" label small -->
+  <text x="14" y="36" text-anchor="middle" class="cc-ver">CC</text>
+
+  <!-- Separator line -->
+  <line x1="96" y1="4" x2="96" y2="38" stroke="#ccc" stroke-width="0.5"/>
+
+  <!-- Right side: licence name -->
+  <text x="107" y="22" text-anchor="middle" font-family="Arial,sans-serif" font-size="6.5" fill="#555" font-weight="600">BY-NC-ND</text>
+  <text x="107" y="30" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#777">Licence</text>
+</svg>

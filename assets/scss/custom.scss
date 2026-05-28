@@ -98,3 +98,18 @@ body.dark .footer-logo {
   text-underline-offset: 2px;
 }
 
+/* CC badge sits inline, vertically centred with the surrounding text */
+.cc-badge {
+  height: 20px;
+  width: auto;
+  vertical-align: middle;
+  margin: 0 3px 2px 0;
+  border-radius: 3px;
+}
+
+/* Rosenstiel SVG text logo: invert colours in dark mode so the
+   navy/green text stays readable against the dark footer background */
+body.dark .footer-logo--rosenstiel {
+  filter: brightness(0) invert(1) opacity(0.75);
+}
+

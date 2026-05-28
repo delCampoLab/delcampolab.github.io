@@ -11,9 +11,9 @@
       </a>
       <a href="https://www.earth.miami.edu/" target="_blank" rel="noopener"
          title="Rosenstiel School of Marine, Atmospheric, and Earth Science, University of Miami">
-        <img src="https://www.earth.miami.edu/_assets/images/system-images/logo-rsmas_553x77.svg"
+        <img src="/media/rosenstiel-logo.svg"
              alt="Rosenstiel School of Marine, Atmospheric, and Earth Science – University of Miami"
-             class="footer-logo">
+             class="footer-logo footer-logo--rosenstiel">
       </a>
     </div>
 
@@ -25,11 +25,12 @@
         {{- $parts := slice "by" -}}
         {{- if not .Site.Params.footer.copyright.license.allow_commercial -}}{{- $parts = $parts | append "nc" -}}{{- end -}}
         {{- if not .Site.Params.footer.copyright.license.allow_derivatives -}}{{- $parts = $parts | append "nd" -}}{{- else if .Site.Params.footer.copyright.license.share_alike -}}{{- $parts = $parts | append "sa" -}}{{- end -}}
-        {{- $slug     := delimit $parts "-" -}}
-        {{- $lname    := upper $slug | replace "-" " " -}}
-        {{- $url      := printf "https://creativecommons.org/licenses/%s/4.0/" $slug -}}
-        {{- $link     := printf "<a href=\"%s\" target=\"_blank\" rel=\"noopener\">CC %s 4.0</a>" $url $lname -}}
-        {{- $notice    = replace $notice "{license}" $link -}}
+        {{- $slug  := delimit $parts "-" -}}
+        {{- $lname := upper $slug | replace "-" " " -}}
+        {{- $url   := printf "https://creativecommons.org/licenses/%s/4.0/" $slug -}}
+        {{- $badge := "<img src=\"/media/cc-by-nc-nd.svg\" alt=\"CC BY-NC-ND 4.0\" class=\"cc-badge\">" -}}
+        {{- $link  := printf "<a href=\"%s\" target=\"_blank\" rel=\"noopener license\">%s CC %s 4.0</a>" $url $badge $lname -}}
+        {{- $notice = replace $notice "{license}" $link -}}
       {{- end -}}
       <p>{{ $notice | safeHTML }}</p>
       <p>Published with <a href="https://hugoblox.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Hugo Blox Builder</a> — the free, <a href="https://github.com/HugoBlox/hugo-blox-builder" target="_blank" rel="noopener">open source</a> website builder that empowers creators.</p>
