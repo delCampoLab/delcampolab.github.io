@@ -77,6 +77,49 @@ sections:
 
   - block: markdown
     content:
+      title: Networks & Expeditions
+      subtitle:
+      text: |
+        <p style="text-align:center; max-width:660px; margin:0 auto 32px; font-size:0.95rem; line-height:1.7; opacity:0.72;">The del Campo Lab is an active participant in international research consortia and scientific expeditions, joining forces with partners across Europe and beyond to study marine microbial diversity, protist evolution, and coral reef resilience.</p>
+        <div style="display:flex; gap:20px; justify-content:center; flex-wrap:wrap; align-items:stretch;">
+
+          <a href="https://demon-protists.eu/" target="_blank" rel="noopener"
+             style="flex:1; min-width:190px; max-width:260px; border-radius:14px; padding:28px 20px; text-align:center; box-shadow:0 2px 12px rgba(0,0,0,0.10); background:var(--lab-card-bg); text-decoration:none; color:inherit; display:flex; flex-direction:column; align-items:center; gap:14px;"
+             onmouseover="this.style.boxShadow='0 6px 24px rgba(0,0,0,0.17)';this.style.transform='translateY(-2px)'"
+             onmouseout="this.style.boxShadow='0 2px 12px rgba(0,0,0,0.10)';this.style.transform='translateY(0)'">
+            <img src="https://demon-protists.eu/wp-content/uploads/2023/05/Logo_DEMON_11_color.png"
+                 alt="DEMON consortium" style="max-height:60px; max-width:100%; object-fit:contain;">
+            <p style="margin:0; font-size:0.80rem; line-height:1.55; opacity:0.65;">European research consortium uncovering protist diversity across marine, freshwater, and terrestrial environments using metabarcoding and omics.</p>
+          </a>
+
+          <a href="https://medrecover.org/" target="_blank" rel="noopener"
+             style="flex:1; min-width:190px; max-width:260px; border-radius:14px; padding:28px 20px; text-align:center; box-shadow:0 2px 12px rgba(0,0,0,0.10); background:var(--lab-card-bg); text-decoration:none; color:inherit; display:flex; flex-direction:column; align-items:center; gap:14px;"
+             onmouseover="this.style.boxShadow='0 6px 24px rgba(0,0,0,0.17)';this.style.transform='translateY(-2px)'"
+             onmouseout="this.style.boxShadow='0 2px 12px rgba(0,0,0,0.10)';this.style.transform='translateY(0)'">
+            <img src="/media/medrecover-logo.png" alt="MedRecover"
+                 onerror="this.style.display='none';this.nextElementSibling.style.display='block'"
+                 style="max-height:60px; max-width:100%; object-fit:contain;">
+            <div style="display:none; font-size:1.5rem; font-weight:800; letter-spacing:-0.02em;">MedRecover</div>
+            <p style="margin:0; font-size:0.80rem; line-height:1.55; opacity:0.65;">Research initiative on the recovery and resilience of Mediterranean marine ecosystems under the pressure of climate change and tropicalization.</p>
+          </a>
+
+          <a href="https://fondationtaraocean.org/en/expedition/tara-coral/" target="_blank" rel="noopener"
+             style="flex:1; min-width:190px; max-width:260px; border-radius:14px; padding:28px 20px; text-align:center; box-shadow:0 2px 12px rgba(0,0,0,0.10); background:var(--lab-card-bg); text-decoration:none; color:inherit; display:flex; flex-direction:column; align-items:center; gap:14px;"
+             onmouseover="this.style.boxShadow='0 6px 24px rgba(0,0,0,0.17)';this.style.transform='translateY(-2px)'"
+             onmouseout="this.style.boxShadow='0 2px 12px rgba(0,0,0,0.10)';this.style.transform='translateY(0)'">
+            <img src="https://fondationtaraocean.org/wp-content/uploads/2025/12/Tara-Coral-FTO-2025--300x208.png"
+                 alt="Tara Coral expedition" style="max-height:60px; max-width:100%; object-fit:contain;">
+            <p style="margin:0; font-size:0.80rem; line-height:1.55; opacity:0.65;">18-month expedition (2026–2028) through the Coral Triangle aboard the schooner <em>Tara</em>, studying why certain corals withstand global warming.</p>
+          </a>
+
+        </div>
+    design:
+      columns: '1'
+      spacing:
+        padding: ['30px', '0', '20px', '0']
+
+  - block: markdown
+    content:
       title:
       subtitle:
       text: |
