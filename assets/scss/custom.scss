@@ -81,7 +81,22 @@ body.dark .footer-logo {
   filter: brightness(1.6);
 }
 
-/* Rosenstiel PNG logo: invert colours in dark mode so it stays
+/* ── News & Events: force 2×2 card grid ─────────────────────────────────── */
+
+#news-events .row > * {
+  flex: 0 0 auto;
+  width: 50%;
+  max-width: 50%;
+}
+
+@media (max-width: 576px) {
+  #news-events .row > * {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+/* ── Rosenstiel PNG logo: invert colours in dark mode so it stays
    readable against the dark footer background */
 body.dark .footer-logo--rosenstiel {
   filter: brightness(0) invert(1) opacity(0.75);

@@ -78,6 +78,7 @@ sections:
 
   - block: collection
     content:
+      id: news-events
       title: News & Events
       subtitle:
       text:
@@ -90,7 +91,7 @@ sections:
       order: desc
     design:
       view: card
-      columns: '2'
+      columns: '1'
       spacing:
         padding: ['30px', '0', '30px', '0']
 
