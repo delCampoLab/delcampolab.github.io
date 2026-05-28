@@ -147,6 +147,26 @@ sections:
       spacing:
         padding: ['10px', '0', '20px', '0']
 
+  - block: markdown
+    content:
+      title: Institutional Affiliations
+      subtitle:
+      text: |
+        <div style="display: flex; flex-wrap: wrap; gap: 32px; justify-content: center; align-items: flex-start; margin-top: 12px;">
+          <a href="https://www.ibe.upf-csic.es/" target="_blank" rel="noopener" style="display: flex; flex-direction: column; align-items: center; text-decoration: none; color: inherit; max-width: 260px; text-align: center;">
+            <img src="https://www.ibe.upf-csic.es/documents/3816330/3814295/logo_ibe.png/95d5f526-a601-cb41-bc8f-ae310532bce9?t=1570632012168" alt="Institut de Biologia Evolutiva (IBE)" style="max-height: 56px; max-width: 220px; object-fit: contain; margin-bottom: 10px;">
+            <span style="font-size: 0.82rem; opacity: 0.65; line-height: 1.4;">Home institution — Institut de Biologia Evolutiva (CSIC – UPF), Barcelona</span>
+          </a>
+          <a href="https://www.earth.miami.edu/" target="_blank" rel="noopener" style="display: flex; flex-direction: column; align-items: center; text-decoration: none; color: inherit; max-width: 260px; text-align: center;">
+            <img src="https://www.earth.miami.edu/_assets/images/system-images/logo-rsmas_553x77.svg" alt="Rosenstiel School of Marine, Atmospheric, and Earth Science, University of Miami" style="max-height: 56px; max-width: 220px; object-fit: contain; margin-bottom: 10px;">
+            <span style="font-size: 0.82rem; opacity: 0.65; line-height: 1.4;">Adjunct affiliation — Rosenstiel School of Marine, Atmospheric, and Earth Science, University of Miami</span>
+          </a>
+        </div>
+    design:
+      columns: '1'
+      spacing:
+        padding: ['20px', '0', '30px', '0']
+
   - block: collection
     content:
       title: News & Events
