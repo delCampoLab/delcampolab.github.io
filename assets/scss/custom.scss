@@ -112,3 +112,16 @@ body.dark .page-footer .powered-by {
   color: #999;
 }
 
+/* ── 2×2 grid for News & Events section ─────────────────────────────────────
+   The JS in site_footer.html sets id="lab-news-section" on the section at
+   DOMContentLoaded. The :has() selector targets only rows that don't contain
+   a heading element (card-grid rows), making their children 50% wide.
+   Supported in Chrome 105+, Firefox 121+, Safari 15.4+.
+   ──────────────────────────────────────────────────────────────────────────── */
+#lab-news-section .row:not(:has(h1, h2, h3)) > * {
+  flex: 0 0 50% !important;
+  max-width: 50% !important;
+  width: 50% !important;
+  box-sizing: border-box !important;
+}
+

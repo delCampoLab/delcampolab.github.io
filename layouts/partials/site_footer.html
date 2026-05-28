@@ -1,39 +1,82 @@
 <script>
 document.addEventListener('DOMContentLoaded', function () {
-  document.querySelectorAll('.home-section').forEach(function (section) {
-    var heading = section.querySelector('h1, h2');
-    if (!heading || heading.textContent.indexOf('News') === -1) return;
+  /* ── Step 1: Find the News & Events section and tag it ─────────────────── */
+  var newsSection = null;
+  document.querySelectorAll('.home-section').forEach(function (s) {
+    if (newsSection) return;
+    var h = s.querySelector('h1, h2, h3');
+    if (h && /news/i.test(h.textContent)) newsSection = s;
+  });
+  if (!newsSection) return;
+  newsSection.id = 'lab-news-section';
 
-    // Step 1: Collapse the sidebar — force every direct col inside the
-    // top-level container row to full width so there is no left/right split.
-    var topRow = section.querySelector('.container > .row');
-    if (topRow) {
-      Array.from(topRow.children).forEach(function (col) {
-        col.style.cssText += ';flex:0 0 100%!important;max-width:100%!important;width:100%!important;padding-left:0!important;padding-right:0!important';
+  /* ── Step 2: Inject a <style> block so the selector is always evaluated ── */
+  /* :has() is supported in Chrome 105+, Firefox 121+, Safari 15.4+          */
+  var styleEl = document.createElement('style');
+  styleEl.textContent =
+    /* Rows that don't contain a heading → these are the card-grid rows */
+    '#lab-news-section .row:not(:has(h1,h2,h3)) > * {' +
+    '  flex: 0 0 50% !important;' +
+    '  max-width: 50% !important;' +
+    '  width: 50% !important;' +
+    '  box-sizing: border-box !important;' +
+    '}';
+  document.head.appendChild(styleEl);
+
+  /* ── Step 3: JS fallback — walk every .row not containing the heading ─── */
+  var heading = newsSection.querySelector('h1, h2, h3');
+  var styledRows = 0;
+  newsSection.querySelectorAll('.row').forEach(function (row) {
+    if (heading && row.contains(heading)) return; // skip layout/heading rows
+    Array.from(row.children).forEach(function (child) {
+      child.style.setProperty('flex',       '0 0 50%',     'important');
+      child.style.setProperty('max-width',  '50%',         'important');
+      child.style.setProperty('width',      '50%',         'important');
+      child.style.setProperty('box-sizing', 'border-box',  'important');
+    });
+    styledRows++;
+  });
+
+  /* ── Step 4: Last-resort fallback — find container with repeating siblings */
+  /* With columns:'1', heading & cards share the same .col-12, so we cannot
+     skip containers that contain the heading. Instead, filter heading
+     children out when counting, but keep them full-width when styling.    */
+  if (styledRows === 0) {
+    var best = null, bestScore = 0;
+    newsSection.querySelectorAll('div, ul').forEach(function (container) {
+      var kids = Array.from(container.children);
+      if (kids.length < 2 || kids.length > 12) return;
+      /* Count only non-heading children */
+      var cardKids = kids.filter(function (k) {
+        return !/^H[123]$/.test(k.tagName) && !k.querySelector('h1,h2,h3');
+      });
+      if (cardKids.length < 2) return;
+      /* Score by how many card children share the same tag */
+      var tagCounts = {};
+      cardKids.forEach(function (k) { tagCounts[k.tagName] = (tagCounts[k.tagName] || 0) + 1; });
+      var maxSame = Math.max.apply(null, Object.values(tagCounts));
+      if (maxSame >= 2 && maxSame > bestScore) { bestScore = maxSame; best = container; }
+    });
+    if (best) {
+      best.style.setProperty('display',   'flex',  'important');
+      best.style.setProperty('flex-wrap', 'wrap',  'important');
+      Array.from(best.children).forEach(function (child) {
+        /* Keep heading children full-width; make card children 50% */
+        var isHeading = /^H[123]$/.test(child.tagName) || child.querySelector('h1,h2,h3');
+        if (isHeading) {
+          child.style.setProperty('flex',      '0 0 100%', 'important');
+          child.style.setProperty('max-width', '100%',     'important');
+          child.style.setProperty('width',     '100%',     'important');
+        } else {
+          child.style.setProperty('flex',       '0 0 50%',    'important');
+          child.style.setProperty('max-width',  '50%',        'important');
+          child.style.setProperty('width',      '50%',        'important');
+          child.style.setProperty('box-sizing', 'border-box', 'important');
+          child.style.setProperty('padding',    '8px',        'important');
+        }
       });
     }
-
-    // Step 2: Find where the actual cards/articles live and convert that
-    // container into a 2-column flex grid.
-    var items = Array.from(section.querySelectorAll('article, .card'));
-    if (!items.length) return;
-
-    // Walk up from the first item to find a common wrapping container.
-    // If each item is inside a col div, target the row above it.
-    var firstItem  = items[0];
-    var firstCol   = firstItem.closest('[class*="col-"]');
-    var gridParent = firstCol ? firstCol.parentElement : firstItem.parentElement;
-
-    gridParent.style.cssText +=
-      ';display:flex!important;flex-wrap:wrap!important;padding:0 12px!important';
-
-    items.forEach(function (item) {
-      var col = item.closest('[class*="col-"]');
-      var target = (col && col !== gridParent) ? col : item;
-      target.style.cssText +=
-        ';flex:0 0 50%!important;max-width:50%!important;width:50%!important;box-sizing:border-box!important';
-    });
-  });
+  }
 });
 </script>
 
