@@ -11,29 +11,28 @@
     if (!newsSection) return;
     newsSection.id = 'lab-news-section';
 
-    /* ── Step 2: Inject CSS ─────────────────────────────────────────────── */
-    /* gap:16px + padding:4px → 4+16+4 = 24 px visual gap in every direction */
+    /* ── Step 2: Inject CSS ──────────────────────────────────────────────── */
+    /* gap:16px + padding:8px → 8+16+8 = 32 px between card edges all around */
     var styleEl = document.createElement('style');
     styleEl.textContent =
-      '#lab-news-section .row:not(:has(h1,h2,h3)) {' +
+      '#lab-news-section .lab-news-grid {' +
       '  display: grid !important;' +
       '  grid-template-columns: 1fr 1fr !important;' +
       '  gap: 16px !important;' +
       '  margin-left: 0 !important;' +
       '  margin-right: 0 !important;' +
       '}' +
-      /* Each cell: equal 4px padding on all sides, flex-col so card fills it */
-      '#lab-news-section .row:not(:has(h1,h2,h3)) > * {' +
+      '#lab-news-section .lab-news-grid > * {' +
       '  flex: none !important;' +
       '  max-width: 100% !important;' +
       '  width: auto !important;' +
-      '  padding: 4px !important;' +
+      '  padding: 8px !important;' +
       '  box-sizing: border-box !important;' +
       '  display: flex !important;' +
       '  flex-direction: column !important;' +
+      '  overflow: hidden !important;' +
       '}' +
-      /* Card inside cell: fills height, no extra margin that skews v-spacing */
-      '#lab-news-section .row:not(:has(h1,h2,h3)) > * > * {' +
+      '#lab-news-section .lab-news-grid > * > * {' +
       '  flex: 1 1 auto !important;' +
       '  min-height: 0 !important;' +
       '  margin-bottom: 0 !important;' +
@@ -41,11 +40,12 @@
       '}';
     document.head.appendChild(styleEl);
 
-    /* ── Step 3: JS fallback — convert card rows to CSS Grid ─────────────── */
+    /* ── Step 3: Apply grid to card rows (mark with .lab-news-grid) ─────── */
     var heading  = newsSection.querySelector('h1, h2, h3');
-    var cardRows = [];
+    var found    = false;
     newsSection.querySelectorAll('.row').forEach(function (row) {
       if (heading && row.contains(heading)) return;
+      row.classList.add('lab-news-grid');
       row.style.setProperty('display',               'grid',    'important');
       row.style.setProperty('grid-template-columns', '1fr 1fr', 'important');
       row.style.setProperty('gap',                   '16px',    'important');
@@ -55,11 +55,11 @@
         child.style.setProperty('flex',           'none',       'important');
         child.style.setProperty('max-width',      '100%',       'important');
         child.style.setProperty('width',          'auto',       'important');
-        child.style.setProperty('padding',        '4px',        'important');
+        child.style.setProperty('padding',        '8px',        'important');
         child.style.setProperty('box-sizing',     'border-box', 'important');
         child.style.setProperty('display',        'flex',       'important');
         child.style.setProperty('flex-direction', 'column',     'important');
-        /* Make the card inside fill the cell so there's no gap at the bottom */
+        child.style.setProperty('overflow',       'hidden',     'important');
         Array.from(child.children).forEach(function (card) {
           card.style.setProperty('flex',          '1 1 auto', 'important');
           card.style.setProperty('min-height',    '0',        'important');
@@ -67,11 +67,11 @@
           card.style.setProperty('margin-top',    '0',        'important');
         });
       });
-      cardRows.push(row);
+      found = true;
     });
 
     /* ── Step 4: Last-resort — container with repeating card siblings ─────── */
-    if (cardRows.length === 0) {
+    if (!found) {
       var best = null, bestScore = 0;
       newsSection.querySelectorAll('div, ul').forEach(function (container) {
         var kids = Array.from(container.children);
@@ -86,6 +86,7 @@
         if (maxSame >= 2 && maxSame > bestScore) { bestScore = maxSame; best = container; }
       });
       if (best) {
+        best.classList.add('lab-news-grid');
         best.style.setProperty('display',               'grid',    'important');
         best.style.setProperty('grid-template-columns', '1fr 1fr', 'important');
         best.style.setProperty('gap',                   '16px',    'important');
@@ -93,9 +94,10 @@
           if (/^H[123]$/.test(child.tagName) || child.querySelector('h1,h2,h3')) {
             child.style.setProperty('grid-column', '1 / -1', 'important');
           } else {
-            child.style.setProperty('padding',        '4px',        'important');
+            child.style.setProperty('padding',        '8px',        'important');
             child.style.setProperty('display',        'flex',       'important');
             child.style.setProperty('flex-direction', 'column',     'important');
+            child.style.setProperty('overflow',       'hidden',     'important');
             Array.from(child.children).forEach(function (card) {
               card.style.setProperty('flex',          '1 1 auto', 'important');
               card.style.setProperty('margin-bottom', '0',        'important');
@@ -103,45 +105,45 @@
             });
           }
         });
-        cardRows = [best]; /* reuse equaliser below */
       }
     }
-
-    /* ── Equalise heights after all resources are loaded (images matter!) ── */
-    if (cardRows.length > 0) {
-      equaliseHeights(cardRows, newsSection, heading);
-    }
+    /* ⚠ Do NOT call equaliseHeights() here — images aren't loaded yet.
+       The window 'load' event handles height equalisation correctly.     */
   }
 
-  function equaliseHeights(cardRows, newsSection, heading) {
-    var allCols = [];
-    cardRows.forEach(function (row) {
-      allCols = allCols.concat(Array.from(row.children));
-    });
-    var maxH = 0;
-    allCols.forEach(function (col) {
-      maxH = Math.max(maxH, col.getBoundingClientRect().height);
-    });
-    if (maxH > 0) {
-      cardRows.forEach(function (row) {
-        row.style.setProperty('grid-auto-rows', maxH + 'px', 'important');
-      });
-    }
-  }
-
-  /* Run setup at DOMContentLoaded, then re-equalise once everything loads  */
-  document.addEventListener('DOMContentLoaded', setup);
+  /* ── Height equalisation — runs only after ALL resources (images) load ── */
+  /* Key: reset grid-auto-rows first → wait two frames for reflow →          */
+  /*      measure NATURAL heights → apply equal grid-auto-rows.              */
   window.addEventListener('load', function () {
-    var cardRows = [];
     var newsSection = document.getElementById('lab-news-section');
     if (!newsSection) return;
-    var heading = newsSection.querySelector('h1, h2, h3');
-    newsSection.querySelectorAll('.row').forEach(function (row) {
-      if (heading && row.contains(heading)) return;
-      if (row.style.display === 'grid') cardRows.push(row);
+    var cardRows = Array.from(newsSection.querySelectorAll('.lab-news-grid'));
+    if (cardRows.length === 0) return;
+
+    /* 1. Remove any previously set grid-auto-rows so cells return to auto  */
+    cardRows.forEach(function (row) { row.style.removeProperty('grid-auto-rows'); });
+
+    /* 2. Two rAFs: first lets the browser mark layout dirty, second reflows */
+    requestAnimationFrame(function () {
+      requestAnimationFrame(function () {
+        /* 3. Measure natural cell heights (images now loaded & reflowed)    */
+        var maxH = 0;
+        cardRows.forEach(function (row) {
+          Array.from(row.children).forEach(function (col) {
+            maxH = Math.max(maxH, col.getBoundingClientRect().height);
+          });
+        });
+        /* 4. Lock all rows to the tallest natural height                    */
+        if (maxH > 0) {
+          cardRows.forEach(function (row) {
+            row.style.setProperty('grid-auto-rows', maxH + 'px', 'important');
+          });
+        }
+      });
     });
-    if (cardRows.length > 0) equaliseHeights(cardRows, newsSection, heading);
   });
+
+  document.addEventListener('DOMContentLoaded', setup);
 }());
 </script>
 
