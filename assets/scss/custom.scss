@@ -81,9 +81,28 @@ body.dark .footer-logo {
   filter: brightness(1.6);
 }
 
-/* Rosenstiel SVG text logo: invert colours in dark mode so the
-   navy/green text stays readable against the dark footer background */
+/* Rosenstiel PNG logo: invert colours in dark mode so it stays
+   readable against the dark footer background */
 body.dark .footer-logo--rosenstiel {
   filter: brightness(0) invert(1) opacity(0.75);
+}
+
+/* ── Footer text & spacing tweaks ───────────────────────────────────────── */
+
+/* Collapse whitespace between the logo strip and the copyright lines */
+.footer-affiliations {
+  padding-bottom: 8px;
+  margin-bottom: 6px;
+}
+
+/* Collapse the gap between the two powered-by lines to a single line break */
+.page-footer .powered-by {
+  margin: 0;
+  line-height: 1.6;
+  color: #888;
+}
+
+body.dark .page-footer .powered-by {
+  color: #999;
 }
 
