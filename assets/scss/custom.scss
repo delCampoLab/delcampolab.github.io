@@ -89,10 +89,15 @@ body.dark .footer-logo--rosenstiel {
 
 /* ── Footer text & spacing tweaks ───────────────────────────────────────── */
 
-/* Collapse whitespace between the logo strip and the copyright lines */
+/* Pull the footer up closer to the page content above it */
+.page-footer {
+  padding-top: 8px;
+}
+
+/* Restore a little breathing room between logos and copyright text */
 .footer-affiliations {
-  padding-bottom: 8px;
-  margin-bottom: 6px;
+  padding-bottom: 12px;
+  margin-bottom: 8px;
 }
 
 /* Collapse the gap between the two powered-by lines to a single line break */
