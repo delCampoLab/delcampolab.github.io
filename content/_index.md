@@ -75,33 +75,6 @@ sections:
       spacing:
         padding: ['30px', '0', '10px', '0']
 
-  - block: markdown
-    content:
-      title:
-      subtitle:
-      text: |
-        <div style="display: flex; justify-content: space-around; flex-wrap: wrap; gap: 16px; padding: 16px 0; text-align: center;">
-          <div>
-            <div style="font-size: 2.2rem; font-weight: 700; line-height: 1;">7</div>
-            <div style="font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.08em; opacity: 0.6; margin-top: 4px;">Team Members</div>
-          </div>
-          <div>
-            <div style="font-size: 2.2rem; font-weight: 700; line-height: 1;">80+</div>
-            <div style="font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.08em; opacity: 0.6; margin-top: 4px;">Publications</div>
-          </div>
-          <div>
-            <div style="font-size: 2.2rem; font-weight: 700; line-height: 1;">20+</div>
-            <div style="font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.08em; opacity: 0.6; margin-top: 4px;">Lab Alumni</div>
-          </div>
-          <div>
-            <div style="font-size: 2.2rem; font-weight: 700; line-height: 1;">Est. 2019</div>
-            <div style="font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.08em; opacity: 0.6; margin-top: 4px;">Founded</div>
-          </div>
-        </div>
-    design:
-      columns: '1'
-      spacing:
-        padding: ['10px', '0', '20px', '0']
 
   - block: collection
     content:
@@ -161,7 +134,7 @@ sections:
           </a>
           <a href="https://pr2-database.org/" target="_blank" rel="noopener" style="border-radius: 12px; padding: 22px 18px; text-align: center; box-shadow: 0 2px 12px rgba(0,0,0,0.10); background: var(--lab-card-bg); text-decoration: none; color: inherit; display: flex; flex-direction: column; align-items: center; transition: box-shadow 0.2s;" onmouseover="this.style.boxShadow='0 4px 20px rgba(0,0,0,0.18)'" onmouseout="this.style.boxShadow='0 2px 12px rgba(0,0,0,0.10)'">
             <div style="height: 64px; display: flex; align-items: center; justify-content: center; width: 100%; margin-bottom: 10px;">
-              <img src="https://pr2-database.org/img/pr2_logo_16_9_big.png" alt="PR2 Database" style="max-height: 64px; max-width: 100%; object-fit: contain;">
+              <img src="/media/pr2-logo.png" alt="PR2 Database" style="max-height: 64px; max-width: 100%; object-fit: contain;">
             </div>
             <h4 style="margin: 0 0 6px; font-size: 1rem;">PR2 Database</h4>
             <p style="margin: 0 0 12px; font-size: 0.85rem; opacity: 0.72; line-height: 1.5; flex-grow: 1;">Reference database of 18S rRNA sequences for protist metabarcoding, including PR2, PR2-primers, and metaPR2. Dr. del Campo is a core contributor.</p>
