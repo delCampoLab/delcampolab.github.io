@@ -111,37 +111,8 @@
        The window 'load' event handles height equalisation correctly.     */
   }
 
-  /* ── Height equalisation — runs only after ALL resources (images) load ── */
-  /* Key: reset grid-auto-rows first → wait two frames for reflow →          */
-  /*      measure NATURAL heights → apply equal grid-auto-rows.              */
-  window.addEventListener('load', function () {
-    var newsSection = document.getElementById('lab-news-section');
-    if (!newsSection) return;
-    var cardRows = Array.from(newsSection.querySelectorAll('.lab-news-grid'));
-    if (cardRows.length === 0) return;
-
-    /* 1. Remove any previously set grid-auto-rows so cells return to auto  */
-    cardRows.forEach(function (row) { row.style.removeProperty('grid-auto-rows'); });
-
-    /* 2. Two rAFs: first lets the browser mark layout dirty, second reflows */
-    requestAnimationFrame(function () {
-      requestAnimationFrame(function () {
-        /* 3. Measure natural cell heights (images now loaded & reflowed)    */
-        var maxH = 0;
-        cardRows.forEach(function (row) {
-          Array.from(row.children).forEach(function (col) {
-            maxH = Math.max(maxH, col.getBoundingClientRect().height);
-          });
-        });
-        /* 4. Lock all rows to the tallest natural height                    */
-        if (maxH > 0) {
-          cardRows.forEach(function (row) {
-            row.style.setProperty('grid-auto-rows', maxH + 'px', 'important');
-          });
-        }
-      });
-    });
-  });
+  /* CSS Grid align-items:stretch (the default) already equalises cell heights
+     within each row — no JS measurement needed.                              */
 
   document.addEventListener('DOMContentLoaded', setup);
 }());

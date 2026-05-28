@@ -116,10 +116,8 @@ body.dark .page-footer .powered-by {
    JS in site_footer.html sets id="lab-news-section" at DOMContentLoaded and
    adds class .lab-news-grid to card rows.
    gap:16px + cell padding:8px → 8+16+8 = 32 px visual gap in every direction.
-   Cells are flex-columns so the card inside fills the full cell height.
-   JS (window.onload) resets grid-auto-rows, waits two rAFs for reflow, then
-   measures natural cell heights (images loaded) and sets grid-auto-rows so
-   all cards are the same size.
+   CSS Grid's default align-items:stretch makes both cells in each row equal
+   height automatically — no JS measurement needed.
    ──────────────────────────────────────────────────────────────────────────── */
 #lab-news-section .lab-news-grid {
   display: grid !important;
