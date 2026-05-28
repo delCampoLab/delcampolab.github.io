@@ -1,3 +1,20 @@
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  document.querySelectorAll('.home-section').forEach(function (section) {
+    var heading = section.querySelector('h1, h2');
+    if (heading && heading.textContent.trim().indexOf('News') !== -1) {
+      section.querySelectorAll('.row').forEach(function (row) {
+        if (row.querySelector('.card, article, .card-simple')) {
+          Array.from(row.children).forEach(function (col) {
+            col.style.cssText += ';flex:0 0 50%!important;max-width:50%!important;width:50%!important';
+          });
+        }
+      });
+    }
+  });
+});
+</script>
+
 <footer class="page-footer">
   <div class="container">
 
