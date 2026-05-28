@@ -68,3 +68,9 @@ If you are interested in joining the lab as a postdoc, please [get in touch](htt
 * _Duration_: 18 months to 3 years.
 * _Eligibility_: Doctoral degree from a Swedish university, completed no more than 2 years before the grant period starts.
 * _Deadline_: February (spring call) or September (fall call).
+
+#### 🇩🇰 Denmark — [Carlsberg Foundation Internationalisation Fellowships](https://www.carlsbergfondet.dk/en/applicant/internationalisation-fellowships/)
+* _Description_: Promotes internationalisation of talented young researchers from Denmark, Greenland, and the Faroe Islands through a postdoctoral stay at one or two leading international research institutions, followed by reintegration into the Danish, Greenlandic, or Faroese research environment. Covers full salary plus DKK 8,000/month in operating expenses.
+* _Duration_: 2–3 years (international stay must comprise at least half the total project period).
+* _Eligibility_: PhD from a Danish, Greenlandic, or Faroese institution, obtained within 3 years of the application deadline; must demonstrate a strong connection to Danish, Greenlandic, or Faroese research; not yet spent 12 or more months at international institutions after the PhD.
+* _Deadline_: April 1 (yearly).
