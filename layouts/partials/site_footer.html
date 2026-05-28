@@ -1,0 +1,39 @@
+<footer class="page-footer">
+  <div class="container">
+
+    {{/* ── Institutional affiliation logos ── */}}
+    <div class="footer-affiliations">
+      <a href="https://www.ibe.upf-csic.es/" target="_blank" rel="noopener"
+         title="Institut de Biologia Evolutiva (CSIC – Universitat Pompeu Fabra)">
+        <img src="https://www.ibe.upf-csic.es/documents/3816330/3814295/logo_ibe.png/95d5f526-a601-cb41-bc8f-ae310532bce9?t=1570632012168"
+             alt="Institut de Biologia Evolutiva (IBE, CSIC–UPF)"
+             class="footer-logo">
+      </a>
+      <a href="https://www.earth.miami.edu/" target="_blank" rel="noopener"
+         title="Rosenstiel School of Marine, Atmospheric, and Earth Science, University of Miami">
+        <img src="https://www.earth.miami.edu/_assets/images/system-images/logo-rsmas_553x77.svg"
+             alt="Rosenstiel School of Marine, Atmospheric, and Earth Science – University of Miami"
+             class="footer-logo">
+      </a>
+    </div>
+
+    {{/* ── Copyright notice ── */}}
+    <div class="footer-copyright">
+      {{- $notice := .Site.Params.footer.copyright.notice | default "" -}}
+      {{- $notice = replace $notice "{year}" (string now.Year) -}}
+      {{- if .Site.Params.footer.copyright.license.enable -}}
+        {{- $parts := slice "by" -}}
+        {{- if not .Site.Params.footer.copyright.license.allow_commercial -}}{{- $parts = $parts | append "nc" -}}{{- end -}}
+        {{- if not .Site.Params.footer.copyright.license.allow_derivatives -}}{{- $parts = $parts | append "nd" -}}{{- else if .Site.Params.footer.copyright.license.share_alike -}}{{- $parts = $parts | append "sa" -}}{{- end -}}
+        {{- $slug     := delimit $parts "-" -}}
+        {{- $lname    := upper $slug | replace "-" " " -}}
+        {{- $url      := printf "https://creativecommons.org/licenses/%s/4.0/" $slug -}}
+        {{- $link     := printf "<a href=\"%s\" target=\"_blank\" rel=\"noopener\">CC %s 4.0</a>" $url $lname -}}
+        {{- $notice    = replace $notice "{license}" $link -}}
+      {{- end -}}
+      <p>{{ $notice | safeHTML }}</p>
+      <p>Published with <a href="https://hugoblox.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Hugo Blox Builder</a> — the free, <a href="https://github.com/HugoBlox/hugo-blox-builder" target="_blank" rel="noopener">open source</a> website builder that empowers creators.</p>
+    </div>
+
+  </div>
+</footer>

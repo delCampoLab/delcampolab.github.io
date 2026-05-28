@@ -44,4 +44,57 @@ body.dark {
   background: var(--lab-item-hover) !important;
 }
 
+/* ── Site footer ────────────────────────────────────────────────────────────
+   Custom footer with institutional affiliation logos above the copyright.
+   Logos are muted by default and brighten on hover. In dark mode the logos
+   get a slight brightness boost so they stay legible on the dark background.
+   ──────────────────────────────────────────────────────────────────────── */
+
+.footer-affiliations {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0 16px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  margin-bottom: 14px;
+}
+
+body.dark .footer-affiliations {
+  border-bottom-color: rgba(255, 255, 255, 0.10);
+}
+
+.footer-logo {
+  max-height: 38px;
+  max-width: 180px;
+  object-fit: contain;
+  opacity: 0.65;
+  transition: opacity 0.2s;
+}
+
+.footer-affiliations a:hover .footer-logo {
+  opacity: 1;
+}
+
+body.dark .footer-logo {
+  filter: brightness(1.6);
+}
+
+.footer-copyright {
+  text-align: center;
+  font-size: 0.78rem;
+  opacity: 0.65;
+  padding-bottom: 16px;
+}
+
+.footer-copyright p {
+  margin: 0 0 4px;
+}
+
+.footer-copyright a {
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
 
