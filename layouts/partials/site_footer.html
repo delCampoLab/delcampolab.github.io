@@ -2,15 +2,37 @@
 document.addEventListener('DOMContentLoaded', function () {
   document.querySelectorAll('.home-section').forEach(function (section) {
     var heading = section.querySelector('h1, h2');
-    if (heading && heading.textContent.trim().indexOf('News') !== -1) {
-      section.querySelectorAll('.row').forEach(function (row) {
-        if (row.querySelector('.card, article, .card-simple')) {
-          Array.from(row.children).forEach(function (col) {
-            col.style.cssText += ';flex:0 0 50%!important;max-width:50%!important;width:50%!important';
-          });
-        }
+    if (!heading || heading.textContent.indexOf('News') === -1) return;
+
+    // Step 1: Collapse the sidebar — force every direct col inside the
+    // top-level container row to full width so there is no left/right split.
+    var topRow = section.querySelector('.container > .row');
+    if (topRow) {
+      Array.from(topRow.children).forEach(function (col) {
+        col.style.cssText += ';flex:0 0 100%!important;max-width:100%!important;width:100%!important;padding-left:0!important;padding-right:0!important';
       });
     }
+
+    // Step 2: Find where the actual cards/articles live and convert that
+    // container into a 2-column flex grid.
+    var items = Array.from(section.querySelectorAll('article, .card'));
+    if (!items.length) return;
+
+    // Walk up from the first item to find a common wrapping container.
+    // If each item is inside a col div, target the row above it.
+    var firstItem  = items[0];
+    var firstCol   = firstItem.closest('[class*="col-"]');
+    var gridParent = firstCol ? firstCol.parentElement : firstItem.parentElement;
+
+    gridParent.style.cssText +=
+      ';display:flex!important;flex-wrap:wrap!important;padding:0 12px!important';
+
+    items.forEach(function (item) {
+      var col = item.closest('[class*="col-"]');
+      var target = (col && col !== gridParent) ? col : item;
+      target.style.cssText +=
+        ';flex:0 0 50%!important;max-width:50%!important;width:50%!important;box-sizing:border-box!important';
+    });
   });
 });
 </script>
