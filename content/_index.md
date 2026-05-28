@@ -98,11 +98,19 @@ sections:
             <span style="font-size: 0.78rem; font-weight: 600; opacity: 0.5;">Visit website →</span>
           </a>
           <a href="https://fondationtaraocean.org/en/expedition/tara-coral/" target="_blank" rel="noopener" style="border-radius: 12px; padding: 22px 18px; text-align: center; box-shadow: 0 2px 12px rgba(0,0,0,0.10); background: var(--lab-card-bg); text-decoration: none; color: inherit; display: flex; flex-direction: column; align-items: center; transition: box-shadow 0.2s;" onmouseover="this.style.boxShadow='0 4px 20px rgba(0,0,0,0.18)'" onmouseout="this.style.boxShadow='0 2px 12px rgba(0,0,0,0.10)'">
-            <div style="height: 64px; display: flex; align-items: center; justify-content: center; width: 100%; margin-bottom: 10px;">
-              <img src="https://fondationtaraocean.org/wp-content/uploads/2025/12/Tara-Coral-FTO-2025--300x208.png" alt="Tara Coral" style="max-height: 64px; max-width: 100%; object-fit: contain;">
+            <div style="height: 80px; display: flex; align-items: center; justify-content: center; width: 100%; margin-bottom: 10px;">
+              <img src="https://fondationtaraocean.org/wp-content/uploads/2025/12/Tara-Coral-FTO-2025--300x208.png" alt="Tara Coral" style="max-height: 80px; max-width: 100%; object-fit: contain;">
             </div>
             <h4 style="margin: 0 0 6px; font-size: 1rem;">Tara Coral</h4>
             <p style="margin: 0 0 12px; font-size: 0.85rem; opacity: 0.72; line-height: 1.5; flex-grow: 1;">18-month expedition (2026–2028) through the Coral Triangle aboard the schooner <em>Tara</em>, studying coral resistance to global warming.</p>
+            <span style="font-size: 0.78rem; font-weight: 600; opacity: 0.5;">Visit website →</span>
+          </a>
+          <a href="https://www.biogenoma.cat/" target="_blank" rel="noopener" style="border-radius: 12px; padding: 22px 18px; text-align: center; box-shadow: 0 2px 12px rgba(0,0,0,0.10); background: var(--lab-card-bg); text-decoration: none; color: inherit; display: flex; flex-direction: column; align-items: center; transition: box-shadow 0.2s;" onmouseover="this.style.boxShadow='0 4px 20px rgba(0,0,0,0.18)'" onmouseout="this.style.boxShadow='0 2px 12px rgba(0,0,0,0.10)'">
+            <div style="height: 64px; display: flex; align-items: center; justify-content: center; width: 100%; margin-bottom: 10px;">
+              <img src="https://www.biogenoma.cat/wp-content/uploads/2021/04/logoverdsenzill2.png" alt="Biogenoma" style="max-height: 64px; max-width: 100%; object-fit: contain;">
+            </div>
+            <h4 style="margin: 0 0 6px; font-size: 1rem;">Biogenoma</h4>
+            <p style="margin: 0 0 12px; font-size: 0.85rem; opacity: 0.72; line-height: 1.5; flex-grow: 1;">Catalan initiative for the Earth BioGenome Project, building a genomic catalog of eukaryotic biodiversity across Catalan-speaking territories.</p>
             <span style="font-size: 0.78rem; font-weight: 600; opacity: 0.5;">Visit website →</span>
           </a>
         </div>
