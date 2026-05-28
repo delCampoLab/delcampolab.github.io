@@ -17,24 +17,23 @@
       </a>
     </div>
 
-    {{/* ── Copyright notice ── */}}
-    <div class="footer-copyright">
-      {{- $notice := .Site.Params.footer.copyright.notice | default "" -}}
-      {{- $notice = replace $notice "{year}" (string now.Year) -}}
-      {{- if .Site.Params.footer.copyright.license.enable -}}
-        {{- $parts := slice "by" -}}
-        {{- if not .Site.Params.footer.copyright.license.allow_commercial -}}{{- $parts = $parts | append "nc" -}}{{- end -}}
-        {{- if not .Site.Params.footer.copyright.license.allow_derivatives -}}{{- $parts = $parts | append "nd" -}}{{- else if .Site.Params.footer.copyright.license.share_alike -}}{{- $parts = $parts | append "sa" -}}{{- end -}}
-        {{- $slug  := delimit $parts "-" -}}
-        {{- $lname := upper $slug | replace "-" " " -}}
-        {{- $url   := printf "https://creativecommons.org/licenses/%s/4.0/" $slug -}}
-        {{- $badge := "<img src=\"/media/cc-by-nc-nd.svg\" alt=\"CC BY-NC-ND 4.0\" class=\"cc-badge\">" -}}
-        {{- $link  := printf "<a href=\"%s\" target=\"_blank\" rel=\"noopener license\">%s CC %s 4.0</a>" $url $badge $lname -}}
-        {{- $notice = replace $notice "{license}" $link -}}
-      {{- end -}}
-      <p>{{ $notice | safeHTML }}</p>
-      <p>Published with <a href="https://hugoblox.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Hugo Blox Builder</a> — the free, <a href="https://github.com/HugoBlox/hugo-blox-builder" target="_blank" rel="noopener">open source</a> website builder that empowers creators.</p>
-    </div>
+    {{/* ── Copyright — rendered exactly as HugoBlox does natively ── */}}
+    {{- $notice := .Site.Params.footer.copyright.notice | default "" -}}
+    {{- $notice = replace $notice "{year}" (string now.Year) -}}
+    {{- if .Site.Params.footer.copyright.license.enable -}}
+      {{- $parts := slice "by" -}}
+      {{- if not .Site.Params.footer.copyright.license.allow_commercial -}}{{- $parts = $parts | append "nc" -}}{{- end -}}
+      {{- if not .Site.Params.footer.copyright.license.allow_derivatives -}}{{- $parts = $parts | append "nd" -}}{{- else if .Site.Params.footer.copyright.license.share_alike -}}{{- $parts = $parts | append "sa" -}}{{- end -}}
+      {{- $slug  := delimit $parts "-" -}}
+      {{- $lname := upper $slug | replace "-" " " -}}
+      {{- $url   := printf "https://creativecommons.org/licenses/%s/4.0/" $slug -}}
+      {{- $link  := printf "<a href=\"%s\" target=\"_blank\" rel=\"noopener license\">CC %s 4.0</a>" $url $lname -}}
+      {{- $notice = replace $notice "{license}" $link -}}
+    {{- end -}}
+    <p class="powered-by">{{ $notice | safeHTML }}</p>
+    <p class="powered-by">
+      Published with <a href="https://hugoblox.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Hugo Blox Builder</a> — the free, <a href="https://github.com/HugoBlox/hugo-blox-builder" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+    </p>
 
   </div>
 </footer>

@@ -81,32 +81,6 @@ body.dark .footer-logo {
   filter: brightness(1.6);
 }
 
-.footer-copyright {
-  text-align: center;
-  font-size: 0.78rem;
-  opacity: 0.65;
-  padding-bottom: 16px;
-}
-
-.footer-copyright p {
-  margin: 0 0 4px;
-}
-
-.footer-copyright a {
-  color: inherit;
-  text-decoration: underline;
-  text-underline-offset: 2px;
-}
-
-/* CC badge sits inline, vertically centred with the surrounding text */
-.cc-badge {
-  height: 20px;
-  width: auto;
-  vertical-align: middle;
-  margin: 0 3px 2px 0;
-  border-radius: 3px;
-}
-
 /* Rosenstiel SVG text logo: invert colours in dark mode so the
    navy/green text stays readable against the dark footer background */
 body.dark .footer-logo--rosenstiel {
