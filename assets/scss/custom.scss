@@ -112,6 +112,20 @@ body.dark .page-footer .powered-by {
   color: #999;
 }
 
+/* ── News & Events card images: fixed height so all rows are the same size ──
+   Cards in the same row are already equal-height via CSS Grid align-items.
+   Pinning image height makes the remaining text+button content the only
+   variable, which in practice is small enough to keep rows visually uniform.
+   ──────────────────────────────────────────────────────────────────────────── */
+#lab-news-section .card-img-top,
+#lab-news-section .article-banner,
+#lab-news-section .article-banner img {
+  height: 180px !important;
+  object-fit: cover !important;
+  object-position: center !important;
+  width: 100% !important;
+}
+
 /* ── 2×2 grid for News & Events section ─────────────────────────────────────
    JS in site_footer.html sets id="lab-news-section" at DOMContentLoaded and
    adds class .lab-news-grid to card rows.

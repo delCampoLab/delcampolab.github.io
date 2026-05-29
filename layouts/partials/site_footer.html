@@ -111,27 +111,8 @@
        The window 'load' event handles height equalisation correctly.     */
   }
 
-  /* CSS Grid align-items:stretch equalises cells within each row.
-     This listener equalises heights ACROSS rows after images load.
-     Safe to measure here: grid-auto-rows is never set before this runs,
-     so getBoundingClientRect gives the true natural cell height.            */
-  window.addEventListener('load', function () {
-    var newsSection = document.getElementById('lab-news-section');
-    if (!newsSection) return;
-    var cardRows = newsSection.querySelectorAll('.lab-news-grid');
-    if (!cardRows.length) return;
-    var maxH = 0;
-    cardRows.forEach(function (row) {
-      Array.from(row.children).forEach(function (cell) {
-        maxH = Math.max(maxH, cell.getBoundingClientRect().height);
-      });
-    });
-    if (maxH > 0) {
-      cardRows.forEach(function (row) {
-        row.style.setProperty('grid-auto-rows', maxH + 'px', 'important');
-      });
-    }
-  });
+  /* CSS Grid align-items:stretch (the default) equalises cell heights
+     within each row automatically — no JS measurement needed.              */
 
   document.addEventListener('DOMContentLoaded', setup);
 }());
