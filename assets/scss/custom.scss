@@ -132,11 +132,16 @@ body.dark .page-footer .powered-by {
   overflow: hidden !important;
 }
 
-/* Card summary: max 3 lines
-   Targets .card-text (HugoBlox class) and direct-child <p> of .card-body.
-   The > combinator stops it reaching <p> tags nested inside metadata divs. */
+/* Card summary: exactly 3 lines
+   line-height is set explicitly so min-height = exactly 3 lines.
+   min-height ensures short summaries still occupy 3 lines of space;
+   -webkit-line-clamp clips long summaries at 3 lines with ellipsis.
+   Only .card-text is targeted (the HugoBlox summary class) — not broad <p>,
+   which avoids accidentally affecting metadata paragraphs. */
 #lab-news-section .lab-news-grid .card-text,
 #lab-news-section .lab-news-grid .card-body > p {
+  line-height: 1.5 !important;
+  min-height: calc(3 * 1.5em) !important;
   display: -webkit-box !important;
   -webkit-line-clamp: 3 !important;
   -webkit-box-orient: vertical !important;
