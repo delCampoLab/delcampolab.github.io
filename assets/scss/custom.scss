@@ -129,9 +129,11 @@ body.dark .page-footer .powered-by {
 /* ── 2×2 grid for News & Events section ─────────────────────────────────────
    JS in site_footer.html sets id="lab-news-section" at DOMContentLoaded and
    adds class .lab-news-grid to card rows.
-   gap:16px + cell padding:8px → 8+16+8 = 32 px visual gap in every direction.
+   gap:16px + cell padding:12px → 12+16+12 = 40 px visual gap between cards;
+   12 px breathing room at outer edges.
    CSS Grid's default align-items:stretch makes both cells in each row equal
    height automatically — no JS measurement needed.
+   overflow:visible on cells lets card drop-shadows show through the gap.
    ──────────────────────────────────────────────────────────────────────────── */
 #lab-news-section .lab-news-grid {
   display: grid !important;
@@ -144,11 +146,11 @@ body.dark .page-footer .powered-by {
   flex: none !important;
   max-width: 100% !important;
   width: auto !important;
-  padding: 8px !important;          /* equal on all sides → equal visual gaps */
+  padding: 12px !important;         /* breathing room on all sides */
   box-sizing: border-box !important;
   display: flex !important;         /* cell is a flex column */
   flex-direction: column !important;
-  overflow: hidden !important;
+  overflow: visible !important;     /* let card shadow show through the gap */
 }
 /* Card inside each cell fills the cell height — no empty space at bottom */
 #lab-news-section .lab-news-grid > * > * {

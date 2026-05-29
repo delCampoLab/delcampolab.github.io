@@ -12,7 +12,8 @@
     newsSection.id = 'lab-news-section';
 
     /* ── Step 2: Inject CSS ──────────────────────────────────────────────── */
-    /* gap:16px + padding:8px → 8+16+8 = 32 px between card edges all around */
+    /* gap:16px + padding:12px → breathing room at all edges; overflow:visible
+       so card drop-shadows are not clipped by the cell boundary.            */
     var styleEl = document.createElement('style');
     styleEl.textContent =
       '#lab-news-section .lab-news-grid {' +
@@ -26,11 +27,11 @@
       '  flex: none !important;' +
       '  max-width: 100% !important;' +
       '  width: auto !important;' +
-      '  padding: 8px !important;' +
+      '  padding: 12px !important;' +
       '  box-sizing: border-box !important;' +
       '  display: flex !important;' +
       '  flex-direction: column !important;' +
-      '  overflow: hidden !important;' +
+      '  overflow: visible !important;' +
       '}' +
       '#lab-news-section .lab-news-grid > * > * {' +
       '  flex: 1 1 auto !important;' +
@@ -55,11 +56,11 @@
         child.style.setProperty('flex',           'none',       'important');
         child.style.setProperty('max-width',      '100%',       'important');
         child.style.setProperty('width',          'auto',       'important');
-        child.style.setProperty('padding',        '8px',        'important');
+        child.style.setProperty('padding',        '12px',       'important');
         child.style.setProperty('box-sizing',     'border-box', 'important');
         child.style.setProperty('display',        'flex',       'important');
         child.style.setProperty('flex-direction', 'column',     'important');
-        child.style.setProperty('overflow',       'hidden',     'important');
+        child.style.setProperty('overflow',       'visible',    'important');
         Array.from(child.children).forEach(function (card) {
           card.style.setProperty('flex',          '1 1 auto', 'important');
           card.style.setProperty('min-height',    '0',        'important');
@@ -94,10 +95,10 @@
           if (/^H[123]$/.test(child.tagName) || child.querySelector('h1,h2,h3')) {
             child.style.setProperty('grid-column', '1 / -1', 'important');
           } else {
-            child.style.setProperty('padding',        '8px',        'important');
+            child.style.setProperty('padding',        '12px',       'important');
             child.style.setProperty('display',        'flex',       'important');
             child.style.setProperty('flex-direction', 'column',     'important');
-            child.style.setProperty('overflow',       'hidden',     'important');
+            child.style.setProperty('overflow',       'visible',    'important');
             Array.from(child.children).forEach(function (card) {
               card.style.setProperty('flex',          '1 1 auto', 'important');
               card.style.setProperty('margin-bottom', '0',        'important');
