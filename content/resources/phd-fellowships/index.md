@@ -38,3 +38,17 @@ If you are interested in pursuing a PhD with us, please [get in touch](https://d
 * _Duration_: 3 years.
 * _Eligibility_: Candidates must be in the first four years of their research career and must not have previously been awarded a PhD. Must have resided in Spain/Portugal for more than twelve months in the three years prior to the call deadline.
 * _Deadline_: Spring.
+
+### Country-Specific Fellowships
+
+#### 🇧🇷 Brazil — [CAPES Sandwich Doctorate Abroad (PDSE)](https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/bolsas/bolsas-e-auxilios-internacionais/encontre-aqui/paises/multinacional/programa-de-doutorado-sanduiche-no-exterior-pdse)
+* _Description_: CAPES programme funding short overseas research stays for PhD students enrolled in CAPES-accredited programmes in Brazil. The stay should prioritise research in fields less consolidated in Brazil. Benefits include a monthly stipend, travel and installation allowances, and health insurance.
+* _Duration_: 4 to 9 months.
+* _Eligibility_: Must be enrolled in a CAPES-recognised PhD programme in Brazil; applications are submitted through the home institution; foreign language proficiency required; cannot be combined with another scholarship for the same purpose from a Brazilian funding agency.
+* _Deadline_: Two calls per year (typically August–October and February–March).
+
+#### 🇧🇷 Brazil — [CAPES Full Doctorate Abroad (Doutorado Pleno)](https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/bolsas/bolsas-e-auxilios-internacionais/encontre-aqui/paises/multinacional/doutorado-pleno)
+* _Description_: CAPES programme funding a complete doctoral degree at an international institution of excellence, open to all fields of knowledge. Aims to boost international scientific collaboration and the global visibility of Brazilian research. Benefits include a monthly stipend, installation allowance, and health insurance.
+* _Duration_: Up to 48 months (12-month grants, renewable annually upon satisfactory academic performance).
+* _Eligibility_: Brazilian researchers with high academic performance aiming at internationally recognised institutions; cannot be combined with another scholarship for the same purpose from a Brazilian funding agency. _Note: the last known open call was in 2017/2018; check the CAPES website for current programme status before applying._
+* _Deadline_: Check the CAPES website (programme has been suspended; verify whether new calls have been announced).
