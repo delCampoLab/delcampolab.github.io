@@ -112,6 +112,44 @@ body.dark .page-footer .powered-by {
   color: #999;
 }
 
+/* ── News & Events: consistent card heights via text clamping ────────────────
+   Cards in the same row are already equal-height via CSS Grid align-items.
+   Clamping title and summary to a fixed number of lines makes the remaining
+   height variation small enough that both rows look visually uniform.
+   The card body becomes a flex column so the "Read more" button sits at the
+   bottom regardless of how much text is above it.
+   ──────────────────────────────────────────────────────────────────────────── */
+
+/* Card body as flex column → button pushed to bottom */
+#lab-news-section .card .card-body {
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+/* Clamp title to 2 lines */
+#lab-news-section .card .card-title,
+#lab-news-section .card .article-title {
+  display: -webkit-box !important;
+  -webkit-line-clamp: 2 !important;
+  -webkit-box-orient: vertical !important;
+  overflow: hidden !important;
+}
+
+/* Clamp summary / body text to 3 lines */
+#lab-news-section .card .card-text,
+#lab-news-section .card p {
+  display: -webkit-box !important;
+  -webkit-line-clamp: 3 !important;
+  -webkit-box-orient: vertical !important;
+  overflow: hidden !important;
+}
+
+/* Push any trailing link / button to the card bottom */
+#lab-news-section .card .card-body > a:last-child,
+#lab-news-section .card .card-body > .btn {
+  margin-top: auto !important;
+}
+
 /* ── News & Events card images: fixed height so all rows are the same size ──
    Cards in the same row are already equal-height via CSS Grid align-items.
    Pinning image height makes the remaining text+button content the only
