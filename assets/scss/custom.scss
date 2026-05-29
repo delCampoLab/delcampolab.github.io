@@ -112,35 +112,27 @@ body.dark .page-footer .powered-by {
   color: #999;
 }
 
-/* ── News & Events: enforce uniform card layout ──────────────────────────────
-   Selectors target only the title heading and summary paragraph inside
-   .card-body — NOT the metadata rows (authors, dates, location) which are
-   separate elements. Using height (not min-height) makes the box always
-   exactly N lines tall: long text gets clipped+ellipsis, short text gets a
-   small blank at the bottom — but only in those two contained areas.
-   line-height is set explicitly so the height calculation is exact.
+/* ── News & Events: cap card text to keep cards compact and uniform ──────────
+   No height/min-height — just clamp. With images at 180px and titles capped
+   at 2 lines, cards are naturally very similar in height without any
+   forced-size side effects.
    ──────────────────────────────────────────────────────────────────────────── */
 
-/* Card title: always exactly 2 lines */
+/* Card title: max 2 lines */
 #lab-news-section .lab-news-grid .card-body h3,
 #lab-news-section .lab-news-grid .card-body h4,
 #lab-news-section .lab-news-grid .card-body h5 {
-  line-height: 1.3 !important;
-  height: calc(2 * 1.3em) !important;
   display: -webkit-box !important;
   -webkit-line-clamp: 2 !important;
   -webkit-box-orient: vertical !important;
   overflow: hidden !important;
-  margin-bottom: 0.5rem !important;
 }
 
-/* Card summary: always exactly 3 lines
-   .card-body > p targets only direct-child paragraphs (the summary),
-   not paragraphs nested inside metadata divs. */
+/* Card summary: max 3 lines
+   .card-body > p = direct-child paragraphs only, so metadata divs
+   with nested <p> tags (dates, locations) are not affected. */
 #lab-news-section .lab-news-grid .card-body > p,
 #lab-news-section .lab-news-grid .card-text {
-  line-height: 1.5 !important;
-  height: calc(3 * 1.5em) !important;
   display: -webkit-box !important;
   -webkit-line-clamp: 3 !important;
   -webkit-box-orient: vertical !important;
