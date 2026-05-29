@@ -118,10 +118,14 @@ body.dark .page-footer .powered-by {
    forced-size side effects.
    ──────────────────────────────────────────────────────────────────────────── */
 
-/* Card title: max 2 lines */
+/* Card title: max 2 lines
+   HugoBlox can render the title as h3/h4/h5 OR as a div with class
+   .card-title or .section-subheading — all variants are covered here. */
 #lab-news-section .lab-news-grid .card-body h3,
 #lab-news-section .lab-news-grid .card-body h4,
-#lab-news-section .lab-news-grid .card-body h5 {
+#lab-news-section .lab-news-grid .card-body h5,
+#lab-news-section .lab-news-grid .card-title,
+#lab-news-section .lab-news-grid .section-subheading {
   display: -webkit-box !important;
   -webkit-line-clamp: 2 !important;
   -webkit-box-orient: vertical !important;
@@ -129,10 +133,10 @@ body.dark .page-footer .powered-by {
 }
 
 /* Card summary: max 3 lines
-   .card-body > p = direct-child paragraphs only, so metadata divs
-   with nested <p> tags (dates, locations) are not affected. */
-#lab-news-section .lab-news-grid .card-body > p,
-#lab-news-section .lab-news-grid .card-text {
+   Targets .card-text (HugoBlox class) and direct-child <p> of .card-body.
+   The > combinator stops it reaching <p> tags nested inside metadata divs. */
+#lab-news-section .lab-news-grid .card-text,
+#lab-news-section .lab-news-grid .card-body > p {
   display: -webkit-box !important;
   -webkit-line-clamp: 3 !important;
   -webkit-box-orient: vertical !important;
