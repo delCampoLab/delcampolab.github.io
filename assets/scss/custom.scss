@@ -133,18 +133,16 @@ body.dark .page-footer .powered-by {
 }
 
 /* Card summary: exactly 3 lines
-   display:-webkit-box ignores min-height so we use height instead —
-   this gives a fixed 3-line box: short content leaves a small blank
-   inside the element, long content is clipped at 3 lines with "…".
-   Targeting only .card-text keeps metadata <p> tags unaffected. */
+   Use height (not min-height, not -webkit-box which fights with height).
+   Descendant .card-body p (no >) catches summaries nested one level deep.
+   HugoBlox metadata uses <span>/<div>, not <p>, so this should only
+   hit the summary paragraph in practice. */
 #lab-news-section .lab-news-grid .card-text,
-#lab-news-section .lab-news-grid .card-body > p {
+#lab-news-section .lab-news-grid .card-body p {
   line-height: 1.5 !important;
   height: calc(3 * 1.5em) !important;
-  display: -webkit-box !important;
-  -webkit-line-clamp: 3 !important;
-  -webkit-box-orient: vertical !important;
   overflow: hidden !important;
+  display: block !important;
   margin-bottom: 0 !important;
 }
 
