@@ -108,8 +108,30 @@
         });
       }
     }
-    /* ⚠ Do NOT call equaliseHeights() here — images aren't loaded yet.
-       The window 'load' event handles height equalisation correctly.     */
+    /* ── Step 5: Enforce 3-line summary in each card ────────────────────────
+       Searches ALL <p> elements in each grid cell, skipping those inside
+       metadata/heading/link ancestors. Uses the actual computed line-height
+       in pixels so there's no em-size guessing.                            */
+    newsSection.querySelectorAll('.lab-news-grid').forEach(function (grid) {
+      Array.from(grid.children).forEach(function (cell) {
+        var found = false;
+        Array.from(cell.querySelectorAll('p')).forEach(function (p) {
+          if (found) return;
+          /* Skip paragraphs nested inside metadata containers or headings */
+          if (p.closest('.article-metadata, h1, h2, h3, h4, h5, h6, a')) return;
+          /* Skip very short strings — dates, author names, labels */
+          if (p.textContent.trim().length < 40) return;
+          /* Apply exactly 3 lines using the real computed line-height */
+          var lh = parseFloat(window.getComputedStyle(p).lineHeight);
+          if (lh > 0) {
+            p.style.setProperty('height',   (lh * 3) + 'px', 'important');
+            p.style.setProperty('overflow', 'hidden',         'important');
+            p.style.setProperty('display',  'block',          'important');
+            found = true;
+          }
+        });
+      });
+    });
   }
 
   /* CSS Grid align-items:stretch (the default) equalises cell heights
