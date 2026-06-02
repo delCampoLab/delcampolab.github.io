@@ -109,26 +109,32 @@
       }
     }
     /* ── Step 5: Enforce 3-line summary in each card ────────────────────────
-       Searches ALL <p> elements in each grid cell, skipping those inside
-       metadata/heading/link ancestors. Uses the actual computed line-height
-       in pixels so there's no em-size guessing.                            */
+       Post cards:  summary is a <p> directly in .card-body
+       Event cards: summary is a <p> inside .article-style (outside .card-body)
+       Strategy: try .article-style p first; if not found, fall back to the
+       first substantial <p> not inside a metadata/heading/link ancestor.   */
+    function applyThreeLines(el) {
+      var lh = parseFloat(window.getComputedStyle(el).lineHeight);
+      if (lh > 0) {
+        el.style.setProperty('height',   (lh * 3) + 'px', 'important');
+        el.style.setProperty('overflow', 'hidden',         'important');
+        el.style.setProperty('display',  'block',          'important');
+      }
+    }
     newsSection.querySelectorAll('.lab-news-grid').forEach(function (grid) {
       Array.from(grid.children).forEach(function (cell) {
-        var found = false;
-        Array.from(cell.querySelectorAll('p')).forEach(function (p) {
-          if (found) return;
-          /* Skip paragraphs nested inside metadata containers or headings */
-          if (p.closest('.article-metadata, h1, h2, h3, h4, h5, h6, a')) return;
-          /* Skip very short strings — dates, author names, labels */
-          if (p.textContent.trim().length < 40) return;
-          /* Apply exactly 3 lines using the real computed line-height */
-          var lh = parseFloat(window.getComputedStyle(p).lineHeight);
-          if (lh > 0) {
-            p.style.setProperty('height',   (lh * 3) + 'px', 'important');
-            p.style.setProperty('overflow', 'hidden',         'important');
-            p.style.setProperty('display',  'block',          'important');
-            found = true;
-          }
+        /* 1. Event card path: .article-style > p */
+        var eventSummary = cell.querySelector('.article-style p');
+        if (eventSummary && eventSummary.textContent.trim().length >= 30) {
+          applyThreeLines(eventSummary);
+          return; /* done for this cell */
+        }
+        /* 2. Post card path: first substantial <p> not inside metadata */
+        Array.from(cell.querySelectorAll('p')).some(function (p) {
+          if (p.closest('.article-metadata, h1, h2, h3, h4, h5, h6, a')) return false;
+          if (p.textContent.trim().length < 40) return false;
+          applyThreeLines(p);
+          return true; /* stop after first match */
         });
       });
     });

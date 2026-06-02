@@ -133,12 +133,12 @@ body.dark .page-footer .powered-by {
 }
 
 /* Card summary: exactly 3 lines
-   Use height (not min-height, not -webkit-box which fights with height).
-   Descendant .card-body p (no >) catches summaries nested one level deep.
-   HugoBlox metadata uses <span>/<div>, not <p>, so this should only
-   hit the summary paragraph in practice. */
+   Post cards:  summary <p> sits directly inside .card-body
+   Event cards: summary <p> sits inside .article-style (outside .card-body)
+   Both structures are targeted here. */
 #lab-news-section .lab-news-grid .card-text,
-#lab-news-section .lab-news-grid .card-body p {
+#lab-news-section .lab-news-grid .card-body p,
+#lab-news-section .lab-news-grid .article-style p {
   line-height: 1.5 !important;
   height: calc(3 * 1.5em) !important;
   overflow: hidden !important;
