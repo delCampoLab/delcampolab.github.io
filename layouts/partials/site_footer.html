@@ -109,35 +109,41 @@
       }
     }
     /* ── Step 5: Enforce 3-line summary in each card ────────────────────────
-       Post cards:  summary is a <p> directly in .card-body
-       Event cards: summary is a <p> inside .article-style (outside .card-body)
-       Strategy: try .article-style p first; if not found, fall back to the
-       first substantial <p> not inside a metadata/heading/link ancestor.   */
-    function applyThreeLines(el) {
-      var lh = parseFloat(window.getComputedStyle(el).lineHeight);
-      if (lh > 0) {
-        el.style.setProperty('height',   (lh * 3) + 'px', 'important');
-        el.style.setProperty('overflow', 'hidden',         'important');
-        el.style.setProperty('display',  'block',          'important');
-      }
-    }
+       Collect ALL summary elements first, then apply ONE shared pixel height
+       so every card is identical regardless of per-element font-size.
+       Post cards:  summary <p> is directly inside .card-body
+       Event cards: summary <p> is inside .article-style (outside .card-body) */
+    var summaryEls = [];
     newsSection.querySelectorAll('.lab-news-grid').forEach(function (grid) {
       Array.from(grid.children).forEach(function (cell) {
-        /* 1. Event card path: .article-style > p */
-        var eventSummary = cell.querySelector('.article-style p');
-        if (eventSummary && eventSummary.textContent.trim().length >= 30) {
-          applyThreeLines(eventSummary);
-          return; /* done for this cell */
+        /* 1. Event card path */
+        var ev = cell.querySelector('.article-style p');
+        if (ev && ev.textContent.trim().length >= 30) {
+          summaryEls.push(ev); return;
         }
-        /* 2. Post card path: first substantial <p> not inside metadata */
+        /* 2. Post card path */
         Array.from(cell.querySelectorAll('p')).some(function (p) {
           if (p.closest('.article-metadata, h1, h2, h3, h4, h5, h6, a')) return false;
           if (p.textContent.trim().length < 40) return false;
-          applyThreeLines(p);
-          return true; /* stop after first match */
+          summaryEls.push(p); return true;
         });
       });
     });
+    if (summaryEls.length) {
+      /* Use the smallest computed line-height so no card is over-sized */
+      var minLh = summaryEls.reduce(function (m, el) {
+        var lh = parseFloat(window.getComputedStyle(el).lineHeight);
+        return (lh > 0 && lh < m) ? lh : m;
+      }, Infinity);
+      if (isFinite(minLh)) {
+        var summaryH = (minLh * 3) + 'px';
+        summaryEls.forEach(function (el) {
+          el.style.setProperty('height',   summaryH, 'important');
+          el.style.setProperty('overflow', 'hidden',  'important');
+          el.style.setProperty('display',  'block',   'important');
+        });
+      }
+    }
   }
 
   /* CSS Grid align-items:stretch (the default) equalises cell heights

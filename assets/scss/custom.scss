@@ -132,15 +132,15 @@ body.dark .page-footer .powered-by {
   overflow: hidden !important;
 }
 
-/* Card summary: exactly 3 lines
-   Post cards:  summary <p> sits directly inside .card-body
-   Event cards: summary <p> sits inside .article-style (outside .card-body)
-   Both structures are targeted here. */
+/* Card summary: overflow and line-height only — height is set by JS
+   to a single consistent pixel value shared across all four cards.
+   em-based height is NOT used here because different cards can have
+   different font-sizes, which would make calc(3*1.5em) produce
+   different pixel heights and make cards unequal. */
 #lab-news-section .lab-news-grid .card-text,
 #lab-news-section .lab-news-grid .card-body p,
 #lab-news-section .lab-news-grid .article-style p {
   line-height: 1.5 !important;
-  height: calc(3 * 1.5em) !important;
   overflow: hidden !important;
   display: block !important;
   margin-bottom: 0 !important;
