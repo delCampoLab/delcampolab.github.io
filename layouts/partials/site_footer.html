@@ -129,8 +129,8 @@
         });
       });
     });
+    /* Apply consistent height to summaries */
     if (summaryEls.length) {
-      /* Use the smallest computed line-height so no card is over-sized */
       var minLh = summaryEls.reduce(function (m, el) {
         var lh = parseFloat(window.getComputedStyle(el).lineHeight);
         return (lh > 0 && lh < m) ? lh : m;
@@ -141,6 +141,33 @@
           el.style.setProperty('height',   summaryH, 'important');
           el.style.setProperty('overflow', 'hidden',  'important');
           el.style.setProperty('display',  'block',   'important');
+        });
+      }
+    }
+
+    /* ── Step 6: Equalise title heights ──────────────────────────────────────
+       Post and event card templates use different title font-sizes, so
+       2 × line-height is a different pixel value for each. Collect all titles,
+       find the smallest line-height, apply 2 × minLh to every title so all
+       cards have an identical title box.                                     */
+    var titleEls = [];
+    newsSection.querySelectorAll('.lab-news-grid').forEach(function (grid) {
+      Array.from(grid.children).forEach(function (cell) {
+        var t = cell.querySelector('.section-subheading, .card-title, h3, h4, h5');
+        if (t) titleEls.push(t);
+      });
+    });
+    if (titleEls.length) {
+      var minTLh = titleEls.reduce(function (m, el) {
+        var lh = parseFloat(window.getComputedStyle(el).lineHeight);
+        return (lh > 0 && lh < m) ? lh : m;
+      }, Infinity);
+      if (isFinite(minTLh)) {
+        var titleH = (minTLh * 2) + 'px';
+        titleEls.forEach(function (el) {
+          el.style.setProperty('height',   titleH,  'important');
+          el.style.setProperty('overflow', 'hidden', 'important');
+          el.style.setProperty('display',  'block',  'important');
         });
       }
     }
