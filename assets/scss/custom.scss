@@ -334,11 +334,12 @@ body.dark .page-footer .powered-by {
   margin: 0;
 }
 
-/* 5. Buttons (event cards only) pinned to the bottom; posts without buttons
-      keep an aligned bottom edge thanks to the equal card heights above. */
+/* 5. Action buttons (events only: "Conference website", "Join on Zoom", …)
+      are hidden on the homepage teasers so post and event cards share one
+      identical structure (image → meta → title → summary) with no leftover
+      footer gap. The buttons still render on each event's own page, which the
+      card links to. */
 #lab-news-section .lab-news-grid .btn-links {
-  margin-top: auto;
-  padding-top: 12px;
-  margin-bottom: 0;
+  display: none;
 }
 
