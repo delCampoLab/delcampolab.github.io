@@ -1,6 +1,13 @@
 <script>
 (function () {
-  /* ── Step 1: Find the News & Events section and tag it ─────────────────── */
+  /* News & Events: HugoBlox renders the homepage collection block without a
+     stable id/class we can target. This script only TAGS the DOM so the CSS in
+     assets/scss/custom.scss can take over — no inline styling or measurement.
+       1. Find the .home-section whose heading mentions "news" → give it
+          id="lab-news-section".
+       2. Find the wrapper that holds the .card-simple cards → add
+          class="lab-news-grid".
+     All layout (2×2 grid, equal heights, image-on-top, clamping) lives in CSS. */
   function setup() {
     var newsSection = null;
     document.querySelectorAll('.home-section').forEach(function (s) {
@@ -11,170 +18,11 @@
     if (!newsSection) return;
     newsSection.id = 'lab-news-section';
 
-    /* ── Step 2: Inject CSS ──────────────────────────────────────────────── */
-    /* gap:16px + padding:12px → breathing room at all edges; overflow:visible
-       so card drop-shadows are not clipped by the cell boundary.            */
-    var styleEl = document.createElement('style');
-    styleEl.textContent =
-      '#lab-news-section .lab-news-grid {' +
-      '  display: grid !important;' +
-      '  grid-template-columns: 1fr 1fr !important;' +
-      '  gap: 16px !important;' +
-      '  margin-left: 0 !important;' +
-      '  margin-right: 0 !important;' +
-      '}' +
-      '#lab-news-section .lab-news-grid > * {' +
-      '  flex: none !important;' +
-      '  max-width: 100% !important;' +
-      '  width: auto !important;' +
-      '  padding: 12px !important;' +
-      '  box-sizing: border-box !important;' +
-      '  display: flex !important;' +
-      '  flex-direction: column !important;' +
-      '  overflow: visible !important;' +
-      '}' +
-      '#lab-news-section .lab-news-grid > * > * {' +
-      '  flex: 1 1 auto !important;' +
-      '  min-height: 0 !important;' +
-      '  margin-bottom: 0 !important;' +
-      '  margin-top: 0 !important;' +
-      '}';
-    document.head.appendChild(styleEl);
-
-    /* ── Step 3: Apply grid to card rows (mark with .lab-news-grid) ─────── */
-    var heading  = newsSection.querySelector('h1, h2, h3');
-    var found    = false;
-    newsSection.querySelectorAll('.row').forEach(function (row) {
-      if (heading && row.contains(heading)) return;
-      row.classList.add('lab-news-grid');
-      row.style.setProperty('display',               'grid',    'important');
-      row.style.setProperty('grid-template-columns', '1fr 1fr', 'important');
-      row.style.setProperty('gap',                   '16px',    'important');
-      row.style.setProperty('margin-left',           '0',       'important');
-      row.style.setProperty('margin-right',          '0',       'important');
-      Array.from(row.children).forEach(function (child) {
-        child.style.setProperty('flex',           'none',       'important');
-        child.style.setProperty('max-width',      '100%',       'important');
-        child.style.setProperty('width',          'auto',       'important');
-        child.style.setProperty('padding',        '12px',       'important');
-        child.style.setProperty('box-sizing',     'border-box', 'important');
-        child.style.setProperty('display',        'flex',       'important');
-        child.style.setProperty('flex-direction', 'column',     'important');
-        child.style.setProperty('overflow',       'visible',    'important');
-        Array.from(child.children).forEach(function (card) {
-          card.style.setProperty('flex',          '1 1 auto', 'important');
-          card.style.setProperty('min-height',    '0',        'important');
-          card.style.setProperty('margin-bottom', '0',        'important');
-          card.style.setProperty('margin-top',    '0',        'important');
-        });
-      });
-      found = true;
-    });
-
-    /* ── Step 4: Last-resort — container with repeating card siblings ─────── */
-    if (!found) {
-      var best = null, bestScore = 0;
-      newsSection.querySelectorAll('div, ul').forEach(function (container) {
-        var kids = Array.from(container.children);
-        if (kids.length < 2 || kids.length > 12) return;
-        var cardKids = kids.filter(function (k) {
-          return !/^H[123]$/.test(k.tagName) && !k.querySelector('h1,h2,h3');
-        });
-        if (cardKids.length < 2) return;
-        var tagCounts = {};
-        cardKids.forEach(function (k) { tagCounts[k.tagName] = (tagCounts[k.tagName] || 0) + 1; });
-        var maxSame = Math.max.apply(null, Object.values(tagCounts));
-        if (maxSame >= 2 && maxSame > bestScore) { bestScore = maxSame; best = container; }
-      });
-      if (best) {
-        best.classList.add('lab-news-grid');
-        best.style.setProperty('display',               'grid',    'important');
-        best.style.setProperty('grid-template-columns', '1fr 1fr', 'important');
-        best.style.setProperty('gap',                   '16px',    'important');
-        Array.from(best.children).forEach(function (child) {
-          if (/^H[123]$/.test(child.tagName) || child.querySelector('h1,h2,h3')) {
-            child.style.setProperty('grid-column', '1 / -1', 'important');
-          } else {
-            child.style.setProperty('padding',        '12px',       'important');
-            child.style.setProperty('display',        'flex',       'important');
-            child.style.setProperty('flex-direction', 'column',     'important');
-            child.style.setProperty('overflow',       'visible',    'important');
-            Array.from(child.children).forEach(function (card) {
-              card.style.setProperty('flex',          '1 1 auto', 'important');
-              card.style.setProperty('margin-bottom', '0',        'important');
-              card.style.setProperty('margin-top',    '0',        'important');
-            });
-          }
-        });
-      }
-    }
-    /* ── Step 5: Enforce 3-line summary in each card ────────────────────────
-       Collect ALL summary elements first, then apply ONE shared pixel height
-       so every card is identical regardless of per-element font-size.
-       Post cards:  summary <p> is directly inside .card-body
-       Event cards: summary <p> is inside .article-style (outside .card-body) */
-    var summaryEls = [];
-    newsSection.querySelectorAll('.lab-news-grid').forEach(function (grid) {
-      Array.from(grid.children).forEach(function (cell) {
-        /* 1. Event card path */
-        var ev = cell.querySelector('.article-style p');
-        if (ev && ev.textContent.trim().length >= 30) {
-          summaryEls.push(ev); return;
-        }
-        /* 2. Post card path */
-        Array.from(cell.querySelectorAll('p')).some(function (p) {
-          if (p.closest('.article-metadata, h1, h2, h3, h4, h5, h6, a')) return false;
-          if (p.textContent.trim().length < 40) return false;
-          summaryEls.push(p); return true;
-        });
-      });
-    });
-    /* Apply consistent height to summaries */
-    if (summaryEls.length) {
-      var minLh = summaryEls.reduce(function (m, el) {
-        var lh = parseFloat(window.getComputedStyle(el).lineHeight);
-        return (lh > 0 && lh < m) ? lh : m;
-      }, Infinity);
-      if (isFinite(minLh)) {
-        var summaryH = (minLh * 3) + 'px';
-        summaryEls.forEach(function (el) {
-          el.style.setProperty('height',   summaryH, 'important');
-          el.style.setProperty('overflow', 'hidden',  'important');
-          el.style.setProperty('display',  'block',   'important');
-        });
-      }
-    }
-
-    /* ── Step 6: Equalise title heights ──────────────────────────────────────
-       Post and event card templates use different title font-sizes, so
-       2 × line-height is a different pixel value for each. Collect all titles,
-       find the smallest line-height, apply 2 × minLh to every title so all
-       cards have an identical title box.                                     */
-    var titleEls = [];
-    newsSection.querySelectorAll('.lab-news-grid').forEach(function (grid) {
-      Array.from(grid.children).forEach(function (cell) {
-        var t = cell.querySelector('.section-subheading, .card-title, h3, h4, h5');
-        if (t) titleEls.push(t);
-      });
-    });
-    if (titleEls.length) {
-      var minTLh = titleEls.reduce(function (m, el) {
-        var lh = parseFloat(window.getComputedStyle(el).lineHeight);
-        return (lh > 0 && lh < m) ? lh : m;
-      }, Infinity);
-      if (isFinite(minTLh)) {
-        var titleH = (minTLh * 2) + 'px';
-        titleEls.forEach(function (el) {
-          el.style.setProperty('height',   titleH,  'important');
-          el.style.setProperty('overflow', 'hidden', 'important');
-          el.style.setProperty('display',  'block',  'important');
-        });
-      }
+    var firstCard = newsSection.querySelector('.card-simple');
+    if (firstCard && firstCard.parentElement) {
+      firstCard.parentElement.classList.add('lab-news-grid');
     }
   }
-
-  /* CSS Grid align-items:stretch (the default) equalises cell heights
-     within each row automatically — no JS measurement needed.              */
 
   document.addEventListener('DOMContentLoaded', setup);
 }());
