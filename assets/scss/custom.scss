@@ -301,9 +301,18 @@ body.dark .page-footer .powered-by {
   display: block;
 }
 
-/* 2. Metadata (author / date / location) sits just below the image */
+/* 2. Metadata sits just below the image. On the homepage cards we show ONLY
+      the date — the author list, reading-time (posts) and location (events)
+      are hidden so every card's metadata is a single uniform line. The date is
+      the element immediately before .middot-divider in both templates, so we
+      hide the leading author <div>, the divider, and everything after it. */
 #lab-news-section .lab-news-grid .article-metadata {
   margin: 0 0 8px;
+}
+#lab-news-section .lab-news-grid .article-metadata > div,
+#lab-news-section .lab-news-grid .article-metadata .middot-divider,
+#lab-news-section .lab-news-grid .article-metadata .middot-divider ~ * {
+  display: none;
 }
 
 /* 3. Title: clamp to 2 lines so summaries start at a consistent height */
