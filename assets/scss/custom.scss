@@ -315,13 +315,17 @@ body.dark .page-footer .powered-by {
   display: none;
 }
 
-/* 3. Title: clamp to 2 lines so summaries start at a consistent height */
+/* 3. Title: clamp to 2 lines so summaries start at a consistent height.
+      The theme puts Bootstrap .mt-3 / .mb-1 utilities on the title, which carry
+      !important and would otherwise open a 24px gap below the date — so the
+      margins and the clamp display are forced here with !important to keep tight,
+      even 8px gaps above and below the title. */
 #lab-news-section .lab-news-grid .article-title {
-  display: -webkit-box;
+  display: -webkit-box !important;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
   overflow: hidden;
-  margin: 0 0 8px;
+  margin: 0 0 8px !important;
 }
 
 /* 4. Summary: clamp to 3 lines. line-clamp makes a clean cut; max-height is a
@@ -341,6 +345,17 @@ body.dark .page-footer .powered-by {
 }
 #lab-news-section .lab-news-grid .article-style p {
   margin: 0;
+}
+/* Post summaries render as malformed markup: an empty <a class="summary-link">
+   wrapper (holding only whitespace + an empty <p></p>) followed by a separate
+   <p> with the real text. Both the empty <p> and the stray wrapper anchor add
+   blank lines that pushed the post summary ~20px below the title (events keep
+   their text in one clean <p> and are unaffected). Hide both so the summary
+   sits flush under the title. The real post text lives in `.article-style > p`,
+   so hiding the direct-child anchor is safe. */
+#lab-news-section .lab-news-grid .article-style p:empty,
+#lab-news-section .lab-news-grid .article-style > a.summary-link {
+  display: none;
 }
 
 /* 5. Action buttons (events only: "Conference website", "Join on Zoom", …)
