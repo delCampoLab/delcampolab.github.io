@@ -133,14 +133,26 @@ body.dark .page-footer .powered-by {
    .lab-news-grid to the wrapper holding the cards.
    ──────────────────────────────────────────────────────────────────────────── */
 
-/* Grid: two equal columns, two equal rows → all four cards equal height.
-   grid-auto-rows:1fr makes every row track the same height (the tallest). */
+/* Grid: two equal columns × two equal card rows → all four cards equal height.
+   The block is configured with count:4 (see content/_index.md), so the cards
+   fill exactly two rows, both sized 1fr (equal to the taller row).
+   HugoBlox also appends a "See all posts" link as a 5th child; grid-auto-rows
+   keeps that link's row sized to its content (auto) instead of stretching it to
+   a full card height, which otherwise left a large blank gap below the cards. */
 #lab-news-section .lab-news-grid {
   display: grid !important;
   grid-template-columns: 1fr 1fr;
-  grid-auto-rows: 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-auto-rows: auto;
   gap: 24px;
   margin: 0;
+}
+
+/* "See all posts" link: span full width on its own content-sized row */
+#lab-news-section .lab-news-grid .see-all {
+  grid-column: 1 / -1;
+  text-align: center;
+  margin-top: 4px;
 }
 
 /* Mobile: stack to a single column. grid-auto-rows is reset to auto so cards
@@ -149,6 +161,7 @@ body.dark .page-footer .powered-by {
 @media (max-width: 767.98px) {
   #lab-news-section .lab-news-grid {
     grid-template-columns: 1fr;
+    grid-template-rows: none;
     grid-auto-rows: auto;
   }
   #lab-news-section .lab-news-grid .btn-links {
