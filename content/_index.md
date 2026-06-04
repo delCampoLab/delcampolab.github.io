@@ -97,7 +97,7 @@ sections:
 
   - block: markdown
     content:
-      title: Collaborations
+      title: Networks & Initiatives
       subtitle:
       text: |
         <div class="lab-tile-grid">
