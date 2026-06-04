@@ -44,6 +44,86 @@ body.dark {
   background: var(--lab-item-hover) !important;
 }
 
+/* ── Tile cards: shared style for the Research Themes & Collaborations grids ──
+   Replaces the ~10 style properties that were previously inlined (and
+   duplicated) on every card link in content/_index.md. The markup is now just
+   <div class="lab-tile-grid"> with <a class="lab-tile"> children, so the two
+   sections stay visually identical by construction and are easy to restyle here.
+
+   The grid is a centered flex-wrap rather than CSS grid so that an odd number
+   of tiles (Collaborations has 5) centres the final row instead of leaving an
+   orphan hugging the left edge. Cards adapt to dark mode via --lab-card-bg.
+   ──────────────────────────────────────────────────────────────────────────── */
+.lab-tile-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;                       /* matches the News & Events grid gap */
+  margin-top: 12px;
+}
+
+.lab-tile {
+  flex: 1 1 240px;                 /* grow to fill, wrap below ~240px */
+  max-width: 320px;               /* don't over-stretch in a sparse row */
+  display: flex;
+  flex-direction: column;
+  border-radius: 12px;
+  padding: 22px 18px;
+  text-align: center;
+  background: var(--lab-card-bg);
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.10);
+  text-decoration: none;
+  color: inherit;
+  transition: box-shadow 0.2s, transform 0.2s;
+}
+
+.lab-tile:hover {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.18);
+  transform: translateY(-2px);
+}
+
+/* Emoji icon (Research Themes) */
+.lab-tile__icon {
+  font-size: 2.4rem;
+  margin-bottom: 10px;
+}
+
+/* Logo box (Collaborations) — fixed height so mismatched logos align */
+.lab-tile__logo {
+  height: 64px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.lab-tile__logo img {
+  max-height: 64px;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+.lab-tile__title {
+  margin: 0 0 6px;
+  font-size: 1rem;
+}
+
+.lab-tile__desc {
+  margin: 0 0 12px;
+  font-size: 0.85rem;
+  opacity: 0.72;
+  line-height: 1.5;
+  flex-grow: 1;                    /* pushes the CTA to a consistent bottom */
+}
+
+/* "See projects →" / "Visit website →" — opacity raised from 0.5 to 0.7
+   so the link clears WCAG contrast against the tile background. */
+.lab-tile__cta {
+  font-size: 0.78rem;
+  font-weight: 600;
+  opacity: 0.7;
+}
+
 /* ── Site footer ────────────────────────────────────────────────────────────
    Custom footer with institutional affiliation logos above the copyright.
    Logos are muted by default and brighten on hover. In dark mode the logos

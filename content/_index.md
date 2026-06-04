@@ -11,7 +11,7 @@ sections:
       image:
         filename: welcome.jpg
       text: |
-        We investigate how **coral holobionts**—corals and their associated **microbes**—function and break down under **heat stress**. Focusing on **symbiosis** and **protists**, we use a **systems biology approach** integrating **metabarcoding**, **single-cell and bulk omics**, **imaging**, and **AI-driven computational biology**. Our goal is to link **symbiont diversity** to **function** and understand coral responses to the climate crisis.
+        We investigate how **coral holobionts**—corals and their associated microbes—function and break down under **heat stress**. Focusing on **symbiosis** and **protists**, we use a **systems biology approach** integrating metabarcoding, single-cell and bulk omics, imaging, and AI-driven computational biology. Our goal is to link **symbiont diversity to function** and understand coral responses to the climate crisis.
 
   - block: markdown
     content:
@@ -22,7 +22,7 @@ sections:
           <a href="/people/" class="btn btn-primary btn-lg" style="min-width: 180px;">Meet the team</a>
           <a href="/contact/" class="btn btn-primary btn-lg" style="min-width: 180px;">Join the lab</a>
           <span style="display:inline-flex;align-items:center;gap:10px;">
-            <span class="btn btn-outline-primary btn-lg" style="pointer-events:none;">Follow us:</span>
+            <span style="font-weight:600; margin-right:4px; opacity:0.8;">Follow us:</span>
             <a href="https://x.com/delCampoLab" target="_blank" rel="noopener" aria-label="Twitter" class="btn btn-primary btn-lg" style="padding-left:0.75rem;padding-right:0.75rem;">
               <i class="fab fa-twitter"></i>
             </a>
@@ -44,30 +44,30 @@ sections:
       title: Research Themes
       subtitle:
       text: |
-        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; margin-top: 12px;">
-          <a href="/research/" style="border-radius: 12px; padding: 22px 18px; text-align: center; box-shadow: 0 2px 12px rgba(0,0,0,0.10); background: var(--lab-card-bg); text-decoration: none; color: inherit; display: flex; flex-direction: column; transition: box-shadow 0.2s;" onmouseover="this.style.boxShadow='0 4px 20px rgba(0,0,0,0.18)'" onmouseout="this.style.boxShadow='0 2px 12px rgba(0,0,0,0.10)'">
-            <div style="font-size: 2.4rem; margin-bottom: 10px;">🪸</div>
-            <h4 style="margin: 0 0 6px; font-size: 1rem;">Coral Holobiont</h4>
-            <p style="margin: 0 0 12px; font-size: 0.85rem; opacity: 0.72; line-height: 1.5; flex-grow: 1;">How corals and their symbiotic microbes function as an integrated biological system.</p>
-            <span style="font-size: 0.78rem; font-weight: 600; opacity: 0.5;">See projects →</span>
+        <div class="lab-tile-grid">
+          <a href="/research/" class="lab-tile">
+            <div class="lab-tile__icon">🪸</div>
+            <h4 class="lab-tile__title">Coral Holobiont</h4>
+            <p class="lab-tile__desc">How corals and their symbiotic microbes function as an integrated biological system.</p>
+            <span class="lab-tile__cta">See projects →</span>
           </a>
-          <a href="/research/" style="border-radius: 12px; padding: 22px 18px; text-align: center; box-shadow: 0 2px 12px rgba(0,0,0,0.10); background: var(--lab-card-bg); text-decoration: none; color: inherit; display: flex; flex-direction: column; transition: box-shadow 0.2s;" onmouseover="this.style.boxShadow='0 4px 20px rgba(0,0,0,0.18)'" onmouseout="this.style.boxShadow='0 2px 12px rgba(0,0,0,0.10)'">
-            <div style="font-size: 2.4rem; margin-bottom: 10px;">🌊</div>
-            <h4 style="margin: 0 0 6px; font-size: 1rem;">Microbial Diversity</h4>
-            <p style="margin: 0 0 12px; font-size: 0.85rem; opacity: 0.72; line-height: 1.5; flex-grow: 1;">Global patterns in the distribution of marine eukaryotic and prokaryotic microbes.</p>
-            <span style="font-size: 0.78rem; font-weight: 600; opacity: 0.5;">See projects →</span>
+          <a href="/research/" class="lab-tile">
+            <div class="lab-tile__icon">🌊</div>
+            <h4 class="lab-tile__title">Microbial Diversity</h4>
+            <p class="lab-tile__desc">Global patterns in the distribution of marine eukaryotic and prokaryotic microbes.</p>
+            <span class="lab-tile__cta">See projects →</span>
           </a>
-          <a href="/research/" style="border-radius: 12px; padding: 22px 18px; text-align: center; box-shadow: 0 2px 12px rgba(0,0,0,0.10); background: var(--lab-card-bg); text-decoration: none; color: inherit; display: flex; flex-direction: column; transition: box-shadow 0.2s;" onmouseover="this.style.boxShadow='0 4px 20px rgba(0,0,0,0.18)'" onmouseout="this.style.boxShadow='0 2px 12px rgba(0,0,0,0.10)'">
-            <div style="font-size: 2.4rem; margin-bottom: 10px;">🌡️</div>
-            <h4 style="margin: 0 0 6px; font-size: 1rem;">Climate & Heat Stress</h4>
-            <p style="margin: 0 0 12px; font-size: 0.85rem; opacity: 0.72; line-height: 1.5; flex-grow: 1;">Molecular and ecological responses of coral holobionts to rising ocean temperatures.</p>
-            <span style="font-size: 0.78rem; font-weight: 600; opacity: 0.5;">See projects →</span>
+          <a href="/research/" class="lab-tile">
+            <div class="lab-tile__icon">🌡️</div>
+            <h4 class="lab-tile__title">Climate & Heat Stress</h4>
+            <p class="lab-tile__desc">Molecular and ecological responses of coral holobionts to rising ocean temperatures.</p>
+            <span class="lab-tile__cta">See projects →</span>
           </a>
-          <a href="/research/" style="border-radius: 12px; padding: 22px 18px; text-align: center; box-shadow: 0 2px 12px rgba(0,0,0,0.10); background: var(--lab-card-bg); text-decoration: none; color: inherit; display: flex; flex-direction: column; transition: box-shadow 0.2s;" onmouseover="this.style.boxShadow='0 4px 20px rgba(0,0,0,0.18)'" onmouseout="this.style.boxShadow='0 2px 12px rgba(0,0,0,0.10)'">
-            <div style="font-size: 2.4rem; margin-bottom: 10px;">🧬</div>
-            <h4 style="margin: 0 0 6px; font-size: 1rem;">Genomics & Bioinformatics</h4>
-            <p style="margin: 0 0 12px; font-size: 0.85rem; opacity: 0.72; line-height: 1.5; flex-grow: 1;">High-throughput sequencing and computational tools to decode microbial symbiosis.</p>
-            <span style="font-size: 0.78rem; font-weight: 600; opacity: 0.5;">See projects →</span>
+          <a href="/research/" class="lab-tile">
+            <div class="lab-tile__icon">🧬</div>
+            <h4 class="lab-tile__title">Genomics & Bioinformatics</h4>
+            <p class="lab-tile__desc">High-throughput sequencing and computational tools to decode microbial symbiosis.</p>
+            <span class="lab-tile__cta">See projects →</span>
           </a>
         </div>
     design:
@@ -100,46 +100,46 @@ sections:
       title: Collaborations
       subtitle:
       text: |
-        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; margin-top: 12px;">
-          <a href="https://demon-protists.eu/" target="_blank" rel="noopener" style="border-radius: 12px; padding: 22px 18px; text-align: center; box-shadow: 0 2px 12px rgba(0,0,0,0.10); background: var(--lab-card-bg); text-decoration: none; color: inherit; display: flex; flex-direction: column; align-items: center; transition: box-shadow 0.2s;" onmouseover="this.style.boxShadow='0 4px 20px rgba(0,0,0,0.18)'" onmouseout="this.style.boxShadow='0 2px 12px rgba(0,0,0,0.10)'">
-            <div style="height: 64px; display: flex; align-items: center; justify-content: center; width: 100%; margin-bottom: 10px;">
-              <img src="https://demon-protists.eu/wp-content/uploads/2023/05/Logo_DEMON_11_color.png" alt="DEMON" style="max-height: 64px; max-width: 100%; object-fit: contain;">
+        <div class="lab-tile-grid">
+          <a href="https://demon-protists.eu/" target="_blank" rel="noopener" class="lab-tile">
+            <div class="lab-tile__logo">
+              <img src="https://demon-protists.eu/wp-content/uploads/2023/05/Logo_DEMON_11_color.png" alt="DEMON">
             </div>
-            <h4 style="margin: 0 0 6px; font-size: 1rem;">DEMON</h4>
-            <p style="margin: 0 0 12px; font-size: 0.85rem; opacity: 0.72; line-height: 1.5; flex-grow: 1;">European research consortium uncovering protist diversity across marine, freshwater, and terrestrial environments using metabarcoding and omics.</p>
-            <span style="font-size: 0.78rem; font-weight: 600; opacity: 0.5;">Visit website →</span>
+            <h4 class="lab-tile__title">DEMON</h4>
+            <p class="lab-tile__desc">European research consortium uncovering protist diversity across marine, freshwater, and terrestrial environments using metabarcoding and omics.</p>
+            <span class="lab-tile__cta">Visit website →</span>
           </a>
-          <a href="https://medrecover.org/" target="_blank" rel="noopener" style="border-radius: 12px; padding: 22px 18px; text-align: center; box-shadow: 0 2px 12px rgba(0,0,0,0.10); background: var(--lab-card-bg); text-decoration: none; color: inherit; display: flex; flex-direction: column; align-items: center; transition: box-shadow 0.2s;" onmouseover="this.style.boxShadow='0 4px 20px rgba(0,0,0,0.18)'" onmouseout="this.style.boxShadow='0 2px 12px rgba(0,0,0,0.10)'">
-            <div style="height: 64px; display: flex; align-items: center; justify-content: center; width: 100%; margin-bottom: 10px;">
-              <img src="/media/medrecover-logo.png" alt="MedRecover" onerror="this.style.display='none'" style="max-height: 64px; max-width: 100%; object-fit: contain;">
+          <a href="https://medrecover.org/" target="_blank" rel="noopener" class="lab-tile">
+            <div class="lab-tile__logo">
+              <img src="/media/medrecover-logo.png" alt="MedRecover" onerror="this.style.display='none'">
             </div>
-            <h4 style="margin: 0 0 6px; font-size: 1rem;">MedRecover</h4>
-            <p style="margin: 0 0 12px; font-size: 0.85rem; opacity: 0.72; line-height: 1.5; flex-grow: 1;">Research initiative on the recovery and resilience of Mediterranean marine ecosystems in the face of climate change and tropicalization.</p>
-            <span style="font-size: 0.78rem; font-weight: 600; opacity: 0.5;">Visit website →</span>
+            <h4 class="lab-tile__title">MedRecover</h4>
+            <p class="lab-tile__desc">Research initiative on the recovery and resilience of Mediterranean marine ecosystems in the face of climate change and tropicalization.</p>
+            <span class="lab-tile__cta">Visit website →</span>
           </a>
-          <a href="https://fondationtaraocean.org/en/expedition/tara-coral/" target="_blank" rel="noopener" style="border-radius: 12px; padding: 22px 18px; text-align: center; box-shadow: 0 2px 12px rgba(0,0,0,0.10); background: var(--lab-card-bg); text-decoration: none; color: inherit; display: flex; flex-direction: column; align-items: center; transition: box-shadow 0.2s;" onmouseover="this.style.boxShadow='0 4px 20px rgba(0,0,0,0.18)'" onmouseout="this.style.boxShadow='0 2px 12px rgba(0,0,0,0.10)'">
-            <div style="height: 64px; display: flex; align-items: center; justify-content: center; width: 100%; margin-bottom: 10px;">
-              <img src="/media/taracoral-logo.png" alt="Tara Coral" style="max-height: 64px; max-width: 100%; object-fit: contain;">
+          <a href="https://fondationtaraocean.org/en/expedition/tara-coral/" target="_blank" rel="noopener" class="lab-tile">
+            <div class="lab-tile__logo">
+              <img src="/media/taracoral-logo.png" alt="Tara Coral">
             </div>
-            <h4 style="margin: 0 0 6px; font-size: 1rem;">Tara Coral</h4>
-            <p style="margin: 0 0 12px; font-size: 0.85rem; opacity: 0.72; line-height: 1.5; flex-grow: 1;">18-month expedition (2026–2028) through the Coral Triangle aboard the schooner <em>Tara</em>, studying coral resistance to global warming.</p>
-            <span style="font-size: 0.78rem; font-weight: 600; opacity: 0.5;">Visit website →</span>
+            <h4 class="lab-tile__title">Tara Coral</h4>
+            <p class="lab-tile__desc">18-month expedition (2026–2028) through the Coral Triangle aboard the schooner <em>Tara</em>, studying coral resistance to global warming.</p>
+            <span class="lab-tile__cta">Visit website →</span>
           </a>
-          <a href="https://www.biogenoma.cat/" target="_blank" rel="noopener" style="border-radius: 12px; padding: 22px 18px; text-align: center; box-shadow: 0 2px 12px rgba(0,0,0,0.10); background: var(--lab-card-bg); text-decoration: none; color: inherit; display: flex; flex-direction: column; align-items: center; transition: box-shadow 0.2s;" onmouseover="this.style.boxShadow='0 4px 20px rgba(0,0,0,0.18)'" onmouseout="this.style.boxShadow='0 2px 12px rgba(0,0,0,0.10)'">
-            <div style="height: 64px; display: flex; align-items: center; justify-content: center; width: 100%; margin-bottom: 10px;">
-              <img src="https://www.biogenoma.cat/wp-content/uploads/2021/04/logoverdsenzill2.png" alt="Biogenoma" style="max-height: 64px; max-width: 100%; object-fit: contain;">
+          <a href="https://www.biogenoma.cat/" target="_blank" rel="noopener" class="lab-tile">
+            <div class="lab-tile__logo">
+              <img src="https://www.biogenoma.cat/wp-content/uploads/2021/04/logoverdsenzill2.png" alt="Biogenoma">
             </div>
-            <h4 style="margin: 0 0 6px; font-size: 1rem;">Biogenoma</h4>
-            <p style="margin: 0 0 12px; font-size: 0.85rem; opacity: 0.72; line-height: 1.5; flex-grow: 1;">Catalan initiative for the Earth BioGenome Project, building a genomic catalog of eukaryotic biodiversity across Catalan-speaking territories.</p>
-            <span style="font-size: 0.78rem; font-weight: 600; opacity: 0.5;">Visit website →</span>
+            <h4 class="lab-tile__title">Biogenoma</h4>
+            <p class="lab-tile__desc">Catalan initiative for the Earth BioGenome Project, building a genomic catalog of eukaryotic biodiversity across Catalan-speaking territories.</p>
+            <span class="lab-tile__cta">Visit website →</span>
           </a>
-          <a href="https://pr2-database.org/" target="_blank" rel="noopener" style="border-radius: 12px; padding: 22px 18px; text-align: center; box-shadow: 0 2px 12px rgba(0,0,0,0.10); background: var(--lab-card-bg); text-decoration: none; color: inherit; display: flex; flex-direction: column; align-items: center; transition: box-shadow 0.2s;" onmouseover="this.style.boxShadow='0 4px 20px rgba(0,0,0,0.18)'" onmouseout="this.style.boxShadow='0 2px 12px rgba(0,0,0,0.10)'">
-            <div style="height: 64px; display: flex; align-items: center; justify-content: center; width: 100%; margin-bottom: 10px;">
-              <img src="/media/pr2-logo.png" alt="PR2 Database" style="max-height: 64px; max-width: 100%; object-fit: contain;">
+          <a href="https://pr2-database.org/" target="_blank" rel="noopener" class="lab-tile">
+            <div class="lab-tile__logo">
+              <img src="/media/pr2-logo.png" alt="PR2 Database">
             </div>
-            <h4 style="margin: 0 0 6px; font-size: 1rem;">PR2 Database</h4>
-            <p style="margin: 0 0 12px; font-size: 0.85rem; opacity: 0.72; line-height: 1.5; flex-grow: 1;">Reference database of 18S rRNA sequences for protist metabarcoding, including PR2, PR2-primers, and metaPR2. Dr. del Campo is a core contributor.</p>
-            <span style="font-size: 0.78rem; font-weight: 600; opacity: 0.5;">Visit website →</span>
+            <h4 class="lab-tile__title">PR2 Database</h4>
+            <p class="lab-tile__desc">Reference database of 18S rRNA sequences for protist metabarcoding, including PR2, PR2-primers, and metaPR2. Dr. del Campo is a core contributor.</p>
+            <span class="lab-tile__cta">Visit website →</span>
           </a>
         </div>
     design:
