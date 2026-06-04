@@ -228,10 +228,12 @@ body.dark .page-footer .powered-by {
   margin: 0;
 }
 
-/* "See all posts" link: span full width on its own content-sized row */
+/* "See all posts" link: span full width on its own content-sized row.
+   Left-aligned to match the "See all publications" link in the Publications
+   section (the HugoBlox default for .see-all). */
 #lab-news-section .lab-news-grid .see-all {
   grid-column: 1 / -1;
-  text-align: center;
+  text-align: left;
   margin-top: 4px;
 }
 
