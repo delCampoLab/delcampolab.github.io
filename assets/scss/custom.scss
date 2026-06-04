@@ -249,20 +249,45 @@ body.dark .page-footer .powered-by {
   }
 }
 
-/* Each card fills its cell and lays out as a flex column */
+/* Each card fills its cell and lays out as a flex column. The surface matches
+   the .lab-tile cards (rounded, --lab-card-bg, soft shadow, hover lift) so the
+   homepage reads as one card system. overflow:hidden clips the full-bleed image
+   to the rounded top corners; the text is inset further down instead. */
 #lab-news-section .lab-news-grid .card-simple {
   display: flex;
   flex-direction: column;
   height: 100%;
   margin: 0;
+  background: var(--lab-card-bg);
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.10);
+  overflow: hidden;
+  padding: 0 0 18px;            /* reset theme side/top padding so image is full-bleed */
+  transition: box-shadow 0.2s, transform 0.2s;
+}
+
+#lab-news-section .lab-news-grid .card-simple:hover {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.18);
+  transform: translateY(-2px);
 }
 
 /* 1. Featured image → top of the card (DOM order puts metadata first).
-      The image is wrapped in an <a> that is a direct child of .card-simple. */
+      The image is wrapped in an <a> that is a direct child of .card-simple.
+      It stays full-bleed (no side padding) so it spans corner to corner. */
 #lab-news-section .lab-news-grid .card-simple > a:has(.article-banner),
 #lab-news-section .lab-news-grid .card-simple > a:has(.img-hover-zoom) {
   order: -1;
   margin: 0 0 12px;
+}
+
+/* Inset the text content; the image above stays edge-to-edge */
+#lab-news-section .lab-news-grid .article-metadata,
+#lab-news-section .lab-news-grid .article-title,
+#lab-news-section .lab-news-grid .summary-link,
+#lab-news-section .lab-news-grid .btn-links {
+  padding-left: 18px;
+  padding-right: 18px;
 }
 
 /* Fixed image height so every banner is identical */
