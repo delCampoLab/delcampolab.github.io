@@ -7,7 +7,7 @@ type: landing
 sections:
   - block: hero
     content:
-      title:
+      title: The symbioses that build a coral
       image:
         filename: welcome.jpg
       text: |
