@@ -1,5 +1,5 @@
 ---
-weight: 1
+weight: 115
 # Display name
 title: Xènia Maya
 
@@ -41,9 +41,12 @@ education:
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
-- icon: envelope
-  icon_pack: fas
-  link: "mailto:teresaportafito@gmail.com"
+#- icon: envelope
+#  icon_pack: fas
+#  link: "mailto:"
+#- icon: github
+#  icon_pack: fab
+#  link: 
 #- icon: twitter
 #  icon_pack: fab
 #  link: https://twitter.com/teresaporta3
@@ -56,9 +59,9 @@ social:
 #- icon: researchgate
 #  icon_pack: ai
 #  link: https://www.researchgate.net/profile/Anthony_Bonacolta
-- icon: github
-  icon_pack: fab
-  link: https://github.com/TeresaPF
+#- icon: github
+#  icon_pack: fab
+#  link: https://github.com/TeresaPF
 #- icon: instagram
 #  icon_pack: fab
 #  link: https://www.instagram.com/bbbunia/
@@ -77,7 +80,7 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Technicians
+- Alumni
 ---
 
-I studied biology at the University of Barcelona, where I specialized in molecular, cellular and systems biology. During my final degree project, I worked on the transdifferentiation of human muscle cells into fibroblasts in 3D cultures at the IBEC (Institute for Bioengineering of Catalonia), in Scientific Park. Later I did my Master’s thesis in IBE (Institute of Evolutionary Biology), where I studied the role of insulin receptors in crockaches. Now I work at the same institute as a cell culture technician. In my spare time, I like to do gymnastics, karate and jiu-jitsu.
+I studied biology at the University of Barcelona, where I specialized in molecular, cellular and systems biology. During my final degree project, I worked on the transdifferentiation of human muscle cells into fibroblasts in 3D cultures at the IBEC (Institute for Bioengineering of Catalonia), in Scientific Park. Later I did my Master’s thesis in IBE (Institute of Evolutionary Biology), where I studied the role of insulin receptors in cockroaches. Now I work at the same institute as a cell culture technician. In my spare time, I like to do gymnastics, karate and jiu-jitsu.
