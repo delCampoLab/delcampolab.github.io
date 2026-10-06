@@ -1,5 +1,5 @@
 ---
-weight: 40
+weight: 126
 # Display name
 title: Tristan Kravitz
 slug: tristan-kravitz

@@ -1,5 +1,5 @@
 ---
-weight: 38
+weight: 131
 # Display name
 title: Elliot Perry
 slug: elliot-perry

@@ -1,5 +1,5 @@
 ---
-weight: 56
+weight: 146
 # Display name
 title: Danielle Tenberg
 slug: danielle-tenberg

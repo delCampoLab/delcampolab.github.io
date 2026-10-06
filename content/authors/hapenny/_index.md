@@ -1,5 +1,5 @@
 ---
-weight: 54
+weight: 144
 # Display name
 title: Shea Halpenny
 slug: shea-halpenny

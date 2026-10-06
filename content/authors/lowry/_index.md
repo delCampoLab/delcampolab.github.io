@@ -1,5 +1,5 @@
 ---
-weight: 41
+weight: 128
 # Display name
 title: Sean Lowry
 slug: sean-lowry

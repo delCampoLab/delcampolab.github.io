@@ -1,5 +1,5 @@
 ---
-weight: 11
+weight: 101
 # Display name
 title: Bradley Weiler
 slug: bradley-weiler

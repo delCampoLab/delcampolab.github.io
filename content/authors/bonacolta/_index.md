@@ -1,5 +1,5 @@
 ---
-weight: 10
+weight: 100
 # Display name
 title: Anthony Bonacolta
 slug: anthony-bonacolta

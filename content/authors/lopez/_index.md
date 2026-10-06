@@ -1,5 +1,5 @@
 ---
-weight: 35
+weight: 127
 # Display name
 title: Tyler Lopez
 slug: tyler-lopez
