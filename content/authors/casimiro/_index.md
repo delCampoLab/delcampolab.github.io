@@ -53,7 +53,7 @@ email: ""
 
 # Organizational groups that you belong to (for People widget)
 user_groups:
-- Grad Students
+- Alumni
 ---
 
 I completed my degree in Biology at the Universitat Autònoma de Barcelona (UAB) in 2025. I am currently pursuing a Master's degree in Biodiversity at the Universitat de Barcelona (UB), where I am delving into evolutionary biology and the analysis of biological datasets, especially genomics and phylogenetics.
