@@ -77,7 +77,7 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Laboratory Technicians
+- Technicians
 ---
 
 I studied biology at the University of Barcelona, where I specialized in molecular, cellular and systems biology. During my final degree project, I worked on the transdifferentiation of human muscle cells into fibroblasts in 3D cultures at the IBEC (Institute for Bioengineering of Catalonia), in Scientific Park. Later I did my Master’s thesis in IBE (Institute of Evolutionary Biology), where I studied the role of insulin receptors in crockaches. Now I work at the same institute as a cell culture technician. In my spare time, I like to do gymnastics, karate and jiu-jitsu.
