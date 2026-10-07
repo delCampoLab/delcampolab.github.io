@@ -7,7 +7,7 @@ authors:
   - "Laura Gómez-Consarnau"
   - "Olga Sánchez"
   - "Montserrat Coll-Lladó"
-  - "Javier Del Campo"
+  - "Javier del Campo"
   - "Lorena Escudero"
   - "Raquel Rodríguez-Martínez"
   - "Laura Alonso-Sáez"

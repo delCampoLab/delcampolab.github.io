@@ -1,13 +1,13 @@
 ---
 title: "A Single-Cell Atlas of Coral Bleaching"
 authors:
-  - "Anthony Bonacolta"
+  - "bonacolta"
   - "Grace Snyder"
   - "Richard Karp"
   - "Emily Yeager"
   - "Alexandra Wen"
   - "Caroline Dennison"
-  - "Jordi Nonell"
+  - "nonell"
   - "Nikki Traylor-Knowles"
   - "Andrew Baker"
   - "Javier del Campo"

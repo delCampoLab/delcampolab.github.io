@@ -3,7 +3,7 @@ title: "Unraveling the impact of marine heatwaves on the Eukaryome of the emblem
 authors:
   - "Camille Prioux"
   - "Christine Ferrier-Pagès"
-  - "Javier Del Campo"
+  - "Javier del Campo"
   - "Laure Guillou"
   - "Tristan Estaque"
   - "Denis Allemand"

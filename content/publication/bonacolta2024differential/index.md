@@ -1,7 +1,7 @@
 ---
 title: "Differential apicomplexan presence predicts thermal stress mortality in the Mediterranean coral Paramuricea clavata"
 authors:
-  - "Anthony M. Bonacolta"
+  - "bonacolta"
   - "Jordi Miravall"
   - "Daniel Gómez-Gras"
   - "Jean-Baptiste Ledoux"

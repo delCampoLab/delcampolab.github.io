@@ -1,7 +1,7 @@
 ---
 title: "The eukaryome of modern microbialites reveals distinct colonization across aquatic ecosystems"
 authors:
-  - "Anthony M. Bonacolta"
+  - "bonacolta"
   - "Pieter T. Visscher"
   - "Javier del Campo"
   - "Richard A. White III"

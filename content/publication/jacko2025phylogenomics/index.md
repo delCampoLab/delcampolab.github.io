@@ -5,7 +5,7 @@ authors:
   - "Waldan K. Kwong"
   - "Samuel J. Livingston"
   - "Morelia Trznadel"
-  - "Anthony M. Bonacolta"
+  - "bonacolta"
   - "Gordon Lax"
   - "Jade Shivak"
   - "Nicholas A.T. Irwin"

@@ -3,7 +3,7 @@ title: "Chalicogloea cavernicola gen. nov. sp. nov.(Chroococcales, Cyanobacteria
 authors:
   - "M Roldán"
   - "M Ramírez"
-  - "J del Campo"
+  - "Javier del Campo"
   - "M Hernández-Mariné"
   - "J Komárek"
 date: "2013-01-01"

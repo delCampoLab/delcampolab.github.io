@@ -1,10 +1,10 @@
 ---
 title: "The Sea Cucumber-Infecting Parasite Apostichocystis gudetama gen. nov. sp. nov. Expands Marine-Host-Specific Clade of Apicomplexans"
 authors:
-  - "Anthony M. Bonacolta"
-  - "Joana Krause-Massaguer"
+  - "bonacolta"
+  - "krause"
   - "Tatsuya Unuma"
-  - "Javier Del Campo"
+  - "Javier del Campo"
 date: "2025-01-01"
 doi: "10.1111/jeu.70008"
 publication_types:

@@ -6,7 +6,7 @@ authors:
   - "Marc Cerdà-Domènech"
   - "Joaquim Garrabou"
   - "Alice Mirasole"
-  - "Pol Bassols"
+  - "bassols"
   - "Javier del Campo"
   - "Núria Teixidó"
 date: "2025-01-01"

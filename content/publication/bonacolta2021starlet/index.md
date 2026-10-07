@@ -1,7 +1,7 @@
 ---
 title: "The Starlet Sea Anemone, Nematostella vectensis, possesses body region-specific bacterial associations with spirochetes dominating the capitulum"
 authors:
-  - "Anthony M. Bonacolta"
+  - "bonacolta"
   - "Michael T Connelly"
   - "Stephanie Rosales"
   - "Javier del Campo"

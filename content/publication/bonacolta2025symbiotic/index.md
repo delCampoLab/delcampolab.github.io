@@ -1,9 +1,9 @@
 ---
 title: "Symbiotic bacteria support calcium carbonate precipitation in the Gulf toadfish (Opsanus beta)"
 authors:
-  - "Anthony M. Bonacolta"
-  - "Tristan Kravitz"
-  - "Rocío Mozo"
+  - "bonacolta"
+  - "kravitz"
+  - "rocio-mozo"
   - "Lydia J Baker"
   - "Rachael M Heuer"
   - "Martin Grosell"

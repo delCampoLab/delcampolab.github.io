@@ -1,8 +1,8 @@
 ---
 title: "A new and widespread group of fish apicomplexan parasites"
 authors:
-  - "Anthony M. Bonacolta"
-  - "Joana Krause-Massaguer"
+  - "bonacolta"
+  - "krause"
   - "Nico J Smit"
   - "Paul C Sikkel"
   - "Javier del Campo"

@@ -1,8 +1,8 @@
 ---
 title: "Fireworms are a reservoir and potential vector for coral-infecting apicomplexans"
 authors:
-  - "Anthony M. Bonacolta"
-  - "Bradley A. Weiler"
+  - "bonacolta"
+  - "weiler"
   - "Candace J Grimes"
   - "Morelia Trznadel"
   - "Mark J.A. Vermeij"
