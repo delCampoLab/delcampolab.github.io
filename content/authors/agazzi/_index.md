@@ -24,7 +24,7 @@ organizations:
     url: 'https://www.ibe.upf-csic.es/home'
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research will consist on using molecular biology tools to study the microbial and functional heterogeneity of Mediterranean coral corlonies.
+bio: My research will consist on using molecular biology tools to study the microbial and functional heterogeneity of Mediterranean coral colonies.
 
 interests:
   - Marine ecology

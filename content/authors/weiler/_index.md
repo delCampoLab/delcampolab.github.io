@@ -16,7 +16,7 @@ role: PhD Student · Now Postdoctoral Fellow at NOAA
 
 # Organizations/Affiliations
 organizations:
-- name: Rosentiel School of Marine and Atmospheric Science - University of Miami
+- name: Rosenstiel School of Marine and Atmospheric Science - University of Miami
   url: "https://www.rsmas.miami.edu/"
 
 # Short bio (displayed in user profile at end of posts)
