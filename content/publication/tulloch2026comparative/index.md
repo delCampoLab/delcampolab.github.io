@@ -2,9 +2,9 @@
 title: "Comparative skin microbiome analyses reveal differences between wild populations and captive groups of the Montseny brook newt (Calotriton arnoldi)"
 authors:
   - "Sergi Tulloch"
-  - "Maria Estarellas"
+  - "estarellas"
   - "Dean C Adams"
-  - "Anthony Bonacolta"
+  - "bonacolta"
   - "Viviana Pagone"
   - "Daniel Fernández-Guiberteau"
   - "Fèlix Amat"

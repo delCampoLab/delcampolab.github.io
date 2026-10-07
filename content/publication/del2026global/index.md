@@ -2,8 +2,8 @@
 title: "Global diversity and distribution of coral-associated protists"
 authors:
   - "Javier del Campo"
-  - "Anthony M. Bonacolta"
-  - "Bradley A. Weiler"
+  - "bonacolta"
+  - "weiler"
   - "Ben Knowles"
   - "Amy Apprill"
   - "Michael D Fox"

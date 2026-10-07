@@ -1,7 +1,7 @@
 ---
 title: "Endosymbiotic apicomplexans of marine holobionts: microbial parasites in a warming ocean"
 authors:
-  - "Anthony M. Bonacolta"
+  - "bonacolta"
   - "Linmei Li"
   - "Javier del Campo"
   - "Patrick J Keeling"

@@ -1,9 +1,9 @@
 ---
 title: "Temporal transcriptional rhythms govern coral-symbiont function and microbiome dynamics"
 authors:
-  - "Bradley Allen Weiler"
+  - "weiler"
   - "Nicholas Kron"
-  - "Anthony M. Bonacolta"
+  - "bonacolta"
   - "Mark J.A. Vermeij"
   - "Andrew Charles Baker"
   - "Javier del Campo"
