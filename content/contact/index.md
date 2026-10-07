@@ -66,12 +66,6 @@ sections:
         latitude: '41.38535033824104'
         longitude: '2.1960324286961215'
       autolink: true
-      form:
-        provider: netlify
-        formspree:
-          id:
-        netlify:
-          captcha: false
     design:
       columns: '1'
       spacing:
