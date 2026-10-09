@@ -25,6 +25,9 @@ main:
   - name: Art & Science
     url: art-science
     weight: 65
+  - name: Resources
+    url: resources
+    weight: 68
   - name: Contact
     url: contact
     weight: 70
