@@ -116,20 +116,14 @@ what to write, and to this file for how to build and ship it.
 
 ## Publications workflow
 
-Two paths exist. Know both before touching `publications.bib`:
+The manual procedure below is the only path. The automated
+`.github/workflows/import-publications.yml` was deleted in October 2026: it ran
+`academic==0.10.0` over the whole of `publications.bib`, which generates
+HYPHENATED folder slugs (`bonacolta-2021-starlet`) that duplicate the site's
+unhyphenated folders (`bonacolta2021starlet`). Its PR #2 was closed unmerged. Do
+not reintroduce a whole-file import.
 
-**Automated (currently problematic):** `.github/workflows/import-publications.yml`
-runs on any push to `main` that touches `publications.bib`. It installs
-`academic==0.10.0` (academic-file-converter) and runs
-`academic import publications.bib content/publication/ --compact`, then opens an
-automated PR on branch `hugoblox-import-publications`.
-⚠️ academic 0.10.0 generates HYPHENATED folder slugs (`bonacolta-2021-starlet`)
-while the site's existing folders are unhyphenated (`bonacolta2021starlet`), so
-the action regenerates the entire bibliography as duplicate folders and its PRs
-must NOT be merged as-is. PR #2 (open since 2026-04-10, 79 commits behind main)
-is exactly this.
-
-**Manual (safe) procedure for a new paper:**
+**Manual procedure for a new paper:**
 1. Add the new BibTeX entry to `publications.bib` (keep the existing key style)
 2. Copy ONLY the new entry into a temporary file, e.g. `new.bib`, and run
    `academic import new.bib content/publication/ --compact` so nothing existing
@@ -137,9 +131,11 @@ is exactly this.
    install once with `python3 -m pip install academic==0.10.0`
 3. Rename the generated folder to the unhyphenated key style to match the rest
    of the site, delete `new.bib`
-4. Polish the generated `index.md`: author name → slug matching (authors must
-   match `content/authors/` display slugs to link), abstract rendering, DOI and
-   PDF links, `featured.jpg` if there is one
+4. Polish the generated `index.md`: in `authors:`, replace each lab member's
+   full name with their username (the `content/authors/` folder name, e.g.
+   `bonacolta`) so it links to their profile; write the PI exactly as
+   `Javier del Campo`; leave external co-authors as plain names. Then check
+   abstract rendering, DOI and PDF links, `featured.jpg` if there is one
 5. Preview with `hugo server`, confirm the paper shows on /publication/ and the
    homepage Recent Publications block, then commit
 
@@ -157,16 +153,19 @@ is exactly this.
 
 ## Gotchas
 
-- Pushing any change to `publications.bib` triggers the import workflow and
-  spawns a duplicate-slug PR (see above) until that workflow is fixed or disabled
 - Image filenames: Hugo Blox generates hashed variants (`*_hu123...jpg`) under
   `resources/` and `public/`; never edit generated files, only the source image
   in the page bundle
-- `public/` and `resources/` are build output committed in the repo; content
-  changes go in `content/`, never in `public/`
+- `public/` and `resources/` are local build output, gitignored and not
+  committed; content changes go in `content/`
+- Default social sharing image: `assets/media/sharing.jpg` (1200x630). The theme
+  looks it up with `resources.GetMatch`, so it must live in `assets/`, not
+  `static/`. Pages with a featured image or an author avatar use that instead
+- Partner logos (footer, Networks & Initiatives tiles) are served locally from
+  `static/media/`; don't hotlink images from external sites
 - Emoji render fine in titles and body; the site uses them in news posts
   (🪸🐟🦠, sparingly)
 - The site is `en-us`; no multilingual setup
-- `.DS_Store` files are committed in places; don't let that pattern grow
+- `.DS_Store` is gitignored; never force-add it
 - `.claude/launch.json` holds the hugo server launch config for Claude Code
   sessions; keep it in sync with the preview command above
