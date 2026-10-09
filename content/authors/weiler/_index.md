@@ -20,7 +20,7 @@ organizations:
   url: "https://www.rsmas.miami.edu/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: My current research combination of molecular techniques (SSU rRNA amplicon sequencing), traditional culturing and microscopy, and imaging (fluorescence in-situ hybridization) will be used in an attempt to finally uncover the causative agents of various coral diseases.
+bio: My PhD research combined molecular techniques (SSU rRNA amplicon sequencing), traditional culturing and microscopy, and imaging (fluorescence in-situ hybridization) in an attempt to uncover the causative agents of various coral diseases.
 
 interests:
 - Coral Reef Ecology
@@ -93,4 +93,4 @@ user_groups:
 - Collaborators
 ---
 
-I am a Canadian Ph.D. student here at RSMAS working towards a career in research focusing on holobiont microbial ecology and evolution. I completed my B.Sc. at Carleton University in Canada working under Dr. Nigel Waltho, focusing on benthic community phase-shifts and disease ecology in Caribbean coral reefs at the Cape Eleuthera Institute (CEI) in The Bahamas. Following my B.Sc. I worked as a research technician at CEI conducting research assessing coral reef health during the 2014-2017 global bleaching event and taught marine ecology to high school students. I received my M.Sc. at Memorial University of Newfoundland working under Dr. Suzanne Dufour focusing on prokaryotic (and viral) communities in deep-sea soft corals. I started my Ph.D. in MBE in spring 2019 to explore various diseases using a combination of molecular techniques (SSU rRNA amplicon sequencing), traditional culturing and microscopy, and imaging (FISH) in an attempt to finally uncover the unknown causative agents responsible for various coral diseases.
+I completed my Ph.D. at RSMAS focusing on holobiont microbial ecology and evolution. I completed my B.Sc. at Carleton University in Canada working under Dr. Nigel Waltho, focusing on benthic community phase-shifts and disease ecology in Caribbean coral reefs at the Cape Eleuthera Institute (CEI) in The Bahamas. Following my B.Sc. I worked as a research technician at CEI conducting research assessing coral reef health during the 2014-2017 global bleaching event and taught marine ecology to high school students. I received my M.Sc. at Memorial University of Newfoundland working under Dr. Suzanne Dufour focusing on prokaryotic (and viral) communities in deep-sea soft corals. I started my Ph.D. in MBE in spring 2019 to explore various diseases using a combination of molecular techniques (SSU rRNA amplicon sequencing), traditional culturing and microscopy, and imaging (FISH) in an attempt to finally uncover the unknown causative agents responsible for various coral diseases.

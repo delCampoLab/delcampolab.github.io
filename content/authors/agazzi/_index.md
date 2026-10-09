@@ -24,7 +24,7 @@ organizations:
     url: 'https://www.ibe.upf-csic.es/home'
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research will consist on using molecular biology tools to study the microbial and functional heterogeneity of Mediterranean coral colonies.
+bio: During my time in the lab I used molecular biology tools to study the microbial and functional heterogeneity of Mediterranean coral colonies.
 
 interests:
   - Marine ecology
@@ -37,7 +37,7 @@ education:
   courses:
     - course: MSc in Marine Sciences
       institution: Università degli Studi di Milano-Bicocca
-      year: 202
+      year: 2023
     - course: BSc in Biological Sciences
       institution: Università degli Studi di Milano-Bicocca
       year: 2021
@@ -80,4 +80,4 @@ user_groups:
   - Alumni
 ---
 
-I am a Master student in Marine Sciences at the University of Milano Bicocca, where I am actively engaged in student life as a student representative and tutor. I completed my undergraduate degree in Biological Sciences at the same university. Throughout my academic journey, I have taken part in several field activities, primarily focused on corals. I have been involved in coral reef ecological assessments in the Maldives and a coral restoration project in Bali. These experiences have shaped my interest in coral communities and physiology. In examining tropical reefs dynamics, I discovered the significance of microbial influence on host features. This newfound interest prompted me to secure a grant to attend the SCELSE Summer Course in Singapore, which was both illuminating and informative, broadening my understanding of microbial communities. I am privileged to be given the opportunity to work on my Master's thesis project in the del Campo lab. I will investigate the microbial diversity and transcriptomic features of Mediterranean soft corals to identify ideal zones for restoration projects.	Overall, my interest is to enhance our comprehension of the intricate corals-microbes interaction and its ramifications on coral resilience in the face of ongoing environmental change. I am excited to be part of the del Campo Lab and to contribute to the field of marine science through my research.
+I completed my Master's in Marine Sciences at the University of Milano-Bicocca, where I was actively engaged in student life as a student representative and tutor. I completed my undergraduate degree in Biological Sciences at the same university. Throughout my academic journey, I have taken part in several field activities, primarily focused on corals. I have been involved in coral reef ecological assessments in the Maldives and a coral restoration project in Bali. These experiences have shaped my interest in coral communities and physiology. In examining tropical reefs dynamics, I discovered the significance of microbial influence on host features. This newfound interest prompted me to secure a grant to attend the SCELSE Summer Course in Singapore, which was both illuminating and informative, broadening my understanding of microbial communities. I carried out my Master's thesis project in the del Campo Lab, investigating the microbial diversity and transcriptomic features of Mediterranean soft corals to identify ideal zones for restoration projects, and stayed on as Lab Manager. Overall, my interest is to enhance our comprehension of the intricate corals-microbes interaction and its ramifications on coral resilience in the face of ongoing environmental change. It was a privilege to be part of the del Campo Lab and to contribute to the field of marine science through my research.

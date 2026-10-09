@@ -20,7 +20,7 @@ organizations:
   url: "https://www.ibe.upf-csic.es/home"
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research will focus on the studying the emergent infectious diseases that are threatening amphibian populations by studying the composition of their microbiome.
+bio: My research focused on the emergent infectious diseases that are threatening amphibian populations, studying the composition of their microbiome.
 
 # interests:
 #- Genetics
@@ -79,4 +79,4 @@ user_groups:
 - Alumni
 ---
 
-I studied Human Biology at Pompeu Fabra University (UPF). During these years I had the chance to have various stays at the Institut de Biologia Evolutiva (CSIC-UPF) with a group studying conservation genomics of reptiles and amphibians. I also got to do my final degree project with them, which was a mitochondrial and genomic approach to the diversity and evolution of the populations of the gecko *Trachydactlyus hajarensis* from southeastern Arabia. So as I was keener on animals than humans I enrolled in the MSc in Terrestrial Ecology and Biodiversity Management (specialization in management and diversity of flora and fauna) at UAB.  For my master's thesis I will be working working on a project investigating the emergent infectious diseases that are threatening amphibian populations by studying the composition of their microbiome. Concretely we will be focussing on the endemic Montseny Brook Newt (*Calotriton arnoldi*). In my free time I enjoy hiking, scuba diving, horse riding and almost any outdoor activity, or reading a good book.
+I studied Human Biology at Pompeu Fabra University (UPF). During these years I had the chance to have various stays at the Institut de Biologia Evolutiva (CSIC-UPF) with a group studying conservation genomics of reptiles and amphibians. I also got to do my final degree project with them, which was a mitochondrial and genomic approach to the diversity and evolution of the populations of the gecko *Trachydactlyus hajarensis* from southeastern Arabia. So as I was keener on animals than humans I enrolled in the MSc in Terrestrial Ecology and Biodiversity Management (specialization in management and diversity of flora and fauna) at UAB.  For my master's thesis I worked on a project investigating the emergent infectious diseases that are threatening amphibian populations by studying the composition of their microbiome. Concretely we focussed on the endemic Montseny Brook Newt (*Calotriton arnoldi*). In my free time I enjoy hiking, scuba diving, horse riding and almost any outdoor activity, or reading a good book.
