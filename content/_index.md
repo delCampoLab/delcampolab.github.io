@@ -103,7 +103,7 @@ sections:
         <div class="lab-tile-grid">
           <a href="https://demon-protists.eu/" target="_blank" rel="noopener" class="lab-tile">
             <div class="lab-tile__logo">
-              <img src="https://demon-protists.eu/wp-content/uploads/2023/05/Logo_DEMON_11_color.png" alt="DEMON">
+              <img src="/media/demon-logo.png" alt="DEMON">
             </div>
             <h4 class="lab-tile__title">DEMON</h4>
             <p class="lab-tile__desc">European research consortium uncovering protist diversity across marine, freshwater, and terrestrial environments using metabarcoding and omics.</p>
@@ -127,7 +127,7 @@ sections:
           </a>
           <a href="https://www.biogenoma.cat/" target="_blank" rel="noopener" class="lab-tile">
             <div class="lab-tile__logo">
-              <img src="https://www.biogenoma.cat/wp-content/uploads/2021/04/logoverdsenzill2.png" alt="Biogenoma">
+              <img src="/media/biogenoma-logo.png" alt="Biogenoma">
             </div>
             <h4 class="lab-tile__title">Biogenoma</h4>
             <p class="lab-tile__desc">Catalan initiative for the Earth BioGenome Project, building a genomic catalog of eukaryotic biodiversity across Catalan-speaking territories.</p>
