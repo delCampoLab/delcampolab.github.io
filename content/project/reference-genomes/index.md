@@ -57,7 +57,7 @@ At the European scale, we contribute to the **European Reference Genome Atlas (E
 **Protists — *Mediocremonas mediterraneus*.**
 
 <div style="position: relative; display: inline-block; width: 100%;">
-  <img src="mediocremonas.png" style="width: 100%; display: block;">
+  <img src="mediocremonas.jpg" style="width: 100%; display: block;">
   <span style="position: absolute; bottom: 0; right: 0; background: rgba(0,0,0,0.5); color: #fff; padding: 3px 8px; font-size: 0.78em; line-height: 1.6;">Photo by Javier del Campo</span>
 </div>
 
