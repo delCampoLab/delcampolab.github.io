@@ -1,9 +1,10 @@
 # IDEs
 .idea/
 
-# Hugo
+# Hugo build output
 /resources/
 public/
+.hugo_build.lock
 assets/jsconfig.json
 
 # macOS
