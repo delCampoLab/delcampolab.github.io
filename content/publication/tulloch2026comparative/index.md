@@ -12,8 +12,8 @@ authors:
   - "Francesc Carbonell"
   - "Elena Obon"
   - "others"
-date: "2026-01-01"
-doi: "10.1093/ismecommun/ycaf245"
+date: "2026-01-14"
+doi: "10.1093/ismeco/ycaf245"
 publication_types:
   - "article-journal"
 publication: "*ISME communications*"

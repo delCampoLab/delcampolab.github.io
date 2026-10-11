@@ -4,8 +4,8 @@ authors:
   - "Laura Villanueva"
   - "Javier del Campo"
   - "Ricardo Guerrero"
-date: "2010-01-01"
-doi: "10.1111/j.1574-6941.2010.00904.x"
+date: "2010-10-01"
+doi: "10.1111/j.1574-6941.2010.00928.x"
 publication_types:
   - "article-journal"
 publication: "*FEMS microbiology ecology*"

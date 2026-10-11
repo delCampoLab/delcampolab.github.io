@@ -10,8 +10,8 @@ authors:
   - "Aditee Mitra"
   - "Daniel Vaulot"
   - "Luciana Santoferrara"
-date: "2026-01-01"
-doi: "10.1016/j.tim.2026.01.011"
+date: "2026-03-01"
+doi: "10.1016/j.tim.2025.08.008"
 publication_types:
   - "article-journal"
 publication: "*Trends in Microbiology*"

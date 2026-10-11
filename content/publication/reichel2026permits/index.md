@@ -12,8 +12,8 @@ authors:
   - "Camilla B. Di-Nizo"
   - "Pradeep K. Divakar"
   - "others"
-date: "2026-01-01"
-doi: "10.1111/1755-0998.14115"
+date: "2026-02-01"
+doi: "10.1111/1755-0998.70100"
 publication_types:
   - "article-journal"
 publication: "*Molecular Ecology Resources*"

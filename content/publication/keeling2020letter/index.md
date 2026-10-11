@@ -12,7 +12,7 @@ authors:
   - "Rebecca Fiorito"
   - "Greg S Gavelis"
   - "others"
-date: "2020-01-01"
+date: "2020-01-02"
 doi: "10.1080/14634988.2020.1717827"
 publication_types:
   - "article-journal"

@@ -10,8 +10,8 @@ authors:
   - "Ken Lertzman"
   - "William W. Mohn"
   - "Patrick J. Keeling"
-date: "2018-01-01"
-doi: "10.1111/1462-2920.14245"
+date: "2018-03-01"
+doi: "10.1111/1462-2920.14061"
 publication_types:
   - "article-journal"
 publication: "*Environmental Microbiology*"

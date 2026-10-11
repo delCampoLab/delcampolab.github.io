@@ -6,7 +6,7 @@ authors:
   - "Vanessa Balagué"
   - "Colomban De Vargas"
   - "Ramon Massana"
-date: "2009-01-01"
+date: "2009-09-29"
 doi: "10.1371/journal.pone.0007143"
 publication_types:
   - "article-journal"

@@ -7,8 +7,8 @@ authors:
   - "Paula López-Sendino"
   - "Joaquim Garrabou"
   - "Javier del Campo"
-date: "2025-01-01"
-doi: "10.1002/emr2.70028"
+date: "2025-10-01"
+doi: "10.1111/1758-2229.70185"
 publication_types:
   - "article-journal"
 publication: "*Environmental Microbiology Reports*"

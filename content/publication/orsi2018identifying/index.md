@@ -10,8 +10,8 @@ authors:
   - "Patrick J Keeling"
   - "Alexandra Z Worden"
   - "Alyson E Santoro"
-date: "2018-01-01"
-doi: "10.1111/1462-2920.13923"
+date: "2018-02-01"
+doi: "10.1111/1462-2920.14018"
 publication_types:
   - "article-journal"
 publication: "*Environmental Microbiology*"

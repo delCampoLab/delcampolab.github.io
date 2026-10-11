@@ -55,4 +55,4 @@ These symbionts are not biological curiosities; they bear on coral health under 
 **Related work — holobiont-scale studies with a microeukaryote component**
 
 - Weiler BA, Kron N, Bonacolta AM, Vermeij MJA, Baker AC, del Campo J (2026). Temporal transcriptional rhythms govern coral-symbiont function and microbiome dynamics. *Cell Host & Microbe* 34:304–323.e4. [doi:10.1016/j.chom.2026.01.004](https://doi.org/10.1016/j.chom.2026.01.004)
-- Bonacolta AM, Snyder GA, Karp RF, Yeager E, Wen ADE, Dykman CE, Nonell J, Traylor-Knowles N, Baker AC, del Campo J (2024). A single-cell atlas of coral bleaching. *Research Square* (preprint). [doi:10.21203/rs.3.rs-5397639/v1](https://doi.org/10.21203/rs.3.rs-5397639/v1)
+- Bonacolta AM, Snyder GA, Karp RF, Yeager E, Wen ADE, Dennison CE, Nonell-Remedios J, Traylor-Knowles N, Baker AC, del Campo J (2026). Single-cell ecology of coral-algal symbiosis breakdown. *Microbiome*. [doi:10.1186/s40168-026-02506-6](https://doi.org/10.1186/s40168-026-02506-6)

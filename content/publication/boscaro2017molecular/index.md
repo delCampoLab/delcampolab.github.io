@@ -12,8 +12,8 @@ authors:
   - "Varsha Mathur"
   - "Rudolf H Scheffrahn"
   - "others"
-date: "2017-01-01"
-doi: "10.1099/ijsem.0.002009"
+date: "2017-09-01"
+doi: "10.1099/ijsem.0.002169"
 publication_types:
   - "article-journal"
 publication: "*International journal of systematic and evolutionary microbiology*"

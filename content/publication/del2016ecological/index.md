@@ -7,7 +7,7 @@ authors:
   - "Ramiro Logares"
   - "Purificación López-García"
   - "Ramon Massana"
-date: "2016-01-01"
+date: "2016-08-01"
 doi: "10.1016/j.ejop.2016.02.002"
 publication_types:
   - "article-journal"

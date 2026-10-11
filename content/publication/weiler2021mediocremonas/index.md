@@ -7,7 +7,7 @@ authors:
   - "Ramon Massana"
   - "Javier del Campo"
 date: "2021-01-01"
-doi: "10.1111/jeu.12826"
+doi: "10.1111/jeu.12825"
 publication_types:
   - "article-journal"
 publication: "*The Journal of Eukaryotic Microbiology*"

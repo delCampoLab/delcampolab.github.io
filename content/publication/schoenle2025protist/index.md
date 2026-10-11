@@ -12,8 +12,8 @@ authors:
   - "Elisabeth Hehenberger"
   - "Tarja T Hoffmeyer"
   - "others"
-date: "2025-01-01"
-doi: "10.1016/j.tig.2025.04.007"
+date: "2025-10-01"
+doi: "10.1016/j.tig.2025.05.004"
 publication_types:
   - "article-journal"
 publication: "*Trends in Genetics*"

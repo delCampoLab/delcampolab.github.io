@@ -5,7 +5,7 @@ authors:
   - "Massimo Pernice"
   - "John A Bunge"
   - "Javier del Campo"
-date: "2011-01-01"
+date: "2011-02-01"
 doi: "10.1038/ismej.2010.104"
 publication_types:
   - "article-journal"

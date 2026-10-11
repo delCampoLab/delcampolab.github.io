@@ -12,8 +12,8 @@ authors:
   - "Abigail S Clark"
   - "Javier del Campo"
   - "others"
-date: "2023-01-01"
-doi: "10.1038/s43705-023-00222-3"
+date: "2023-12-01"
+doi: "10.1038/s43705-023-00220-0"
 publication_types:
   - "article-journal"
 publication: "*ISME communications*"

@@ -5,8 +5,8 @@ authors:
   - "krause"
   - "Tatsuya Unuma"
   - "Javier del Campo"
-date: "2025-01-01"
-doi: "10.1111/jeu.70008"
+date: "2025-05-01"
+doi: "10.1111/jeu.70013"
 publication_types:
   - "article-journal"
 publication: "*Journal of Eukaryotic Microbiology*"

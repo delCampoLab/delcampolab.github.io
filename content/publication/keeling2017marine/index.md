@@ -3,8 +3,8 @@ title: "Marine Protists Are Not Just Big Bacteria"
 authors:
   - "Patrick J Keeling"
   - "Javier del Campo"
-date: "2017-01-01"
-doi: "10.1016/j.cub.2017.05.010"
+date: "2017-06-01"
+doi: "10.1016/j.cub.2017.03.075"
 publication_types:
   - "article-journal"
 publication: "*Current Biology*"

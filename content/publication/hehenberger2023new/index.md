@@ -12,8 +12,8 @@ authors:
   - "Anna Karnkowska"
   - "Martin Kolisko"
   - "others"
-date: "2023-01-01"
-doi: "10.1111/jeu.12975"
+date: "2023-09-01"
+doi: "10.1111/jeu.12987"
 publication_types:
   - "article-journal"
 publication: "*The Journal of Eukaryotic Microbiology*"

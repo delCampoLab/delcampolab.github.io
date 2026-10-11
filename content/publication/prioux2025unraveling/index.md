@@ -8,8 +8,8 @@ authors:
   - "Tristan Estaque"
   - "Denis Allemand"
   - "Romie Tignat-Perrier"
-date: "2025-01-01"
-doi: "10.1093/ismecommun/ycaf035"
+date: "2025-01-17"
+doi: "10.1093/ismeco/ycaf035"
 publication_types:
   - "article-journal"
 publication: "*ISME communications*"

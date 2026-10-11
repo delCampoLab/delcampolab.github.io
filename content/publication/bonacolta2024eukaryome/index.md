@@ -5,8 +5,8 @@ authors:
   - "Pieter T. Visscher"
   - "Javier del Campo"
   - "Richard A. White III"
-date: "2024-01-01"
-doi: "10.1038/s41522-024-00547-7"
+date: "2024-09-03"
+doi: "10.1038/s41522-024-00547-z"
 publication_types:
   - "article-journal"
 publication: "*npj Biofilms and Microbiomes*"

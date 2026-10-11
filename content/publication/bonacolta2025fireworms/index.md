@@ -8,8 +8,8 @@ authors:
   - "Mark J.A. Vermeij"
   - "Patrick J Keeling"
   - "Javier del Campo"
-date: "2025-01-01"
-doi: "10.1093/ismejo/wraf080"
+date: "2025-01-02"
+doi: "10.1093/ismejo/wraf078"
 publication_types:
   - "article-journal"
 publication: "*The ISME Journal*"

@@ -3,7 +3,7 @@ title: "Microeukaryotes in animal and plant microbiomes: Ecologies of disease?"
 authors:
   - "David Bass"
   - "Javier del Campo"
-date: "2020-01-01"
+date: "2020-10-01"
 doi: "10.1016/j.ejop.2020.125719"
 publication_types:
   - "article-journal"

@@ -6,8 +6,8 @@ authors:
   - "bonacolta"
   - "Javier del Campo"
   - "Iker Irisarri"
-date: "2026-01-01"
-doi: "10.1093/gbe/evaf089"
+date: "2026-01-02"
+doi: "10.1093/gbe/evaf242"
 publication_types:
   - "article-journal"
 publication: "*Genome Biology and Evolution*"

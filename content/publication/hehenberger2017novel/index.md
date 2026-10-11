@@ -8,8 +8,8 @@ authors:
   - "Anton S. Esaulov"
   - "Alexander P. Mylnikov"
   - "Patrick J. Keeling"
-date: "2017-01-01"
-doi: "10.1016/j.cub.2017.07.001"
+date: "2017-07-01"
+doi: "10.1016/j.cub.2017.06.006"
 publication_types:
   - "article-journal"
 publication: "*Current Biology*"

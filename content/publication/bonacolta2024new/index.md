@@ -6,8 +6,8 @@ authors:
   - "Nico J Smit"
   - "Paul C Sikkel"
   - "Javier del Campo"
-date: "2024-01-01"
-doi: "10.1016/j.cub.2024.04.065"
+date: "2024-06-01"
+doi: "10.1016/j.cub.2024.04.084"
 publication_types:
   - "article-journal"
 publication: "*Current Biology*"

@@ -5,7 +5,7 @@ authors:
   - "Javier del Campo"
   - "Patrick J. Keeling"
 date: "2017-01-01"
-doi: "10.1111/jeu.12346"
+doi: "10.1111/jeu.12342"
 publication_types:
   - "article-journal"
 publication: "*The Journal of Eukaryotic Microbiology*"

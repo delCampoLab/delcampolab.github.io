@@ -10,8 +10,8 @@ authors:
   - "Alexandra Z. Worden"
   - "Alyson E. Santoro"
   - "Patrick J. Keeling"
-date: "2016-01-01"
-doi: "10.1016/j.cub.2016.09.009"
+date: "2016-11-01"
+doi: "10.1016/j.cub.2016.09.013"
 publication_types:
   - "article-journal"
 publication: "*Current Biology*"

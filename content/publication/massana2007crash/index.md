@@ -5,7 +5,7 @@ authors:
   - "Javier del Campo"
   - "Christian Dinter"
   - "Ruben Sommaruga"
-date: "2007-01-01"
+date: "2007-11-01"
 doi: "10.1111/j.1462-2920.2007.01378.x"
 publication_types:
   - "article-journal"

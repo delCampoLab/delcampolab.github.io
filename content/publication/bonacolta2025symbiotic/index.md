@@ -1,5 +1,5 @@
 ---
-title: "Symbiotic bacteria support calcium carbonate precipitation in the Gulf toadfish (Opsanus beta)"
+title: "Symbiotic bacteria may support calcium carbonate precipitation in the Gulf toadfish"
 authors:
   - "bonacolta"
   - "kravitz"
@@ -8,13 +8,12 @@ authors:
   - "Rachael M Heuer"
   - "Martin Grosell"
   - "Javier del Campo"
-date: "2025-01-01"
-doi: ""
+date: "2026-05-18"
+doi: "10.1371/journal.pbio.3003764"
 publication_types:
   - "article-journal"
-publication: "*bioRxiv*"
+publication: "*PLOS Biology*"
 publication_short: ""
-pages: "2025-10"
 abstract: ""
 tags: []
 featured: false

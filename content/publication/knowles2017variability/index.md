@@ -12,8 +12,8 @@ authors:
   - "Juris Grasis"
   - "Andreas F. Haas"
   - "others"
-date: "2017-01-01"
-doi: "10.1038/nmicrobiol.2017.50"
+date: "2017-04-28"
+doi: "10.1038/nmicrobiol.2017.64"
 publication_types:
   - "article-journal"
 publication: "*Nature Microbiology*"

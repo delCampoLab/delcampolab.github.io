@@ -11,7 +11,7 @@ authors:
   - "Daniel Vaulot"
   - "Javier del Campo"
   - "Iñaki Ruiz-Trillo"
-date: "2025-01-01"
+date: "2025-01-18"
 doi: "10.1093/database/baaf057"
 publication_types:
   - "article-journal"

@@ -12,8 +12,8 @@ authors:
   - "Julius Luke\vs"
   - "Tomá\vs Pánek"
   - "others"
-date: "2024-01-01"
-doi: "10.1016/j.tim.2023.11.013"
+date: "2024-02-01"
+doi: "10.1016/j.tim.2023.11.010"
 publication_types:
   - "article-journal"
 publication: "*Trends in Microbiology*"

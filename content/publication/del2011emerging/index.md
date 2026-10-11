@@ -3,7 +3,7 @@ title: "Emerging Diversity within Chrysophytes, Choanoflagellates and Bicosoecid
 authors:
   - "Javier del Campo"
   - "Ramon Massana"
-date: "2011-01-01"
+date: "2011-07-01"
 doi: "10.1016/j.protis.2010.10.003"
 publication_types:
   - "article-journal"

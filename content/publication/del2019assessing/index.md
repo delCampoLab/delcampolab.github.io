@@ -8,7 +8,7 @@ authors:
   - "Thomas A Richards"
   - "Ramon Massana"
   - "Patrick J Keeling"
-date: "2019-01-01"
+date: "2019-10-23"
 doi: "10.3389/fmicb.2019.02373"
 publication_types:
   - "article-journal"

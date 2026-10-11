@@ -10,7 +10,7 @@ authors:
   - "Bente Edvardsen"
   - "Wenche Eikreim"
   - "Thomas A. Richards"
-date: "2019-01-01"
+date: "2019-12-01"
 doi: "10.1016/j.cub.2019.09.074"
 publication_types:
   - "article-journal"

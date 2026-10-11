@@ -5,8 +5,8 @@ authors:
   - "Javier del Campo"
   - "Ricardo Guerrero"
   - "Roland Geyer"
-date: "2010-01-01"
-doi: "10.1007/s00248-010-9665-7"
+date: "2010-07-01"
+doi: "10.1007/s00248-010-9645-2"
 publication_types:
   - "article-journal"
 publication: "*Microbial Ecology*"

@@ -6,7 +6,7 @@ authors:
   - "Irene Forn"
   - "Michael E Sieracki"
   - "Ramon Massana"
-date: "2013-01-01"
+date: "2013-02-01"
 doi: "10.1038/ismej.2012.85"
 publication_types:
   - "article-journal"

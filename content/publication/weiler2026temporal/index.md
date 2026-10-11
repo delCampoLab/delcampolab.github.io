@@ -7,8 +7,8 @@ authors:
   - "Mark J.A. Vermeij"
   - "Andrew Charles Baker"
   - "Javier del Campo"
-date: "2026-01-01"
-doi: "10.1016/j.chom.2025.10.010"
+date: "2026-02-01"
+doi: "10.1016/j.chom.2026.01.004"
 publication_types:
   - "article-journal"
 publication: "*Cell Host & Microbe*"

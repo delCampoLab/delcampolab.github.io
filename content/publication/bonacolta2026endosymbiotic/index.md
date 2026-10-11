@@ -5,8 +5,8 @@ authors:
   - "Linmei Li"
   - "Javier del Campo"
   - "Patrick J Keeling"
-date: "2026-01-01"
-doi: "10.1093/icb/icaf054"
+date: "2026-01-12"
+doi: "10.1093/icb/icag006"
 publication_types:
   - "article-journal"
 publication: "*Integrative and Comparative Biology*"

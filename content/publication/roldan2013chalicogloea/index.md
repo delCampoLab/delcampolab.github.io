@@ -6,8 +6,8 @@ authors:
   - "Javier del Campo"
   - "M Hernández-Mariné"
   - "J Komárek"
-date: "2013-01-01"
-doi: "10.1099/ijs.0.045393-0"
+date: "2013-06-01"
+doi: "10.1099/ijs.0.045468-0"
 publication_types:
   - "article-journal"
 publication: "*International Journal of Systematic and Evolutionary Microbiology*"

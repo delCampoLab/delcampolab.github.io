@@ -6,8 +6,8 @@ authors:
   - "Stephanie Rosales"
   - "Javier del Campo"
   - "Nikki Traylor-Knowles"
-date: "2021-01-01"
-doi: "10.1093/femsle/fnab003"
+date: "2021-02-12"
+doi: "10.1093/femsle/fnab002"
 publication_types:
   - "article-journal"
 publication: "*FEMS Microbiology Letters*"

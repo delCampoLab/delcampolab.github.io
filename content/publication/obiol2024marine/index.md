@@ -6,8 +6,8 @@ authors:
   - "Colomban de Vargas"
   - "Frédéric Mahé"
   - "Ramon Massana"
-date: "2024-01-01"
-doi: "10.1093/femsec/fiae132"
+date: "2024-10-25"
+doi: "10.1093/femsec/fiae130"
 publication_types:
   - "article-journal"
 publication: "*FEMS Microbiology Ecology*"

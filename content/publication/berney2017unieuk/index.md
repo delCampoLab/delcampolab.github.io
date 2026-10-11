@@ -12,8 +12,8 @@ authors:
   - "Sina Adl"
   - "Stéphane Audic"
   - "others"
-date: "2017-01-01"
-doi: "10.1111/jeu.12402"
+date: "2017-05-01"
+doi: "10.1111/jeu.12414"
 publication_types:
   - "article-journal"
 publication: "*The Journal of Eukaryotic Microbiology*"

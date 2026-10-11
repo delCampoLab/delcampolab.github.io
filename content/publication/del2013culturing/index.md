@@ -6,7 +6,7 @@ authors:
   - "Irene Forn"
   - "Itziar Lekunberri"
   - "Ramon Massana"
-date: "2013-01-01"
+date: "2013-10-01"
 doi: "10.1007/s00248-013-0251-y"
 publication_types:
   - "article-journal"

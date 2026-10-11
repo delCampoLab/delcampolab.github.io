@@ -7,8 +7,8 @@ authors:
   - "Javier del Campo"
   - "Rudolf H Scheffrahn"
   - "Patrick J Keeling"
-date: "2024-01-01"
-doi: "10.1111/jeu.13006"
+date: "2024-07-01"
+doi: "10.1111/jeu.13035"
 publication_types:
   - "article-journal"
 publication: "*The Journal of Eukaryotic Microbiology*"

@@ -12,8 +12,8 @@ authors:
   - "Christopher M. Whipps"
   - "Krista M. Nichols"
   - "others"
-date: "2015-01-01"
-doi: "10.1016/j.cub.2015.07.057"
+date: "2015-09-01"
+doi: "10.1016/j.cub.2015.07.053"
 publication_types:
   - "article-journal"
 publication: "*Current Biology*"

@@ -9,8 +9,8 @@ authors:
   - "bassols"
   - "Javier del Campo"
   - "Núria Teixidó"
-date: "2025-01-01"
-doi: "10.1038/s42003-025-07563-z"
+date: "2025-07-31"
+doi: "10.1038/s42003-025-08524-8"
 publication_types:
   - "article-journal"
 publication: "*Communications Biology*"

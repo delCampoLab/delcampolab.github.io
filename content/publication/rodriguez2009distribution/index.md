@@ -7,8 +7,8 @@ authors:
   - "Irene Forn"
   - "Klaus Jürgens"
   - "Ramon Massana"
-date: "2009-01-01"
-doi: "10.1111/j.1462-2920.2008.01778.x"
+date: "2009-02-01"
+doi: "10.1111/j.1462-2920.2008.01779.x"
 publication_types:
   - "article-journal"
 publication: "*Environmental Microbiology*"

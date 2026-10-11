@@ -10,8 +10,8 @@ authors:
   - "Patrick J. Keeling"
   - "Kamran Shalchian-Tabrizi"
   - "David Bass"
-date: "2017-01-01"
-doi: "10.1016/j.cub.2017.04.049"
+date: "2017-06-01"
+doi: "10.1016/j.cub.2017.04.045"
 publication_types:
   - "article-journal"
 publication: "*Current Biology*"

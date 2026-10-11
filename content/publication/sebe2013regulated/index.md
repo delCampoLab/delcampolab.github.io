@@ -9,7 +9,7 @@ authors:
   - "Chad Nusbaum"
   - "Benjamin J Blencowe"
   - "Iñaki Ruiz-Trillo"
-date: "2013-01-01"
+date: "2013-12-24"
 doi: "10.7554/eLife.01287"
 publication_types:
   - "article-journal"

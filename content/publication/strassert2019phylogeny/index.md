@@ -10,7 +10,7 @@ authors:
   - "Alexandra Z Worden"
   - "Alyson E Santoro"
   - "Patrick J Keeling"
-date: "2019-01-01"
+date: "2019-07-01"
 doi: "10.1111/jeu.12701"
 publication_types:
   - "article-journal"

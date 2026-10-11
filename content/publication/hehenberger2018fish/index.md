@@ -8,7 +8,7 @@ authors:
   - "Thomas E. Reimchen"
   - "Patrick J. Keeling"
 date: "2018-01-01"
-doi: "10.1111/jeu.12447"
+doi: "10.1111/jeu.12430"
 publication_types:
   - "article-journal"
 publication: "*The Journal of Eukaryotic Microbiology*"

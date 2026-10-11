@@ -12,8 +12,8 @@ authors:
   - "Daniel D. Benetti"
   - "Javier del Campo"
   - "others"
-date: "2024-01-01"
-doi: "10.1016/j.scitotenv.2023.169039"
+date: "2024-03-01"
+doi: "10.1016/j.scitotenv.2024.169895"
 publication_types:
   - "article-journal"
 publication: "*Science of The Total Environment*"
