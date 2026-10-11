@@ -6,7 +6,7 @@ authors:
   - "David López-Escardó"
   - "Javier del Campo"
 date: "2022-01-01"
-doi: "10.1146/annurev-micro-040820-010827"
+doi: "10.2436/20.1501.02.216"
 publication_types:
   - "article-journal"
 publication: "*Treballs de la Societat Catalana de Biologia*"
