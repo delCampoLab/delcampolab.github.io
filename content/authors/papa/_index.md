@@ -50,9 +50,6 @@ social:
 - icon: envelope
   icon_pack: fas
   link: "mailto:amelia.papa@my.jcu.edu.au"  # For a direct email link, use "mailto:test@example.org".
-- icon: twitter
-  icon_pack: fab
-  link: https://twitter.com/papa_amelia
 #- icon: google-scholar
 #  icon_pack: ai
 #  link: https://scholar.google.com/citations?hl=en&user=nVxjagoAAAAJ

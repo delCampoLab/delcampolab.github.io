@@ -25,7 +25,7 @@ If you are interested in joining the lab as a postdoc, please [get in touch](htt
 * _Eligibility_: Researchers based in the EU or associated countries, with a PhD and up to 8 years of research experience.
 * _Deadline_: Early September.
 
-#### [EMBO Long-Term Postdoctoral Fellowship](http://www.embo.org/funding-awards/fellowships/long-term-fellowships)
+#### [EMBO Long-Term Postdoctoral Fellowship](https://www.embo.org/funding/fellowships-grants-and-career-support/)
 * _Description_: Supports excellent postdoctoral researchers in laboratories throughout Europe and the world. International exchange is a key requirement.
 * _Duration_: 2 years.
 * _Eligibility_: See [EMBO Fellowship guidelines](https://www.embo.org/documents/PDF/Postdoctoral_Fellowships_guidelines.pdf).

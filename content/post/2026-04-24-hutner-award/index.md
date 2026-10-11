@@ -13,7 +13,7 @@ image:
   focal_point: Smart
 ---
 
-Big news! Our PI, [Javier del Campo](/author/javier-del-campo/), is the recipient of the 2025 [Hutner Award](https://protistologists.org/hutner-award/), one of the most prestigious distinctions in protistology, awarded by the International Society of Protistologists to recognise outstanding contributions to the field. The award was announced last year at the 16th International Congress of Protistology (ICOP) in Seoul.
+Big news! Our PI, [Javier del Campo](/author/javier-del-campo/), is the recipient of the 2025 [Hutner Award](https://protistologists.org/programs/awards/hutner-award/), one of the most prestigious distinctions in protistology, awarded by the International Society of Protistologists to recognise outstanding contributions to the field. The award was announced last year at the 16th International Congress of Protistology (ICOP) in Seoul.
 
 This spring, Javi delivered the award lecture, *Unveiling Marine Protist Diversity: From the Open Ocean to the Coral Reef*, at [Protistology Open 2026](/event/2026-04-19-protist2026/) in Prague, taking the audience from open ocean surveys to the protists living inside coral holobionts.
 

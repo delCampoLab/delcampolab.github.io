@@ -49,7 +49,7 @@ Four lab members are presenting their work:
 **[Javier del Campo](/author/javier-del-campo/) — 2025 Hutner Award Winner Talk**
 *Unveiling Marine Protist Diversity: From the Open Ocean to the Coral Reef*
 
-Javier has been selected as the recipient of the 2025 [Hutner Award](https://protistologists.org/hutner-award/), one of the most prestigious distinctions in protistology, awarded by the International Society of Protistologists to recognise outstanding contributions to the field. His talk will take audiences on a journey through the diversity and ecological roles of marine protists, from open ocean surveys to coral reef holobionts.
+Javier has been selected as the recipient of the 2025 [Hutner Award](https://protistologists.org/programs/awards/hutner-award/), one of the most prestigious distinctions in protistology, awarded by the International Society of Protistologists to recognise outstanding contributions to the field. His talk will take audiences on a journey through the diversity and ecological roles of marine protists, from open ocean surveys to coral reef holobionts.
 
 **[Rocío Mozo](/author/rocio-mozo/)**
 *Phylogenomics of coral photosymbionts and their free-living relatives*

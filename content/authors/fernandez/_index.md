@@ -45,7 +45,7 @@ social:
   link: "mailto: nfa152@gmail.com"
 - icon: twitter
   icon_pack: fab
-  link: https://twitter.com/nuriafdzalb
+  link: https://x.com/nuriafdzalb
 #- icon: google-scholar
 #  icon_pack: ai
 #  link: https://scholar.google.com/citations?hl=en&user=nVxjagoAAAAJ

@@ -38,7 +38,7 @@ The lab accepts internship enquiries from students to develop their master's the
 * _Eligibility_: Bachelor's and master's students at Spanish universities.
 * _Deadline_: Spring.
 
-#### [Erasmus+](https://erasmus-plus.ec.europa.eu/opportunities/opportunities-for-individuals/students/studying-abroad)
+#### [Erasmus+](https://erasmus-plus.ec.europa.eu/opportunities/individuals/students/studying-abroad)
 * _Description_: Available to Bachelor's, Master's, and Doctoral students. Supports research stays abroad within participating countries.
 * _Duration_: Minimum 2 months, maximum 12 months.
 * _Deadline_: Set by your home institution.

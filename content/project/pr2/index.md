@@ -27,7 +27,7 @@ links:
   - icon: github
     icon_pack: fab
     name: GitHub
-    url: https://github.com/vaulot/pr2_database
+    url: https://github.com/pr2database/pr2database
   - icon: newspaper
     icon_pack: fas
     name: "Paper: PR2 database"
@@ -49,7 +49,7 @@ High-throughput metabarcoding can only describe biodiversity as well as the refe
 
 The PR2 database was initiated in 2010 in the frame of the BioMarks project, building on work developed over the previous decade in the Plankton Group at the Station Biologique de Roscoff. Its aim is to provide a reference database of carefully annotated 18S rRNA sequences using eight unique taxonomic fields (from kingdom to species). It currently contains over 184,000 sequences, with metadata fields including geo-localisation, culture or environmental origin, host type, and more.
 
-Annotation of PR2 is performed by experts from each taxonomic group. An important partner in this effort is [EukRef](https://eukref.org/), which has merged its bioinformatics pipelines and workshop-based curation efforts with PR2. EukRef has built tools used during multiple workshops dedicated to specific taxonomic groups, including ciliates, choanoflagellates, and others — work that has also produced standalone, phylogeny-based reference databases such as EukRef-Ciliophora, a manually curated SSU rRNA catalogue for one of the most diverse protist phyla.
+Annotation of PR2 is performed by experts from each taxonomic group. An important partner in this effort is [EukRef](https://pr2-database.org/eukref/about/), which has merged its bioinformatics pipelines and workshop-based curation efforts with PR2. EukRef has built tools used during multiple workshops dedicated to specific taxonomic groups, including ciliates, choanoflagellates, and others — work that has also produced standalone, phylogeny-based reference databases such as EukRef-Ciliophora, a manually curated SSU rRNA catalogue for one of the most diverse protist phyla.
 
 ### Beyond 18S: new markers and groups
 
@@ -71,8 +71,8 @@ González-Miguéns R, Gàlvez-Morante À, Skamnelou M, Antó M, Casacuberta E, R
 
 Jamy M, Ramond P, Bass D, **del Campo J**, Dunthorn M, Lara E, Mitra A, Vaulot D, Santoferrara L (2026). [Towards a trait-based framework for protist ecology and evolution](https://doi.org/10.1016/j.tim.2025.08.008). *Trends in Microbiology* 34:242–251.
 
-Arano-Ansola J, Galan-Luque I, Demenech M, Rico-Martin L, Moody ERR, Suresh M, Vaulot D, **del Campo J**, Giacomelli M, Lozano-Fernandez J (2025). [Evaluating 18S phylogenetic placement accuracy to uncover hidden diversity in early branching animals](https://www.biorxiv.org/content/10.64898/2025.12.09.693319v2). *bioRxiv*.
+Arañó-Ansola J, Galán-Luque I, Domènech M, Rico-Martín L, Moody ERR, Suresh M, Fleming JF, Vaulot D, **del Campo J**, Giacomelli M, Lozano-Fernandez J (2026). [Evaluating 18S phylogenetic placement accuracy to uncover hidden diversity in non-bilaterian animals](https://doi.org/10.1002/edn3.70350). *Environmental DNA* 8(4).
 
 **Issues and contributions**
 
-Report issues or contribute on [GitHub](https://github.com/vaulot/pr2_database/issues).
+Report issues or contribute on [GitHub](https://github.com/pr2database/pr2database/issues).

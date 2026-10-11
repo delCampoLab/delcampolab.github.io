@@ -60,7 +60,7 @@ sections:
           <summary style="cursor: pointer; font-size: 1.05rem; font-weight: 700; padding: 14px 0; list-style: none; display: flex; align-items: center; gap: 10px; border-bottom: 2px solid rgba(0,0,0,0.08);">
             <span style="font-size: 1.4rem;">🪸</span>
             <span>Corals sleep like us, but their symbiosis never rests</span>
-            <a href="https://doi.org/10.1016/j.chom.2025.10.010" target="_blank" rel="noopener" style="margin-left: auto; font-size: 0.75rem; font-weight: 400; opacity: 0.5; text-decoration: none; color: inherit; white-space: nowrap; flex-shrink: 0;">Weiler, Kron, Bonacolta et al. · <em>Cell Host & Microbe</em> · 2026</a>
+            <a href="https://doi.org/10.1016/j.chom.2026.01.004" target="_blank" rel="noopener" style="margin-left: auto; font-size: 0.75rem; font-weight: 400; opacity: 0.5; text-decoration: none; color: inherit; white-space: nowrap; flex-shrink: 0;">Weiler, Kron, Bonacolta et al. · <em>Cell Host & Microbe</em> · 2026</a>
           </summary>
           <div style="display: flex; flex-direction: column; gap: 8px; padding: 16px 0;">
             <a href="https://phys.org/news/2026-01-corals-symbionts-rest.html" target="_blank" rel="noopener" style="display: flex; align-items: flex-start; gap: 14px; padding: 12px 14px; border-radius: 8px; text-decoration: none; color: inherit; background: var(--lab-item-bg);" class="lab-item">
@@ -177,14 +177,14 @@ sections:
                 <div style="font-size: 0.78rem; opacity: 0.55; margin-top: 2px;">Scientific American · English</div>
               </div>
             </a>
-            <a href="https://www.billboard.com/articles/columns/rock/8053717/rush-scientists-name-microbe-species" target="_blank" rel="noopener" style="display: flex; align-items: flex-start; gap: 14px; padding: 12px 14px; border-radius: 8px; text-decoration: none; color: inherit; background: var(--lab-item-bg);" class="lab-item">
+            <a href="https://www.billboard.com/music/rock/rush-scientists-name-microbe-species-8053717/" target="_blank" rel="noopener" style="display: flex; align-items: flex-start; gap: 14px; padding: 12px 14px; border-radius: 8px; text-decoration: none; color: inherit; background: var(--lab-item-bg);" class="lab-item">
               <span style="font-size: 1.1rem; margin-top: 1px;">📰</span>
               <div>
                 <div style="font-size: 0.93rem; font-weight: 600; line-height: 1.4;">Rush Inspired the Names of Three Microbe Species</div>
                 <div style="font-size: 0.78rem; opacity: 0.55; margin-top: 2px;">Billboard · English</div>
               </div>
             </a>
-            <a href="https://www.cnet.com/news/rush-rock-band-microbes-new-species-termite-gut-long-hair/" target="_blank" rel="noopener" style="display: flex; align-items: flex-start; gap: 14px; padding: 12px 14px; border-radius: 8px; text-decoration: none; color: inherit; background: var(--lab-item-bg);" class="lab-item">
+            <a href="https://www.cnet.com/science/rush-rock-band-microbes-new-species-termite-gut-long-hair/" target="_blank" rel="noopener" style="display: flex; align-items: flex-start; gap: 14px; padding: 12px 14px; border-radius: 8px; text-decoration: none; color: inherit; background: var(--lab-item-bg);" class="lab-item">
               <span style="font-size: 1.1rem; margin-top: 1px;">📰</span>
               <div>
                 <div style="font-size: 0.93rem; font-weight: 600; line-height: 1.4;">Rockers Rush get termite-gut microbes named after them</div>
@@ -236,14 +236,14 @@ sections:
                 <div style="font-size: 0.78rem; opacity: 0.55; margin-top: 2px;">La Sexta · Spanish</div>
               </div>
             </a>
-            <a href="https://www.ccma.cat/324/noves-especies-i-esperma-de-medusa-troballes-sorprenents-en-el-medi-mari/noticia/2865944/" target="_blank" rel="noopener" style="display: flex; align-items: flex-start; gap: 14px; padding: 12px 14px; border-radius: 8px; text-decoration: none; color: inherit; background: var(--lab-item-bg);" class="lab-item">
+            <a href="https://www.3cat.cat/3catinfo/noves-especies-i-esperma-de-medusa-troballes-sorprenents-en-el-medi-mari/noticia/2865944/" target="_blank" rel="noopener" style="display: flex; align-items: flex-start; gap: 14px; padding: 12px 14px; border-radius: 8px; text-decoration: none; color: inherit; background: var(--lab-item-bg);" class="lab-item">
               <span style="font-size: 1.1rem; margin-top: 1px;">📰</span>
               <div>
                 <div style="font-size: 0.93rem; font-weight: 600; line-height: 1.4;">Noves espècies i esperma de medusa, troballes sorprenents en el medi marí</div>
                 <div style="font-size: 0.78rem; opacity: 0.55; margin-top: 2px;">CCMA 324 · Catalan</div>
               </div>
             </a>
-            <a href="https://cat.elpais.com/cat/2018/07/10/actualidad/1531239853_496486.html" target="_blank" rel="noopener" style="display: flex; align-items: flex-start; gap: 14px; padding: 12px 14px; border-radius: 8px; text-decoration: none; color: inherit; background: var(--lab-item-bg);" class="lab-item">
+            <a href="https://elpais.com/cat/2018/07/10/actualidad/1531239853_496486.html" target="_blank" rel="noopener" style="display: flex; align-items: flex-start; gap: 14px; padding: 12px 14px; border-radius: 8px; text-decoration: none; color: inherit; background: var(--lab-item-bg);" class="lab-item">
               <span style="font-size: 1.1rem; margin-top: 1px;">📰</span>
               <div>
                 <div style="font-size: 0.93rem; font-weight: 600; line-height: 1.4;">L'aigua del mar és plena d'esperma de meduses</div>
@@ -267,7 +267,7 @@ sections:
             <span style="margin-left: auto; font-size: 0.75rem; font-weight: 400; opacity: 0.5;">Nature · 2019</span>
           </summary>
           <div style="display: flex; flex-direction: column; gap: 8px; padding: 16px 0;">
-            <a href="https://www.regio7.cat/manresa/2019/04/09/manresa-javier-del-campo-signa/537581.html" target="_blank" rel="noopener" style="display: flex; align-items: flex-start; gap: 14px; padding: 12px 14px; border-radius: 8px; text-decoration: none; color: inherit; background: var(--lab-item-bg);" class="lab-item">
+            <a href="https://www.regio7.cat/manresa/2019/04/08/manresa-javier-campo-signa-nature-50102021.html" target="_blank" rel="noopener" style="display: flex; align-items: flex-start; gap: 14px; padding: 12px 14px; border-radius: 8px; text-decoration: none; color: inherit; background: var(--lab-item-bg);" class="lab-item">
               <span style="font-size: 1.1rem; margin-top: 1px;">📰</span>
               <div>
                 <div style="font-size: 0.93rem; font-weight: 600; line-height: 1.4;">El manresà Javier del Campo signa a Nature un article sobre un procés biològic desconegut</div>
@@ -284,14 +284,14 @@ sections:
             <span style="margin-left: auto; font-size: 0.75rem; font-weight: 400; opacity: 0.5;">2012</span>
           </summary>
           <div style="display: flex; flex-direction: column; gap: 8px; padding: 16px 0;">
-            <a href="http://www.regio7.cat/manresa/2012/07/31/exalumne-del-xup-descobreix-depredador-oceanic-mes-petit/205561.html" target="_blank" rel="noopener" style="display: flex; align-items: flex-start; gap: 14px; padding: 12px 14px; border-radius: 8px; text-decoration: none; color: inherit; background: var(--lab-item-bg);" class="lab-item">
+            <a href="https://www.regio7.cat/manresa/2012/07/31/exalumne-xup-troba-depredador-oceanic-50567637.html" target="_blank" rel="noopener" style="display: flex; align-items: flex-start; gap: 14px; padding: 12px 14px; border-radius: 8px; text-decoration: none; color: inherit; background: var(--lab-item-bg);" class="lab-item">
               <span style="font-size: 1.1rem; margin-top: 1px;">📰</span>
               <div>
                 <div style="font-size: 0.93rem; font-weight: 600; line-height: 1.4;">Un exalumne del Xup troba el depredador oceànic més petit</div>
                 <div style="font-size: 0.78rem; opacity: 0.55; margin-top: 2px;">Regió7 · Catalan</div>
               </div>
             </a>
-            <a href="http://www.regio7.cat/manresa/2012/08/11/descobridor-del-depredador-oceanic-mes-petit-parla-oslo/206431.html" target="_blank" rel="noopener" style="display: flex; align-items: flex-start; gap: 14px; padding: 12px 14px; border-radius: 8px; text-decoration: none; color: inherit; background: var(--lab-item-bg);" class="lab-item">
+            <a href="https://www.regio7.cat/manresa/2012/08/11/descobridor-depredador-oceanic-mes-petit-50566993.html" target="_blank" rel="noopener" style="display: flex; align-items: flex-start; gap: 14px; padding: 12px 14px; border-radius: 8px; text-decoration: none; color: inherit; background: var(--lab-item-bg);" class="lab-item">
               <span style="font-size: 1.1rem; margin-top: 1px;">📰</span>
               <div>
                 <div style="font-size: 0.93rem; font-weight: 600; line-height: 1.4;">El descobridor del depredador oceànic més petit parla a Oslo</div>

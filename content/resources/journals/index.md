@@ -14,7 +14,7 @@ date: 2025-11-15
 *   [Microbial Ecology](https://link.springer.com/journal/248)
 *   [The ISME Journal](https://academic.oup.com/ismej)
 *   [ISME Communications](https://academic.oup.com/ismecommun)
-*   [Environmental Microbiome](https://environmentalmicrobiome.biomedcentral.com/)
+*   [Environmental Microbiome](https://link.springer.com/journal/40793)
 
 #### Protistology
 
