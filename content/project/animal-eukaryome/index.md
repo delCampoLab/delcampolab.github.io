@@ -3,7 +3,7 @@ title: The marine animal eukaryome — Protist symbionts from mutualists to para
 summary: Characterising the microbial eukaryotes — protists — that live in and on marine animals across the full symbiotic spectrum, from mutualists to parasites, and building the tools to detect them.
 date: "2026-06-01T00:00:00Z"
 authors:
-  - admin
+  - javier-del-campo
 tags:
   - Microbial Diversity
   - Climate & Heat Stress

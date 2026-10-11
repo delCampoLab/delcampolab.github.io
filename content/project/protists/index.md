@@ -3,7 +3,7 @@ title: Protist symbionts of the coral holobiont
 summary: Uncovering the diversity, evolution, and functional roles of the microbial eukaryotes — corallicolids, algae, ciliates, and more — that live within corals and shape holobiont health.
 date: "2026-06-01T00:00:00Z"
 authors:
-  - admin
+  - javier-del-campo
 tags:
   - Coral Holobiont
   - Microbial Diversity

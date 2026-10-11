@@ -2,7 +2,7 @@
 title: Welcome to the Lab, Finja!
 date: 2026-10-06
 authors:
-  - admin
+  - javier-del-campo
 image:
   focal_point: 'top'
 ---

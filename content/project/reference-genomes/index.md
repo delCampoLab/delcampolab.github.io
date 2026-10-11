@@ -3,7 +3,7 @@ title: Reference genomes for biodiversity and evolution
 summary: Generating chromosome-scale reference genomes across the eukaryotic tree of life — from protists to corals to fish — to study biodiversity and evolution, as part of the Earth BioGenome Project and its Catalan (CBP) and European (ERGA) nodes.
 date: "2026-06-01T00:00:00Z"
 authors:
-  - admin
+  - javier-del-campo
 tags:
   - Genomics & Bioinformatics
   - Coral Holobiont

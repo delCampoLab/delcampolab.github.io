@@ -49,7 +49,7 @@ what to write, and to this file for how to build and ship it.
   title: "New paper in PLOS Biology: Symbiotic gut bacteria may drive carbonate production in marine fish"
   date: 2026-05-27
   authors:
-    - admin
+    - javier-del-campo
   image:
     focal_point: 'top'
   ---
@@ -80,7 +80,7 @@ what to write, and to this file for how to build and ship it.
   all_day: true
   publishDate: '2026-04-09T00:00:00Z'
   authors:
-    - admin
+    - javier-del-campo
     - krause
   tags:
     - conference

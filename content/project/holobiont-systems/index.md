@@ -3,7 +3,7 @@ title: The coral holobiont multiomics across space, time, and disease
 summary: Studying the coral holobiont as an integrated system — pairing microbiome metabarcoding with host transcriptomics to read how host and microbes vary across space within a colony, across the diel cycle, and across the shift from health to disease.
 date: "2026-06-01T00:00:00Z"
 authors:
-  - admin
+  - javier-del-campo
 tags:
   - Coral Holobiont
   - Microbial Diversity

@@ -18,7 +18,7 @@ all_day: true
 publishDate: '2026-04-09T00:00:00Z'
 
 authors:
-  - admin
+  - javier-del-campo
   - krause
   - nonell
   - rocio-mozo

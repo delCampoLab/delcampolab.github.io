@@ -2,7 +2,7 @@
 title: "🪸 The del Campo Lab sails with Tara Coral"
 date: '2026-10-08T10:00:00Z'
 authors:
-  - admin
+  - javier-del-campo
 summary: The Tara Coral expedition is underway in the Coral Triangle, and the del Campo Lab is part of the adventure.
 tags:
   - coral

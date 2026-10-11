@@ -2,7 +2,7 @@
 title: "🏆 Javi receives the 2025 Hutner Award"
 date: '2026-04-24T10:00:00Z'
 authors:
-  - admin
+  - javier-del-campo
 summary: Javier del Campo delivered the 2025 Hutner Award lecture at Protistology Open 2026 in Prague, recognising his contributions to protistology.
 tags:
   - protists

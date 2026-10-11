@@ -2,7 +2,7 @@
 title: "New paper in PLOS Biology: Symbiotic gut bacteria may drive carbonate production in marine fish"
 date: 2026-05-27
 authors:
-  - admin
+  - javier-del-campo
 image:
   focal_point: 'top'
 ---
