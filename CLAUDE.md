@@ -106,6 +106,10 @@ what to write, and to this file for how to build and ship it.
   Author folder slugs don't always match the display `slug:` field
   (folder `agazzi` → slug `matteo-agazzi`); post links use the display slug
   (`/author/matteo-agazzi/`)
+  When adding a new author page, also add a selector line for their display
+  slug to the "Publication author lists" block in `assets/scss/custom.scss`
+  (members and alumni are underlined in publication author lists; the PI is
+  in bold). The list is matched by `/author/<display slug>/` href.
 - `content/people/index.md` — the People landing page (people block config)
 - `content/research/`, `content/project/`, `content/outreach/`,
   `content/art-science/`, `content/contact/`, `content/resources/`

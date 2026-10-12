@@ -10,6 +10,52 @@
   --bs-link-color-rgb: 255, 111, 97;
 }
 
+/* ── Publication author lists: PI in bold, lab members and alumni underlined ─
+   The theme links every author to /author/<urlized display name>/, so the
+   names are matched by href. The member list must be kept in sync with
+   content/authors/ (one selector per person, display name urlized). Names
+   written in a different form in a paper's authors: field (e.g. with a
+   middle initial) will not match and will render plain.
+   ──────────────────────────────────────────────────────────────────────── */
+.article-metadata a[href$="/author/javier-del-campo/"] {
+  font-weight: 700;
+}
+
+.article-metadata a[href$="/author/aimar-ardanaz/"],
+.article-metadata a[href$="/author/joana-krause-massaguer/"],
+.article-metadata a[href$="/author/jordi-nonell/"],
+.article-metadata a[href$="/author/rocio-mozo/"],
+.article-metadata a[href$="/author/finja-sygo/"],
+.article-metadata a[href$="/author/sara-elena-mchugh/"],
+.article-metadata a[href$="/author/ayoub-adib/"],
+.article-metadata a[href$="/author/matteo-agazzi/"],
+.article-metadata a[href$="/author/alejandra-aguilar/"],
+.article-metadata a[href$="/author/louise-aubert/"],
+.article-metadata a[href$="/author/pol-bassols/"],
+.article-metadata a[href$="/author/anthony-bonacolta/"],
+.article-metadata a[href$="/author/helena-casimiro/"],
+.article-metadata a[href$="/author/maria-christou/"],
+.article-metadata a[href$="/author/adrianna-davis/"],
+.article-metadata a[href$="/author/maria-estarellas/"],
+.article-metadata a[href$="/author/nuria-fernandez/"],
+.article-metadata a[href$="/author/alba-mei-gonzalez/"],
+.article-metadata a[href$="/author/shea-halpenny/"],
+.article-metadata a[href$="/author/andrea-illa/"],
+.article-metadata a[href$="/author/tristan-kravitz/"],
+.article-metadata a[href$="/author/tyler-lopez/"],
+.article-metadata a[href$="/author/sean-lowry/"],
+.article-metadata a[href$="/author/xenia-maya/"],
+.article-metadata a[href$="/author/marta-noguera/"],
+.article-metadata a[href$="/author/amelia-papa/"],
+.article-metadata a[href$="/author/elliot-perry/"],
+.article-metadata a[href$="/author/teresa-porta/"],
+.article-metadata a[href$="/author/danielle-tenberg/"],
+.article-metadata a[href$="/author/bradley-weiler/"],
+.article-metadata a[href$="/author/elizabeth-whitson/"] {
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+}
+
 /* Hide author byline on news posts */
 .article-metadata .author-links,
 .article-metadata .middot-divider:first-of-type {
