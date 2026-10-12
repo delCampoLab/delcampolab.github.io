@@ -140,7 +140,11 @@ not reintroduce a whole-file import.
    `bonacolta`) so it links to their profile; write the PI exactly as
    `Javier del Campo`; leave external co-authors as plain names. Then check
    abstract rendering, DOI and PDF links, `featured.jpg` if there is one
-5. Preview with `hugo server`, confirm the paper shows on /publication/ and the
+5. The homepage Recent Publications block shows only pages with
+   `featured: true` (five newest, by date). For a lab-led paper Javi wants on
+   the homepage, set `featured: true` in its front matter; the block keeps the
+   five most recent featured ones, so older featured pages drop off automatically.
+6. Preview with `hugo server`, confirm the paper shows on /publication/ and the
    homepage Recent Publications block, then commit
 
 ## Git conventions

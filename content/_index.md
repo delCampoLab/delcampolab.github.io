@@ -155,6 +155,7 @@ sections:
       filters:
         folders:
           - publication
+        featured_only: true
     design:
       view: citation
       columns: '1'

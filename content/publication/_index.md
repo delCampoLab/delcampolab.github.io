@@ -12,4 +12,6 @@ header:
 
 For a complete and up-to-date list, see the [Google Scholar profile](https://scholar.google.com/citations?user=Mty5iQYAAAAJ&hl=en).
 
+Underlined co-authors are members of my lab.
+
 <div style="margin-bottom: 2.5rem;"></div>
