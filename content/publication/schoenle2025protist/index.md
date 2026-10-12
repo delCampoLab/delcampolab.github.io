@@ -21,7 +21,7 @@ publication_short: ""
 volume: "41"
 issue: "10"
 pages: "868-882"
-abstract: "All eukaryotes other than animals, plants, and fungi are protists. Protists are highly diverse and fill fundamental ecological roles across all ecosystems. Despite their importance, protists remain understudied compared to other eukaryotic lineages. Here we review recent advances in protist genomics and discuss the opportunities and challenges for the field, including the need for expanded culture collections, improved reference databases, and integration of multi-omic approaches."
+abstract: "All eukaryotes other than animals, plants, and fungi are protists. Protists are highly diverse and found in nearly all environments, with key roles in planetary health and biogeochemical cycles. They represent the majority of eukaryotic diversity, making them essential for understanding eukaryotic evolution. However, these mainly unicellular, microscopic organisms are understudied and the generation of protist genomes lags far behind most multicellular lineages. Current genomic methods, which are primarily designed for animals and plants, are poorly suited for protists. Advancing protist genome research requires reevaluating plant- and animal-centric genomic standards. Future efforts must leverage emerging technologies and bioinformatics tools, ultimately enhancing our understanding of eukaryotic molecular and cell biology, ecology, and evolution."
 tags: []
 featured: false
 ---

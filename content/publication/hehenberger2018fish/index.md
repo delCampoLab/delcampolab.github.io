@@ -16,7 +16,7 @@ publication_short: ""
 volume: "65"
 issue: "1"
 pages: "127-131"
-abstract: "The dinoflagellate Haidadinium ichthyophilum Buckland-Nicks, Reimchen and Garbary 1997 is an ectoparasite of Pacific herring (Clupea pallasii), causing serious skin lesions and mass mortalities. Its phylogenetic position within the dinoflagellates has been controversial. We sequenced the nuclear SSU and LSU ribosomal RNA genes of H. ichthyophilum and performed comprehensive phylogenetic analyses. Our results place H. ichthyophilum as an early-branching dinoflagellate."
+abstract: "The dinoflagellate Haidadinium ichthyophilum Buckland-Nicks, Reimchen and Garbary 1997 is an ectoparasite of the spine-deficient, three-spine stickleback Gasterosteus aculeatus L. Reimchen 1984, a fish endemic to Rouge Lake, Haida Gwaii. Haidadinium ichthyophilum proved difficult to assign taxonomically because its morphology and complex life cycle exhibited defining characteristics of both autotrophic and heterotrophic dinoflagellates, and was tentatively assigned to the Phytodiniales. Here, we characterized a 492 bp fragment of the small subunit ribosomal RNA (SSU rRNA) from preserved H. ichthyophilum cysts. In SSU phylogeny, H. ichthyophilum branches with the fish parasites, Piscinoodinium sp., strongly supporting the inclusion of H. ichthyophilum within the Suessiales."
 tags: []
 featured: false
 ---

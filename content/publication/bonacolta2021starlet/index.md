@@ -15,7 +15,7 @@ publication_short: ""
 volume: "368"
 issue: "3"
 pages: "fnab002"
-abstract: "Sampling of different body regions can reveal highly specialized bacterial associations within the holobiont of marine invertebrates. In this study, we investigate the microbiome of the starlet sea anemone Nematostella vectensis, a widely used model organism for studying cnidarian biology. We identify distinct bacterial communities associated with different body regions and developmental stages, and characterize potential functional roles of key microbial associates."
+abstract: "Sampling of different body regions can reveal highly specialized bacterial associations within the holobiont and facilitate identification of core microbial symbionts that would otherwise be overlooked by bulk sampling methods. Here, we characterized compartment-specific associations present within the model cnidarian Nematostella vectensis by dividing its morphology into three distinct microhabitats. This sampling design allowed us to uncover a capitulum-specific dominance of spirochetes within N. vectensis. Bacteria from the family Spirochaetaceae made up 66% of the community in the capitulum, while only representing 1.2% and 0.1% of the communities in the mesenteries and physa, respectively. A phylogenetic analysis of the predominant spirochete sequence recovered from N. vectensis showed a close relation to spirochetes previously recovered from wild N. vectensis. These sequences clustered closer to the recently described genus Oceanispirochaeta, rather than Spirochaeta perfilievii, supporting them as members of this clade. This suggests a prevalent and yet uncharacterized association between N. vectensis and spirochetes from the order Spirochaetales."
 tags: []
 featured: false
 ---

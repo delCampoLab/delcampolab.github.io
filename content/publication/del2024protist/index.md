@@ -21,7 +21,7 @@ publication_short: ""
 volume: "32"
 issue: "2"
 pages: "128-131"
-abstract: "Protists are key players in the biosphere. Here, we provide a perspective on integrating protist cultures into microbiome research. We argue that culture collections of protists are essential resources for understanding protist biology, ecology, and evolution, and that expanding these collections should be a priority for the field."
+abstract: "Protists are key players in the biosphere. Here, we provide a perspective on integrating protist culturing with omics approaches, imaging, and high-throughput single-cell manipulation strategies, concluding with actions required for a successful return of the golden age of protist culturing."
 tags: []
 featured: false
 ---

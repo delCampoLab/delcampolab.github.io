@@ -15,7 +15,7 @@ publication: "*European Journal of Protistology*"
 publication_short: ""
 volume: "55"
 pages: "4-11"
-abstract: "Environmental molecular surveys targeting protist diversity have unveiled novel and uncultured lineages at all phylogenetic levels and in all environments. These surveys have provided the first general view on protist ecological distributions, revealing that most lineages have wide geographic distributions and that habitat type is the main driver of community composition. Here we review recent progress and discuss outstanding challenges in the study of protist diversity and ecology."
+abstract: "Environmental molecular surveys targeting protist diversity have unveiled novel and uncultured lineages in a variety of ecosystems, ranging from completely new high-rank lineages, to new taxa moderately related to previously described organisms. The ecological roles of some of these novel taxa have been studied, showing that in certain habitats they may be responsible for critical environmental processes. Moreover, from an evolutionary perspective they still need to be included in a more accurate and wider understanding of the eukaryotic tree of life. These seminal discoveries promoted the development and use of a wide range of more in-depth culture-independent approaches to access this diversity, from metabarcoding and metagenomics to single cell genomics and FISH. Nonetheless, culturing using classical or innovative approaches is also essential to better characterize this new diversity. Ecologists and evolutionary biologists now face the challenge of apprehending the significance of this new diversity within the eukaryotic tree of life."
 tags: []
 featured: false
 ---
