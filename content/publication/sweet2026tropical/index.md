@@ -1,0 +1,37 @@
+---
+title: "Tropical and subtropical coral reefs"
+authors:
+  - "Michael John Sweet"
+  - "Maria Beger"
+  - "Francesca Benzoni"
+  - "Emma Camp"
+  - "Javier del Campo"
+  - "Kerri Laura Dobson"
+  - "Nohora Galvis"
+  - "Mehdi Ghodrati Shojaei"
+  - "Gillian Goby"
+  - "Simon Harding"
+  - "Danwei Huang"
+  - "Viatchelav Ivanenko"
+  - "William F. Precht"
+  - "Zoe Richards"
+  - "Buki Rinkevich"
+  - "Marie-Lise Schläppy"
+  - "Curt Daron Storlazzi"
+  - "Parviz Tavakoli-Kolour"
+  - "Karenne Tun"
+  - "Sancia van der Meij"
+  - "Jenny Carolina Rodríguez-Villalobos"
+  - "Christian R. Voolstra"
+  - "Brian K. Walker"
+date: "2026-01-01"
+publication_types:
+  - "chapter"
+publication: "*The Third World Ocean Assessment (WOA III)*, Section 4, Sub-chapter 5d. United Nations, Division for Ocean Affairs and the Law of the Sea, New York"
+publication_short: ""
+pages: "325-344"
+abstract: ""
+url_source: "https://woa.un.org/third-world-ocean-assessment/changes-second-world-ocean-assessment/habitats/chapter-5-subchapter-5d-tropical-and-subtropical-coral-reefs"
+tags: []
+featured: false
+---

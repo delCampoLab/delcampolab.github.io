@@ -1,0 +1,38 @@
+---
+title: "Hidden apicomplexan parasite diversity links coral and plankton microbiomes across reef seascapes"
+authors:
+  - "Clément Leboine"
+  - "Laura del Rio-Hortega"
+  - "Nicolas Henry"
+  - "Mathieu Zallio"
+  - "bonacolta"
+  - "Caroline Belser"
+  - "Jean-Marc Aury"
+  - "Christian R Voolstra"
+  - "Benjamin C C Hume"
+  - "Alice Moussy"
+  - "Clémentine Moulin"
+  - "Emilie Boissin"
+  - "Guillaume Bourdin"
+  - "Guillaume Iwankow"
+  - "Julie Poulain"
+  - "Sarah Romac"
+  - "Tara Pacific Consortium coordinators"
+  - "Javier del Campo"
+  - "Denis Allemand"
+  - "Serge Planes"
+  - "Maren Ziegler"
+  - "Patrick Wincker"
+  - "Quentin Carradec"
+  - "Betina M Porcel"
+date: "2026-05-23"
+doi: "10.64898/2026.05.20.726672"
+publication_types:
+  - "article"
+publication: "*bioRxiv*"
+publication_short: ""
+abstract: "Parasitism is one of the most widespread trophic strategies in nature, though its diversity and ecological distribution in marine ecosystems remain poorly characterized. Apicomplexa are a major clade of obligate parasites best known for medically important taxa, yet their diversity and distribution in the ocean is still largely unresolved. Here, we used metabarcoding data from the Tara expeditions to investigate the diversity, distribution, and environmental drivers of Apicomplexa across coral reef ecosystems and adjacent oceanic habitats. By integrating samples spanning planktonic communities, coral tissues, and marine sediments across multiple oceanic regions, we substantially expand the known phylogenetic breadth of marine apicomplexans. Although apicomplexans were generally low in relative abundance, they were widely distributed across marine environments. Community composition differed markedly among habitats. Corallicolid lineages were consistently associated with coral hosts, whereas planktonic samples harbored a greater diversity of apicomplexans, dominated by crustacean-associated gregarines. Sediments contained particularly high apicomplexan richness, including several poorly characterized groups. Capitalizing on the pan-Pacific transect of the expedition, we resolved biogeographic patterns in apicomplexan diversity across ocean basins: tropical regions showed the highest overall diversity, while polar environments contained distinct apicomplexan assemblages not detected in other ocean biomes. Together, these results highlight the extensive and previously underappreciated diversity of marine Apicomplexa and demonstrate that integrating multiple marine biomes is essential for resolving the phylogenetic and ecological breadth of parasitism in the ocean."
+url_source: "https://www.biorxiv.org/content/10.64898/2026.05.20.726672v1"
+tags: []
+featured: false
+---
