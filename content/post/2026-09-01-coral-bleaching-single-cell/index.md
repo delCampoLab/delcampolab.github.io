@@ -31,6 +31,6 @@ We heat-stressed the Caribbean coral *Orbicella faveolata*, which hosts two co-d
 
 The take-home message is that the holobiont is the unit of coral health: host, symbionts, bacteria, and protists, all interconnected. To make the data useful beyond this paper, the team also built a [web app](https://github.com/delCampoLab/ofav_bleaching_sce) where anyone can explore the microbiome and single-cell datasets for their own microbes or genes of interest.
 
-This was the final chapter of Anthony's PhD, and we could not be prouder. Huge congratulations to Anthony, to [Jordi Nonell](/author/jordi-nonell/) (our resident computer guy), and to all co-authors at the [Rosenstiel School](https://www.earth.miami.edu/) and [IBE](https://www.ibe.upf-csic.es/), including the cnidarian FACS experts, the coral husbandry wizards, and the reviewers who helped this work grow since the preprint two years ago. 🎉
+This was the final chapter of Anthony's PhD, and we could not be prouder. Huge congratulations to Anthony, to [Jordi Nonell-Remedios](/author/jordi-nonell-remedios/) (our resident computer guy), and to all co-authors at the [Rosenstiel School](https://www.earth.miami.edu/) and [IBE](https://www.ibe.upf-csic.es/), including the cnidarian FACS experts, the coral husbandry wizards, and the reviewers who helped this work grow since the preprint two years ago. 🎉
 
 This work was supported by University of Miami start-up funds, Grant PID2023-152522NB-I00 (MICIU/AEI and ERDF, EU), the University of Miami Maytag Fellowship, and NSF grant OCE-1851392.

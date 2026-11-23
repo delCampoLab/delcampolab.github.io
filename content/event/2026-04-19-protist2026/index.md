@@ -61,7 +61,7 @@ Rocío will present her phylogenomic work placing the photosymbiotic protists as
 
 Joana will present her efforts to bring coral protist symbionts into culture, a critical step towards understanding their biology and their role in the coral holobiont.
 
-**[Jordi Nonell](/author/nonell/)**
+**[Jordi Nonell-Remedios](/author/jordi-nonell-remedios/)**
 *Using Single-Cell Genomics to Generate High-Quality Genomes of Uncultured Protists*
 
 Jordi will showcase how single-cell genomic approaches can be used to recover high-quality genomes from protists that cannot be grown in the lab, opening new windows into the biology of these poorly characterised organisms.

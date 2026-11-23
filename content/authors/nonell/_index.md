@@ -1,12 +1,14 @@
 ---
 weight: 12
 # Display name
-title: Jordi Nonell
-slug: jordi-nonell
+title: Jordi Nonell-Remedios
+slug: jordi-nonell-remedios
+aliases:
+  - /author/jordi-nonell/
 
 # Full name (for SEO)
 first_name: Jordi
-last_name: Nonell
+last_name: Nonell-Remedios
 
 # Username (this should match the folder name)
 authors:
