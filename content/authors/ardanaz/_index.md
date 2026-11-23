@@ -1,5 +1,5 @@
 ---
-weight: 20
+weight: 122
 # Display name
 title: Aimar Ardanaz
 slug: aimar-ardanaz
@@ -16,7 +16,7 @@ authors:
 superuser: false
 
 # Role/position
-role: MSc Student
+role: MSc Student · Now PhD Student at IdAB-CSIC
 
 # Organizations/Affiliations
 organizations:
@@ -82,7 +82,7 @@ email: ''
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Grad Students
+  - Alumni
 ---
 
 Since I began my studies in biotechnology, I have been driven by the desire to combine my technical background in molecular biology and genetic engineering with the potential of what omics and bioinformatics can provide to our knowledge, not only applied to humans but also in this case for environmental purposes .
