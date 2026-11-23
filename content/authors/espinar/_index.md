@@ -12,7 +12,7 @@ authors:
 superuser: false
 
 # Role/position
-role: Lab Manager
+role: Lab Manager & Technician
 
 # Organizations/Affiliations
 organizations:
@@ -60,4 +60,4 @@ I completed my Higher Vocational Training in Clinical and Biomedical Laboratory 
 
 I also expanded my laboratory experience working with microalgae, maintaining and monitoring cultures, and performing molecular and biochemical techniques, including ELISA and Western blotting.
 
-I am now joining the del Campo Lab at the Institute of Evolutionary Biology (IBE, CSIC-UPF) as a Laboratory Technician. My role will focus on developing and optimizing new laboratory protocols, as well as providing technical support to the research team and contributing to the smooth running of laboratory activities.
+I am now joining the del Campo Lab at the Institute of Evolutionary Biology (IBE, CSIC-UPF) as Lab Manager and Laboratory Technician. My role will focus on developing and optimizing new laboratory protocols, as well as providing technical support to the research team and contributing to the smooth running of laboratory activities.
