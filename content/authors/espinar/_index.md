@@ -44,6 +44,9 @@ social:
 - icon: instagram
   icon_pack: fab
   link: https://www.instagram.com/anaabeel.ep
+- icon: orcid
+  icon_pack: ai
+  link: https://orcid.org/0009-0006-0949-7713
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ""
