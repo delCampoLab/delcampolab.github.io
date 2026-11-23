@@ -47,6 +47,9 @@ social:
 - icon: orcid
   icon_pack: ai
   link: https://orcid.org/0009-0006-0949-7713
+- icon: github
+  icon_pack: fab
+  link: https://github.com/Anabel-Espinar
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ""
